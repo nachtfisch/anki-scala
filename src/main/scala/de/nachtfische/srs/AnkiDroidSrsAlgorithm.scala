@@ -1,9 +1,7 @@
 package de.nachtfische.srs
 
 case class ReviewState(factor: Double, level: Int)
-
 object InitialReviewState extends ReviewState(2.5, 1)
-
 object EasyStart extends ReviewState(2.5, 4)
 
 object AnkiDroidSrsAlgorithm {
