@@ -41,6 +41,12 @@ object CardRendering {
 
 import CardRendering._
 
+
+case class Review(id: UUID, due: Long)
+case class ReviewItem(id:String, factId:String, reviewProgress:ReviewState, due:DateTime)
+case class ReviewRequest(ease:Int, reviewTime:Option[DateTime])
+case class CreateReviewItemRequest(factId:String)
+
 class RestInterface extends HttpServiceActor with Json4sJacksonSupport {
 
     def receive = runRoute(deckRoutes
@@ -77,10 +83,7 @@ class RestInterface extends HttpServiceActor with Json4sJacksonSupport {
         }
     }
 
-    case class Review(id: UUID, due: Long)
-    case class ReviewItem(id:String, factId:String, reviewProgress:ReviewState, due:DateTime)
-    case class ReviewRequest(ease:Int, reviewTime:Option[DateTime])
-    case class CreateReviewItemRequest(factId:String)
+
 
     val reviewRepository = mutable.MutableList[ReviewItem]()
 
@@ -108,7 +111,6 @@ class RestInterface extends HttpServiceActor with Json4sJacksonSupport {
                     case Some(r) => completeWithJson(r)
                 }
             } ~ (post & pathEnd) {
-
                 entity(as[ReviewRequest]) { reviewRequest =>
                     val updatedState: Option[(ReviewItem, ReviewItem)] = reviewRepository.find({ t =>
                         t.id.equals(id)
@@ -133,9 +135,9 @@ class RestInterface extends HttpServiceActor with Json4sJacksonSupport {
 
     def newReviewState(time: Option[DateTime], ease: Int, due: DateTime, progress: ReviewState): ReviewState = {
         val reviewTime: DateTime = time.getOrElse(DateTime.now())
-        val period: Period = new Period(due, reviewTime)
-        val newReview: ReviewState = AnkiDroidSrsAlgorithm.review(progress, period.getDays(), ease)
-        newReview
+        val delay: Int = Math.max(new Period(due, reviewTime).getDays(),0)
+
+        AnkiDroidSrsAlgorithm.review(progress, delay, ease)
     }
 
     val deckRoutes =
