@@ -1,36 +1,5 @@
 package de.nachtfische.web
 
-
-import java.util.UUID
-
-import akka.actor.{ActorSystem, Props}
-import akka.io.IO
-import akka.pattern.ask
-import akka.util.Timeout
-import de.nachtfische.ankimodel._
-import de.nachtfische.srs.{AnkiDroidSrsAlgorithm, ReviewState}
-import org.joda.time.{Period, DateTime}
-import org.json4s.ext.JodaTimeSerializers
-import org.json4s.{DefaultFormats, Formats}
-import spray.can.Http
-import spray.http.{MediaTypes}
-import spray.httpx.Json4sJacksonSupport
-import spray.routing.{MalformedRequestContentRejection, HttpServiceActor}
-
-import scala.collection.mutable
-import scala.concurrent.duration._
-
-object Main extends App {
-    implicit val system = ActorSystem("on-spray-can")
-
-    // create and start our service actor
-    val service = system.actorOf(Props[RestInterface], "demo-service")
-
-    implicit val timeout = Timeout(5.seconds)
-    // start a new HTTP server on port 8080 with our service actor as the handler
-    IO(Http) ? Http.Bind(service, interface = "localhost", port = 8088)
-}
-
 object CardRendering {
     case class QuestionAnswerPair(question: String, answer: String)
     case class Template(front: String, back: String)
@@ -39,7 +8,19 @@ object CardRendering {
     case class RenderRequest(templates: List[Template], facts: List[ModelFact])
 }
 
-import CardRendering._
+import java.util.UUID
+
+import de.nachtfische.ankimodel.{Anki, ApkgFile, MustacheRenderer}
+import de.nachtfische.srs.{AnkiDroidSrsAlgorithm, ReviewState}
+import de.nachtfische.web.CardRendering._
+import org.joda.time.{DateTime, Period}
+import org.json4s.ext.JodaTimeSerializers
+import org.json4s.{DefaultFormats, Formats}
+import spray.http.MediaTypes
+import spray.httpx.Json4sJacksonSupport
+import spray.routing.{HttpServiceActor, MalformedRequestContentRejection}
+
+import scala.collection.mutable
 
 
 case class Review(id: UUID, due: Long)
@@ -48,12 +29,14 @@ case class ReviewRequest(ease:Int, reviewTime:DateTime = DateTime.now())
 
 case class CreateReviewItemRequest(factId:String)
 
+
+
 class RestInterface extends HttpServiceActor with Json4sJacksonSupport {
 
     def receive = runRoute(deckRoutes
       ~ learnRoutes
       ~ cardRoutes
-      ~ staticRoutes)
+      ~ StaticRoutes.routes)
 
     def ankiManager = Anki
 
@@ -116,7 +99,7 @@ class RestInterface extends HttpServiceActor with Json4sJacksonSupport {
                     }).map(t => {
                         val newReview: ReviewState =
                             newReviewState(reviewRequest.reviewTime, reviewRequest.ease, t.due, t.reviewProgress)
-                        
+
                         (t, t.copy(reviewProgress = newReview, due = newReview.calculateDue(DateTime.now())))
                     })
 
