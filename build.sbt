@@ -1,3 +1,6 @@
+import sbt.Keys._
+import sbt.Project.projectToRef
+
 organization := "com.github.nachtfisch"
 
 name := "anki-scala"
@@ -8,7 +11,49 @@ scalaVersion := Settings.versions.scala
 
 resolvers += "Sonatype OSS Snapshots" at "http://oss.sonatype.org/content/repositories/snapshots/"
 
+resolvers += "Typesafe Releases" at "http://repo.typesafe.com/typesafe/releases/"
+
+val scalajsOutputDir = Def.settingKey[File]("directory for javascript files output by scalajs")
+
+lazy val scalajvmSettings = Seq(
+  scalajsOutputDir := (classDirectory in Compile).value / "public" / "javascripts"
+) ++ (
+  Seq(packageScalaJSLauncher, fastOptJS, fullOptJS) map { packageJSKey =>
+    crossTarget in(client, Compile, packageJSKey) := scalajsOutputDir.value
+  })
+
+
+lazy val client: Project = (project in file("client"))
+  .settings(
+    name := "client",
+    version := Settings.version,
+    scalaVersion := Settings.versions.scala,
+    scalacOptions ++= Settings.scalacOptions,
+    libraryDependencies ++= Seq(
+      "org.scala-js" %%% "scalajs-dom" % "0.8.0",
+      "com.lihaoyi" %%% "scalatags" % "0.5.2"
+    )
+    // by default we do development build, no eliding
+//    elideOptions := Seq(),
+//    scalacOptions ++= elideOptions.value,
+//    jsDependencies ++= Settings.jsDependencies.value,
+    // RuntimeDOM is needed for tests
+//    jsDependencies += RuntimeDOM % "test",
+    // yes, we want to package JS dependencies
+//    skip in packageJSDependencies := false,
+    // use Scala.js provided launcher code to start the client app
+//    persistLauncher := true,
+//    persistLauncher in Test := false,
+    // must specify source maps location because we use pure CrossProject
+//    sourceMapsDirectories += sharedJS.base / "..",
+    // use uTest framework for tests
+//    testFrameworks += new TestFramework("utest.runner.Framework")
+  )
+  .enablePlugins(ScalaJSPlugin)
+//  .dependsOn(sharedJS)
+
 lazy val server = (project in file("server"))
+  .settings(scalajvmSettings: _*)
   .settings(
     name := "server",
     version := Settings.version,
@@ -39,9 +84,9 @@ lazy val server = (project in file("server"))
     // compress CSS
 //    LessKeys.compress in Assets := true
   )
-//  .enablePlugins(PlayScala)
-//  .disablePlugins(PlayLayoutPlugin) // use the standard directory layout instead of Play's custom
+.aggregate(client)
 //  .aggregate(clients.map(projectToRef): _*)
 //  .dependsOn(sharedJVM)
+
 
 Revolver.settings: Seq[sbt.Def.Setting[_]]
