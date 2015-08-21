@@ -4,9 +4,9 @@ package de.nachtfische.web
 
 import java.util.UUID
 
-import de.nachtfische.ankimodel.{Anki, ApkgFile, MustacheRenderer}
+import de.nachtfische.ankimodel.{CardRendering, Anki, ApkgFile, MustacheRenderer}
 import de.nachtfische.srs.ReviewState
-import de.nachtfische.web.CardRendering.QuestionAnswerPair
+import de.nachtfische.ankimodel.QuestionAnswerPair
 import org.joda.time.DateTime
 import org.json4s.ext.JodaTimeSerializers
 import org.json4s.{DefaultFormats, Formats}

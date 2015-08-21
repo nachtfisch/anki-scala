@@ -1,16 +1,11 @@
 package de.nachtfische.web
 
-import de.nachtfische.web.CardRendering.RenderRequest
+import de.nachtfische.ankimodel.CardRendering
+import CardRendering.RenderRequest
 import spray.httpx.Json4sJacksonSupport
 import spray.routing.{HttpServiceBase, MalformedRequestContentRejection}
 
-object CardRendering {
-    case class QuestionAnswerPair(question: String, answer: String)
-    case class Template(front: String, back: String)
-    case class ModelField(name: String, value: String)
-    case class ModelFact(fields: List[ModelField])
-    case class RenderRequest(templates: List[Template], facts: List[ModelFact])
-}
+
 
 trait CardRoutes extends HttpServiceBase with Json4sJacksonSupport with RouteUtils {
 

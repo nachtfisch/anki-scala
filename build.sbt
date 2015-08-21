@@ -22,6 +22,7 @@ libraryDependencies ++= {
     "org.json4s" %% "json4s-jackson" % json4sV,
     "org.json4s" %% "json4s-ext" % json4sV,
     "com.github.spullara.mustache.java" % "compiler" % "0.8.17",
+    "org.elasticsearch" % "elasticsearch" % "1.7.1",
     "io.spray"            %%  "spray-can"     % sprayV,
     "io.spray"            %%  "spray-routing" % sprayV,
     "io.spray"            %%  "spray-testkit" % sprayV  % "test",
