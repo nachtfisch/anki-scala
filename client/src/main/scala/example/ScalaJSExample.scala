@@ -1,44 +1,36 @@
 package example
-import scala.scalajs.js.annotation.JSExport
-import org.scalajs.dom
-import org.scalajs.dom.html
-import scala.util.Random
 
-case class Point(x: Int, y: Int){
-  def +(p: Point) = Point(x + p.x, y + p.y)
-  def /(d: Int) = Point(x / d, y / d)
-}
+import de.nachtfische.services.{CardStore, Card}
+import org.scalajs.dom.html
+import org.scalajs.dom.html.LI
+
+import scala.scalajs.js.annotation.JSExport
+import scalatags.JsDom.TypedTag
+import scalatags.JsDom.all._
+
 
 @JSExport
 object ScalaJSExample {
   @JSExport
-  def main(canvas: html.Canvas): Unit = {
-    val ctx = canvas.getContext("2d")
-      .asInstanceOf[dom.CanvasRenderingContext2D]
-
-    var count = 0
-    var p = Point(0, 0)
-    val corners = Seq(Point(255, 255), Point(0, 255), Point(128, 0))
-
-    def clear() = {
-      ctx.fillStyle = "black"
-      ctx.fillRect(0, 0, 255, 255)
-    }
-
-    def run = for (i <- 0 until 10){
-      if (count % 3000 == 0) clear()
-      count += 1
-      p = (p + corners(Random.nextInt(3))) / 2
-
-      val height = 512.0 / (255 + p.y)
-      val r = (p.x * height).toInt
-      val g = ((255-p.x) * height).toInt
-      val b = p.y
-      ctx.fillStyle = s"rgb($g, $r, $b)"
-
-      ctx.fillRect(p.x, p.y, 1, 1)
-    }
-
-    dom.setInterval(() => run, 50)
+  def main(target: html.Div): Unit = {
+    CardStore.addCard(Card("id1", "front", "back"))
+    val cards = CardStore.getCards
+    val (animalA, animalB) = ("fox", "cat")
+    target.appendChild(
+      div(
+        h1("Hello World!"),
+        p(
+          "The quick brown ", b(animalA),
+          " jumps over the lazy ",
+          i(animalB), "."
+        ),
+        ul(renderCards(cards))
+      ).render
+    )
   }
+
+  def renderCards(list:Seq[Card]): Seq[TypedTag[LI]] = {
+    list.map { e => li(e.id)}
+  }
+
 }

@@ -5,8 +5,8 @@ package de.nachtfische.web
 import java.util.UUID
 
 import de.nachtfische.ankimodel.{CardRendering, Anki, ApkgFile, MustacheRenderer}
+import de.nachtfische.ankiscala.services.QuestionAnswerPair
 import de.nachtfische.srs.ReviewState
-import de.nachtfische.ankimodel.QuestionAnswerPair
 import org.joda.time.DateTime
 import org.json4s.ext.JodaTimeSerializers
 import org.json4s.{DefaultFormats, Formats}
@@ -35,7 +35,7 @@ class RestAPI
     val routes = path("app") {
         getFromResource("webapp/index.html")
     } ~ pathPrefix("app" / "js") {
-        getFromResourceDirectory("webapp/js")
+        getFromResourceDirectory("public/javascripts")
     }
 
     def ankiManager = Anki
@@ -47,7 +47,7 @@ class RestAPI
 
     val reviewRepository = mutable.MutableList[ReviewItem]()
 
-    reviewRepository += ReviewItem("sample", "oldFact", ReviewState.InitialReviewState, ReviewState.InitialReviewState.calculateDue(DateTime.now()))
+    reviewRepository += ReviewItem("sample", "asdf ", ReviewState.InitialReviewState, ReviewState.InitialReviewState.calculateDue(DateTime.now()))
 
     val deckRoutes =
         path("api" / "decks") {

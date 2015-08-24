@@ -1,7 +1,7 @@
 package de.nachtfische.sampledata
 
 import de.nachtfische.CommonConst
-import de.nachtfische.ankimodel.FlashCard
+import de.nachtfische.ankiscala.services.FlashCard
 import org.elasticsearch.action.index.IndexRequestBuilder
 import org.elasticsearch.common.settings.{ImmutableSettings, Settings}
 import org.elasticsearch.node.{NodeBuilder, Node}
