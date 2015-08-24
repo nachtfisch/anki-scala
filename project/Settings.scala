@@ -57,14 +57,29 @@ object Settings {
   val sharedDependencies = Def.setting(Seq(
     "com.lihaoyi" %%% "autowire" % versions.autowire,
     "me.chrons" %%% "boopickle" % versions.booPickle,
-    "com.lihaoyi" %%% "utest" % versions.uTest
+    "com.lihaoyi" %%% "utest" % versions.uTest,
+    "joda-time" % "joda-time" % "2.8.2"
   ))
 
   /** Dependencies only used by the JVM project */
   val jvmDependencies = Def.setting(Seq(
     "com.vmunier" %% "play-scalajs-scripts" % versions.playScripts,
     "org.webjars" % "font-awesome" % "4.3.0-1" % Provided,
-    "org.webjars" % "bootstrap" % versions.bootstrap % Provided
+    "org.webjars" % "bootstrap" % versions.bootstrap % Provided,
+    "com.lambdaworks" %% "jacks" % "2.3.3",
+    "com.typesafe.slick" %% "slick" % "3.0.0",
+    "org.xerial" % "sqlite-jdbc" % "3.7.2",
+    "joda-time" % "joda-time" % "2.8.2",
+    "org.json4s" %% "json4s-jackson" % Settings.versions.json4s,
+    "org.json4s" %% "json4s-ext" % Settings.versions.json4s,
+    "com.github.spullara.mustache.java" % "compiler" % "0.8.17",
+    "org.elasticsearch" % "elasticsearch" % "1.7.1",
+    "io.spray"            %%  "spray-can"     % Settings.versions.spray,
+    "io.spray"            %%  "spray-routing" % Settings.versions.spray,
+    "io.spray"            %%  "spray-testkit" % Settings.versions.spray  % "test",
+    "com.typesafe.akka"   %%  "akka-actor"    % Settings.versions.akka,
+    "com.typesafe.akka"   %%  "akka-testkit"  % Settings.versions.akka  % "test",
+    "org.specs2"          %%  "specs2-core"   % "2.3.11" % "test"
   ))
 
   /** Dependencies only used by the JS project (note the use of %%% instead of %%) */

@@ -1,4 +1,4 @@
-package de.nachtfische.ankiscala.services
+package ankiscala.services
 
 case class QuestionAnswerPair(question: String, answer: String)
 

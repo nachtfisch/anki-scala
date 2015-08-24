@@ -2,9 +2,9 @@ package de.nachtfische.sampledata
 
 import java.util.UUID
 
+import ankiscala.services.{FlashCard, QuestionAnswerPair}
 import de.nachtfische.CommonConst
 import de.nachtfische.ankimodel.MustacheRenderer
-import de.nachtfische.ankiscala.services.{QuestionAnswerPair, FlashCard}
 
 import scala.io.BufferedSource
 

@@ -4,8 +4,8 @@ package de.nachtfische.web
 
 import java.util.UUID
 
+import ankiscala.services.QuestionAnswerPair
 import de.nachtfische.ankimodel.{CardRendering, Anki, ApkgFile, MustacheRenderer}
-import de.nachtfische.ankiscala.services.QuestionAnswerPair
 import de.nachtfische.srs.ReviewState
 import org.joda.time.DateTime
 import org.json4s.ext.JodaTimeSerializers
@@ -14,12 +14,6 @@ import spray.httpx.Json4sJacksonSupport
 import spray.routing.{HttpServiceActor, MalformedRequestContentRejection}
 
 import scala.collection.mutable
-
-
-case class Review(id: UUID, due: Long)
-case class ReviewItem(id:String, factId:String, reviewProgress:ReviewState, due:DateTime)
-case class ReviewRequest(ease:Int, reviewTime:DateTime = DateTime.now())
-
 
 class RestAPI
   extends HttpServiceActor

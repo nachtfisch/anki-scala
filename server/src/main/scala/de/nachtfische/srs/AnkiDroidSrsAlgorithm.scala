@@ -1,17 +1,7 @@
 package de.nachtfische.srs
 
+import ankiscala.services.ReviewState
 import org.joda.time.{Period, DateTime}
-
-case class ReviewState(factor: Double, level: Int) {
-    def calculateDue(fromDate: DateTime): DateTime = {
-        fromDate.plus(Period.days(level))
-    }
-}
-
-object ReviewState {
-    val InitialReviewState = ReviewState(2.5, 1)
-    val EasyStart = ReviewState(2.5, 4)
-}
 
 object AnkiDroidSrsAlgorithm {
 

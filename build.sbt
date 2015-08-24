@@ -1,92 +1,86 @@
 import sbt.Keys._
 import sbt.Project.projectToRef
 
-organization := "com.github.nachtfisch"
+// a special crossProject for configuring a JS/JVM/shared structure
+lazy val shared = (crossProject.crossType(CrossType.Pure) in file("shared"))
+  .settings(
+    scalaVersion := Settings.versions.scala,
+    libraryDependencies ++= Settings.sharedDependencies.value
+  )
+  // set up settings specific to the JS project
+  .jsConfigure(_ enablePlugins ScalaJSPlay)
+  .jsSettings(sourceMapsBase := baseDirectory.value / "..")
 
-name := "anki-scala"
+lazy val sharedJVM = shared.jvm.settings(name := "sharedJVM")
 
-version := "0.1.0-SNAPSHOT"
+lazy val sharedJS = shared.js.settings(name := "sharedJS")
 
-scalaVersion := Settings.versions.scala
+// use eliding to drop some debug code in the production build
+lazy val elideOptions = settingKey[Seq[String]]("Set limit for elidable functions")
 
-resolvers += "Sonatype OSS Snapshots" at "http://oss.sonatype.org/content/repositories/snapshots/"
-
-resolvers += "Typesafe Releases" at "http://repo.typesafe.com/typesafe/releases/"
-
-val scalajsOutputDir = Def.settingKey[File]("directory for javascript files output by scalajs")
-
-lazy val scalajvmSettings = Seq(
-  scalajsOutputDir := (classDirectory in Compile).value / "public" / "javascripts"
-) ++ (
-  Seq(packageScalaJSLauncher, fastOptJS, fullOptJS) map { packageJSKey =>
-    crossTarget in(client, Compile, packageJSKey) := scalajsOutputDir.value
-  })
-
-
+// instantiate the JS project for SBT with some additional settings
 lazy val client: Project = (project in file("client"))
   .settings(
     name := "client",
     version := Settings.version,
     scalaVersion := Settings.versions.scala,
     scalacOptions ++= Settings.scalacOptions,
-    libraryDependencies ++= Seq(
-      "org.scala-js" %%% "scalajs-dom" % "0.8.0",
-      "com.lihaoyi" %%% "scalatags" % "0.5.2"
-    )
+    libraryDependencies ++= Settings.scalajsDependencies.value,
     // by default we do development build, no eliding
-//    elideOptions := Seq(),
-//    scalacOptions ++= elideOptions.value,
-//    jsDependencies ++= Settings.jsDependencies.value,
+    elideOptions := Seq(),
+    scalacOptions ++= elideOptions.value,
+    jsDependencies ++= Settings.jsDependencies.value,
     // RuntimeDOM is needed for tests
-//    jsDependencies += RuntimeDOM % "test",
+    jsDependencies += RuntimeDOM % "test",
     // yes, we want to package JS dependencies
-//    skip in packageJSDependencies := false,
+    skip in packageJSDependencies := false,
     // use Scala.js provided launcher code to start the client app
-//    persistLauncher := true,
-//    persistLauncher in Test := false,
+    persistLauncher := true,
+    persistLauncher in Test := false,
     // must specify source maps location because we use pure CrossProject
-//    sourceMapsDirectories += sharedJS.base / "..",
+    sourceMapsDirectories += sharedJS.base / "..",
     // use uTest framework for tests
-//    testFrameworks += new TestFramework("utest.runner.Framework")
+    testFrameworks += new TestFramework("utest.runner.Framework")
   )
-  .enablePlugins(ScalaJSPlugin)
-//  .dependsOn(sharedJS)
+  .enablePlugins(ScalaJSPlugin, ScalaJSPlay)
+  .dependsOn(sharedJS)
 
+// Client projects (just one in this case)
+lazy val clients = Seq(client)
+
+// instantiate the JVM project for SBT with some additional settings
 lazy val server = (project in file("server"))
-  .settings(scalajvmSettings: _*)
   .settings(
     name := "server",
     version := Settings.version,
     scalaVersion := Settings.versions.scala,
     scalacOptions ++= Settings.scalacOptions,
-    libraryDependencies ++= {
-      Seq(
-        "com.lambdaworks" %% "jacks" % "2.3.3",
-        "com.typesafe.slick" %% "slick" % "3.0.0",
-        "org.xerial" % "sqlite-jdbc" % "3.7.2",
-        "joda-time" % "joda-time" % "2.8.2",
-        "org.json4s" %% "json4s-jackson" % Settings.versions.json4s,
-        "org.json4s" %% "json4s-ext" % Settings.versions.json4s,
-        "com.github.spullara.mustache.java" % "compiler" % "0.8.17",
-        "org.elasticsearch" % "elasticsearch" % "1.7.1",
-        "io.spray"            %%  "spray-can"     % Settings.versions.spray,
-        "io.spray"            %%  "spray-routing" % Settings.versions.spray,
-        "io.spray"            %%  "spray-testkit" % Settings.versions.spray  % "test",
-        "com.typesafe.akka"   %%  "akka-actor"    % Settings.versions.akka,
-        "com.typesafe.akka"   %%  "akka-testkit"  % Settings.versions.akka  % "test",
-        "org.specs2"          %%  "specs2-core"   % "2.3.11" % "test"
-      )
-    }
-//    commands += ReleaseCmd,
+    libraryDependencies ++= Settings.jvmDependencies.value,
+    commands += ReleaseCmd,
     // connect to the client project
-//    scalaJSProjects := clients,
-//    pipelineStages := Seq(scalaJSProd),
+    scalaJSProjects := clients,
+    pipelineStages := Seq(scalaJSProd),
     // compress CSS
-//    LessKeys.compress in Assets := true
+    LessKeys.compress in Assets := true
   )
-.aggregate(client)
-//  .aggregate(clients.map(projectToRef): _*)
-//  .dependsOn(sharedJVM)
+  .enablePlugins(PlayScala)
+  .disablePlugins(PlayLayoutPlugin) // use the standard directory layout instead of Play's custom
+  .aggregate(clients.map(projectToRef): _*)
+  .dependsOn(sharedJVM)
 
+// Command for building a release
+lazy val ReleaseCmd = Command.command("release") {
+  state => "set elideOptions in client := Seq(\"-Xelide-below\", \"WARNING\")" ::
+    "client/clean" ::
+    "client/test" ::
+    "server/clean" ::
+    "server/test" ::
+    "server/dist" ::
+    "set elideOptions in client := Seq()" ::
+    state
+}
 
-Revolver.settings: Seq[sbt.Def.Setting[_]]
+// lazy val root = (project in file(".")).aggregate(client, server)
+
+// loads the Play server project at sbt startup
+onLoad in Global := (Command.process("project server", _: State)) compose (onLoad in Global).value
