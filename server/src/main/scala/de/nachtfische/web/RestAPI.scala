@@ -4,14 +4,13 @@ package de.nachtfische.web
 
 import java.util.UUID
 
-import ankiscala.services.QuestionAnswerPair
-import de.nachtfische.ankimodel.{CardRendering, Anki, ApkgFile, MustacheRenderer}
-import de.nachtfische.srs.ReviewState
+import ankiscala.services.{ReviewState, ReviewItem, QuestionAnswerPair}
+import de.nachtfische.ankimodel.{Anki, ApkgFile, MustacheRenderer}
 import org.joda.time.DateTime
 import org.json4s.ext.JodaTimeSerializers
 import org.json4s.{DefaultFormats, Formats}
 import spray.httpx.Json4sJacksonSupport
-import spray.routing.{HttpServiceActor, MalformedRequestContentRejection}
+import spray.routing.{HttpServiceActor}
 
 import scala.collection.mutable
 
@@ -41,7 +40,7 @@ class RestAPI
 
     val reviewRepository = mutable.MutableList[ReviewItem]()
 
-    reviewRepository += ReviewItem("sample", "asdf ", ReviewState.InitialReviewState, ReviewState.InitialReviewState.calculateDue(DateTime.now()))
+    reviewRepository += ReviewItem("sample", "asdf ", ReviewState.InitialReviewState, 0)
 
     val deckRoutes =
         path("api" / "decks") {
