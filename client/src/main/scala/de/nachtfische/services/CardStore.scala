@@ -4,7 +4,7 @@ case class Card(id:String, front:String, back:String)
 
 trait CardStore {
 
-  private val cards = scala.collection.mutable.MutableList(Card("a","b","c"))
+  private val cards = scala.collection.mutable.MutableList.empty[Card]
 
   def addCard(card: Card): Unit = {
     cards += card
