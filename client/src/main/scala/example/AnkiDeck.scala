@@ -1,11 +1,18 @@
 package example
 
+import ankiscala.client.services.AjaxClient
+import ankiscala.services.{FlashCard, API}
 import de.nachtfische.services.{Card, CardStore}
 import japgolly.scalajs.react._
 import japgolly.scalajs.react.extra.router2._
 import japgolly.scalajs.react.vdom.prefix_<^._
 import org.scalajs.dom
+import autowire._
+import boopickle.Default._
+import scala.scalajs.concurrent.JSExecutionContext.Implicits.runNow
 
+
+import scala.concurrent.Future
 import scala.scalajs.js.JSApp
 import scala.scalajs.js.annotation.JSExport
 
@@ -25,9 +32,36 @@ object MainMenu {
     ).build
 }
 
+object LearnCardsStore {
+
+  var cardsToLearn = Set.empty[Card]
+  var availableCards = Seq.empty[Card]
+
+  def addToLearn(c:Card) = {
+    // TODO client check c not in review
+    cardsToLearn += c
+  }
+
+  def refreshAvailableCards():Unit = {
+    AjaxClient[API].getCards().call().map { newCards =>
+      availableCards = newCards map ReviewStore.mapToCard
+    }
+  }
+
+  def markAsLearned(c:Card) = {
+    AjaxClient[API].addReview(c.id).call().map { _ => removeFromLearned(c) }
+    ReviewStore.refreshReviews()
+  }
+
+  def removeFromLearned(c:Card) = {
+    cardsToLearn = cardsToLearn.filterNot(_.id == c.id)
+  }
+
+}
+
 object LearnView {
   val Component = ReactComponentB[RouterCtl[Pages]]("LearnList")
-  .initialState(CardStore.getCards)
+  .initialState(LearnCardsStore.cardsToLearn)
   .render((props,state) =>
     <.div("learned cards #" + state.size,
       state map renderCard,
@@ -37,25 +71,48 @@ object LearnView {
 
   def renderCard(c:Card) = {
     <.div(s"${c.front} - ${c.back}",
-      <.button("learned", ^.onClick --> {ReviewModule.reviewList :+= c}))
+      <.button("learned", ^.onClick --> {LearnCardsStore.markAsLearned(c)}))
   }
 }
 
+object ReviewStore {
+  var reviewList = Seq.empty[Card]
 
+  def refreshReviews() = {
+    val cardsFuture: Future[Seq[Card]] = for {
+      reviews <- AjaxClient[API].getReviews("userA").call()
+      cards <- AjaxClient[API].getCards().call()
+    } yield {
+        cards
+          .filter(c => !reviews.filter(_.factId == c.id).isEmpty)
+          .map(mapToCard)
+      }
+    cardsFuture.map( list => reviewList = list)
+  }
+
+  def mapToCard: (FlashCard) => Card = {
+    c => Card(c.id, c.questionAnswerPair.question, c.questionAnswerPair.answer)
+  }
+}
 
 object ReviewModule {
 
   val options = Seq("easy", "normal", "hard")
 
-  var reviewList = Seq.empty[Card]
 
   val Component = ReactComponentB[RouterCtl[Pages]]("Review")
-    .initialState(reviewList)
-  .render((props, state) => state.headOption match {
-    case Some(c) => <.div(s"count #${state.size}", renderReview(c))
-    case None => <.p("nothing to render")
-  }).build
+    .initialState(ReviewStore.reviewList)
+    .render((props, state) => renderHeadIfPresent(state))
+    .componentDidMount(t => ReviewStore.refreshReviews())
+    .build
 
+
+  def renderHeadIfPresent(state: Seq[Card]): ReactElement = {
+    state.headOption match {
+      case Some(c) => <.div(s"count #${state.size}", renderReview(c))
+      case None => <.p("nothing to render")
+    }
+  }
 
   def renderReview(c:Card): ReactElement = {
     <.div(
@@ -70,33 +127,28 @@ object CardView {
 
   type CardProps = RouterCtl[Pages]
 
-  class Backend(t: BackendScope[CardProps, Int]) {
+  class Backend(t: BackendScope[CardProps, Seq[Card]]) {
 
     def addCard(card: Card): Unit = {
-      CardStore.addCard(card)
-      t.setState(CardStore.getCards.size)
+      LearnCardsStore.addToLearn(card)
     }
 
   }
 
-  private val card: String => Card = id =>
-    Card(id, s"front$id", s"back$id")
-
-  val cards = Seq(card("1"), card("2"), card("3"))
-
-  private def renderCards: (CardProps, Int, Backend) => ReactElement = (routerCtl, state, backend) => {
+  private def renderCards: (CardProps, Seq[Card], Backend) => ReactElement = (routerCtl, state, backend) => {
     val ol: ReactElement = <.ol(
       ^.id := "my-list",
       ^.lang := "en",
       ^.margin := "8px",
-      renderCards(backend, cards))
-    <.div(<.p(s"count $state"), ol)
+      renderCards(backend, state))
+    <.div(<.p(s"count ${state.size}"), ol)
   }
 
   val CardComponent = ReactComponentB[CardProps]("Cards")
-    .initialState(CardStore.getCards.size)
+    .initialState(LearnCardsStore.availableCards)
     .backend(new Backend(_))
     .render(renderCards)
+    .componentDidMount(_ => LearnCardsStore.refreshAvailableCards())
     .build
 
   def renderCards(backend: Backend, list: Seq[Card]): Seq[ReactTag] = {
@@ -115,6 +167,8 @@ object AnkiDeck extends JSApp {
 
   @JSExport
   def main(): Unit = {
+    LearnCardsStore.refreshAvailableCards()
+
     val routerConfig = RouterConfigDsl[Pages].buildConfig { dsl =>
       import dsl._
       (emptyRule
@@ -132,7 +186,8 @@ object AnkiDeck extends JSApp {
     val baseUrl = BaseUrl.fromWindowOrigin_/
     val router = Router(baseUrl, routerConfig.logToConsole)
 
-    React.render(router(), dom.document.getElementById("root"))
+
+    React.render(router(),   dom.document.getElementById("root"))
   }
 
 
