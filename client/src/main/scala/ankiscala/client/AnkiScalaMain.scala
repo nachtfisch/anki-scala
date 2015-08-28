@@ -10,7 +10,7 @@ import scala.scalajs.js.annotation.JSExport
 
 
 @JSExport
-object AnkiDeck extends JSApp {
+object AnkiScalaMain extends JSApp {
 
   @JSExport
   def main(): Unit = {
