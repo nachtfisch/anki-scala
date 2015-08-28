@@ -19,7 +19,7 @@ object ReviewModule {
   def renderHeadIfPresent(state: Seq[Card]): ReactElement = {
     state.headOption match {
       case Some(c) => <.div(s"count #${state.size}", renderReview(c))
-      case None => <.p("nothing to render")
+      case None => <.p("nothing to review")
     }
   }
 

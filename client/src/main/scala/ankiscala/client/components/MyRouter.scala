@@ -15,15 +15,6 @@ object MyRouter {
   private val baseUrl = BaseUrl.fromWindowOrigin_/
   
   val Component = Router(baseUrl, routerConfig.logToConsole)
-  
-  object MainMenu {
-    val menuPages = Seq(SearchCardsPage, LearningPage, ReviewPage)
-    val Component = ReactComponentB[RouterCtl[Pages]]("Menu")
-      .render((props) =>
-      <.div(<.ul( menuPages map {t => <.li(props.link(t)(t.getClass.getName))}))
-      ).build
-  }
-
 
   private def routerConfig = RouterConfigDsl[Pages].buildConfig { dsl =>
     import dsl._
@@ -37,10 +28,19 @@ object MyRouter {
       .renderWith(layoutWithMainMenu)
   }
 
-  private def layoutWithMainMenu: (RouterCtl[Pages], Resolution[Pages]) => ReactElement = {
-    (router, content) => <.div(
-      <.div(MainMenu.Component(router)), content.render()
+  private def layoutWithMainMenu: (RouterCtl[Pages], Resolution[Pages]) => ReactElement = { (router, content) =>
+    <.div(
+      <.div(MainMenu.Component(router)),
+      content.render()
     )
+  }
+
+
+  object MainMenu {
+    val menuPages = Seq(SearchCardsPage, LearningPage, ReviewPage)
+    val Component = ReactComponentB[RouterCtl[Pages]]("Menu")
+      .render((props) => <.div(<.ul( menuPages map {t => <.li(props.link(t)(t.getClass.getName))})))
+      .build
   }
 
 }
