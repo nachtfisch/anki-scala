@@ -2,6 +2,8 @@ package ankiscala.client.services
 
 import ankiscala.services.{API, FlashCard}
 import autowire._
+import boopickle.Default._
+
 import scala.scalajs.concurrent.JSExecutionContext.Implicits.runNow
 
 import scala.concurrent.Future

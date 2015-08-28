@@ -3,6 +3,8 @@ package ankiscala.client.services
 import ankiscala.services.API
 
 import autowire._
+import boopickle.Default._
+
 import scala.scalajs.concurrent.JSExecutionContext.Implicits.runNow
 
 object LearnCardsStore {
