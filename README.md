@@ -7,3 +7,5 @@ Project is entirely written in scala and acts as a playground for an isomorphic 
 
 Backend is written using normal scala, frontend with scala.js. No Persistence is implemented, so entire application
 state will be lost after restart.
+
+
