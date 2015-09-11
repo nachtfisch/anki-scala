@@ -12,31 +12,32 @@ import scala.scalajs.js.Date
 
 object ReviewStore {
 
-  var reviewList = Var(Seq.empty[CardReviewItem])
+    var reviewList = Var(Seq.empty[CardReviewItem])
 
-  case class CardReviewItem(review: ReviewItem, card: Card)
+    case class CardReviewItem(review: ReviewItem, card: Card)
 
-  def refreshReviews() = {
-    val cardsFuture: Future[Seq[CardReviewItem]] = for {
-      reviews <- AjaxClient[API].getReviews("userA").call()
-      cards <- AjaxClient[API].getCards().call()
-    } yield {
-        reviews.map(reviewItem => {
-          val card: Card = cards.find(_.id == reviewItem.factId).map(mapToCard).get
-          CardReviewItem(reviewItem, card)
-        })
-      }
-    cardsFuture.map(list => reviewList() = list)
-  }
+    def refreshReviews() = {
+        val cardsFuture: Future[Seq[CardReviewItem]] = for {
+            reviews <- AjaxClient[API].getReviews("userA", new Date().getTime().toLong).call()
+            cards <- AjaxClient[API].getCards().call()
+        } yield {
+                reviews.map(reviewItem => {
+                    val card: Card = cards.find(_.id == reviewItem.factId).map(mapToCard).get
+                    CardReviewItem(reviewItem, card)
+                })
+            }
 
-  def reviewCard(c: CardReviewItem, ease: Int) = {
-    AjaxClient[API].updateReview(c.review.id, ease, new Date().getTime().toLong)
-      .call()
-      .andThen { case _ => refreshReviews() }
-  }
+        cardsFuture.map(list => reviewList() = list)
+    }
 
-  def mapToCard: (FlashCard) => Card = {
-    c => Card(c.id, c.questionAnswerPair.question, c.questionAnswerPair.answer)
-  }
+    def reviewCard(c: CardReviewItem, ease: Int) = {
+        AjaxClient[API].updateReview(c.review.id, ease, new Date().getTime().toLong)
+          .call()
+          .andThen { case _ => refreshReviews() }
+    }
+
+    def mapToCard: (FlashCard) => Card = {
+        c => Card(c.id, c.questionAnswerPair.question, c.questionAnswerPair.answer)
+    }
 
 }
