@@ -13,7 +13,7 @@ class ApiService extends API {
    var reviews = Seq.empty[ReviewItem]
 
    override def getCards(): Seq[FlashCard] = {
-     cards
+     cards.take(20)
    }
 
    override def updateReview(reviewId: String, ease: Int, time:Long): Unit = {

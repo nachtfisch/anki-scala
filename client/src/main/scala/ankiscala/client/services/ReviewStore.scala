@@ -3,13 +3,14 @@ package ankiscala.client.services
 import ankiscala.services.{API, FlashCard}
 import autowire._
 import boopickle.Default._
+import rx.core.Var
 
 import scala.scalajs.concurrent.JSExecutionContext.Implicits.runNow
 
 import scala.concurrent.Future
 
 object ReviewStore {
-  var reviewList = Seq.empty[Card]
+  var reviewList = Var( Seq.empty[Card])
 
   def refreshReviews() = {
     val cardsFuture: Future[Seq[Card]] = for {
@@ -20,7 +21,7 @@ object ReviewStore {
           .filter(c => !reviews.filter(_.factId == c.id).isEmpty)
           .map(mapToCard)
       }
-    cardsFuture.map( list => reviewList = list)
+    cardsFuture.map( list => reviewList() = list)
   }
 
   def mapToCard: (FlashCard) => Card = {

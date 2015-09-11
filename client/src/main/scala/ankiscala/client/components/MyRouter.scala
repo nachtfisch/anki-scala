@@ -1,5 +1,6 @@
 package ankiscala.client.components
 
+import ankiscala.client.services.ReviewStore
 import japgolly.scalajs.react.{ReactComponentB, ReactElement}
 import japgolly.scalajs.react.extra.router2._
 import japgolly.scalajs.react.vdom.prefix_<^._
@@ -21,7 +22,7 @@ object MyRouter {
 
     (emptyRule
       | staticRoute(root, SearchCardsPage) ~> renderR(rt => CardModule.CardComponent(rt))
-      | staticRoute("#review", ReviewPage) ~> renderR(rt => ReviewModule.Component(rt))
+      | staticRoute("#review", ReviewPage) ~> renderR(rt => ReviewModule.Component(ReviewModule.Props(ReviewStore.reviewList, rt)))
       | staticRoute("#card", LearningPage) ~> renderR(rt => LearningModule.Component(rt))
       )
       .notFound(redirectToPage(SearchCardsPage)(Redirect.Replace))
