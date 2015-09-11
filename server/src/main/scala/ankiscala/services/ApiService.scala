@@ -18,21 +18,19 @@ class ApiService extends API {
 
    override def updateReview(reviewId: String, ease: Int, time:Long): Unit = {
 
-     val updatedReviewItem: Option[(ReviewItem, ReviewState)] = for {
-       reviewItem <- reviews.find(_.id == reviewId)
-       newState: ReviewState = newReviewState(time, ease, reviewItem.due, reviewItem.reviewProgress)
-     } yield (reviewItem, newState)
+     val updatedReviewItem: Option[ReviewItem] = for {
+       oldReviewItem <- reviews.find(_.id == reviewId)
+       newState: ReviewState = newReviewState(time, ease, oldReviewItem.due, oldReviewItem.reviewProgress)
+       newReviewItem = oldReviewItem.copy(reviewProgress = newState, due = calculateDue(newState, DateTime.now()).getMillis)
+     } yield newReviewItem
 
      updatedReviewItem match {
-       case None => println("couldn't update no item found")
-       case Some((item, newState)) =>
-         cards.collect {
-           case i if i.id == item.id => item.copy(reviewProgress = newState, due = calculateDue(newState, DateTime.now()).getMillis)
-           case i => i
-         }
-         println(s"updated $item")
+       case None => println("didn't find review item")
+       case Some(reviewItem) => reviews = reviews.collect {
+         case i if i.id == reviewItem.id => reviewItem
+         case i => i
+       }
      }
-
    }
 
    private def newReviewState(time: Long, ease: Int, due: Long, progress: ReviewState): ReviewState = {
@@ -46,7 +44,7 @@ class ApiService extends API {
    }
 
    override def getReviews(userId: String): Seq[ReviewItem] = {
-     reviews
+     reviews.sortBy(_.due)
    }
 
    override def addReview(factId: String): Seq[ReviewItem] = {

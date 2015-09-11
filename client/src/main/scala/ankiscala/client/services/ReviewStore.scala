@@ -1,6 +1,6 @@
 package ankiscala.client.services
 
-import ankiscala.services.{API, FlashCard}
+import ankiscala.services.{ReviewItem, API, FlashCard}
 import autowire._
 import boopickle.Default._
 import rx.core.Var
@@ -8,20 +8,31 @@ import rx.core.Var
 import scala.scalajs.concurrent.JSExecutionContext.Implicits.runNow
 
 import scala.concurrent.Future
+import scala.scalajs.js.Date
 
 object ReviewStore {
-  var reviewList = Var( Seq.empty[Card])
+
+  var reviewList = Var(Seq.empty[CardReviewItem])
+
+  case class CardReviewItem(review: ReviewItem, card: Card)
 
   def refreshReviews() = {
-    val cardsFuture: Future[Seq[Card]] = for {
+    val cardsFuture: Future[Seq[CardReviewItem]] = for {
       reviews <- AjaxClient[API].getReviews("userA").call()
       cards <- AjaxClient[API].getCards().call()
     } yield {
-        cards
-          .filter(c => !reviews.filter(_.factId == c.id).isEmpty)
-          .map(mapToCard)
+        reviews.map(reviewItem => {
+          val card: Card = cards.find(_.id == reviewItem.factId).map(mapToCard).get
+          CardReviewItem(reviewItem, card)
+        })
       }
-    cardsFuture.map( list => reviewList() = list)
+    cardsFuture.map(list => reviewList() = list)
+  }
+
+  def reviewCard(c: CardReviewItem, ease: Int) = {
+    AjaxClient[API].updateReview(c.review.id, ease, new Date().getTime().toLong)
+      .call()
+      .andThen { case _ => refreshReviews() }
   }
 
   def mapToCard: (FlashCard) => Card = {

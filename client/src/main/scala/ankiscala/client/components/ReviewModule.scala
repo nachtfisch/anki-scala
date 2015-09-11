@@ -1,6 +1,8 @@
 package ankiscala.client.components
 
+import ankiscala.client.services.ReviewStore.CardReviewItem
 import ankiscala.client.services.{Card, ReviewStore}
+import ankiscala.services.ReviewItem
 import japgolly.scalajs.react.extra.OnUnmount
 import japgolly.scalajs.react.extra.router2.RouterCtl
 import japgolly.scalajs.react.vdom.prefix_<^._
@@ -10,7 +12,9 @@ import rx.ops._
 
 object ReviewModule {
 
-  val answerOptions = Seq("easy", "normal", "hard")
+  case class Ease(label:String, value:Int)
+
+  val answerOptions = Seq(Ease("easy", 4), Ease("normal", 3), Ease("hard",2))
 
   abstract class RxObserver[BS <: BackendScope[_, _]](scope: BS) extends OnUnmount {
 
@@ -22,7 +26,7 @@ object ReviewModule {
 
   }
 
-  case class Props(todos: Rx[Seq[Card]], router: RouterCtl[Pages])
+  case class Props(todos: Rx[Seq[CardReviewItem]], router: RouterCtl[Pages])
 
   class Backend(t: BackendScope[Props, Unit]) extends RxObserver(t) {
     def mounted(): Unit = {
@@ -30,28 +34,32 @@ object ReviewModule {
 
       ReviewStore.refreshReviews()
     }
+
+    def reviewItem(cardReviewItem: CardReviewItem, ease:Int) = {
+      ReviewStore.reviewCard(cardReviewItem, ease)
+    }
   }
 
   val Component = ReactComponentB[Props]("Review")
     .stateless
     .backend(new Backend(_))
-    .render((props, _ , _) => renderHeadIfPresent(props.todos()))
+    .render((props, _ , backend) => renderHeadIfPresent(props.todos(), backend))
     .componentDidMount(t => t.backend.mounted())
     .configure(OnUnmount.install)
     .build
 
 
-  def renderHeadIfPresent(cards: Seq[Card]): ReactElement = {
+  def renderHeadIfPresent(cards: Seq[CardReviewItem], backend: Backend): ReactElement = {
     cards.headOption match {
-      case Some(c) => <.div(s"count #${cards.size}", renderReview(c))
+      case Some(c) => <.div(s"count #${cards.size} ${c.review.due} ${c.review.reviewProgress}", renderReview(c, backend))
       case None => <.p("nothing to review")
     }
   }
 
-  def renderReview(c:Card): ReactElement = {
+  def renderReview(c:CardReviewItem, backend: Backend): ReactElement = {
     <.div(
-      <.div(s"${c.front} -- ${c.back}"),
-      <.div(<.button("didn't know"), answerOptions map { t => <.button(t)})
+      <.div(s"${c.card.front} -- ${c.card.back}"),
+      <.div(<.button("didn't know"), answerOptions map { t => <.button(t.label, ^.onClick --> backend.reviewItem(c, t.value))})
     )
   }
 }
