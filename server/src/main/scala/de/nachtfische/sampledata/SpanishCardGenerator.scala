@@ -6,52 +6,94 @@ import ankiscala.services.Card
 import de.nachtfische.CommonConst
 import de.nachtfische.ankimodel.MustacheRenderer
 
-import scala.io.BufferedSource
+import scala.io.Source
+import scalaz.Scalaz._
+import scalaz._
 
 object SpanishCardGenerator {
 
     def spanishCards: List[Card] = {
-        getNouns ++
-          getWords(CommonConst.PROJECT_PATH + "src/main/resources/data/verbs-top-1193.csv") ++
-          getWords(CommonConst.PROJECT_PATH + "src/main/resources/data/adjectives-top1100.csv")
+        SpanishNouns.allCards ++
+         SpanishVerbsAndAdjectives.allCards
     }
 
-    def getWords(s: String): List[Card] = {
-        parseCards(SpanishNounReader.parseOther, s)
-          .map(other2FlashCard)
-          .toList
+    trait CardProvider {
+        def allCards:List[Card]
     }
 
-    def getNouns: List[Card] = {
-        parseCards(SpanishNounReader.parseNoun, CommonConst.PROJECT_PATH + "src/main/resources/data/spanish-nouns-top-2514.csv")
-          .map(noun2FlashCard)
-          .toList
+    object SpanishVerbsAndAdjectives extends CardProvider {
+        override def allCards: List[Card] = {
+            getWords(CommonConst.PROJECT_PATH + "src/main/resources/data/verbs-top-1193.csv") ++
+              getWords(CommonConst.PROJECT_PATH + "src/main/resources/data/adjectives-top1100.csv")
+        }
+
+        def getWords(s: String): List[Card] = Source.fromFile(s)
+              .getLines()
+              .drop(1) // remove header
+              .map(parseOther)
+              .flatMap(t => t.right.toOption)
+              .map(other2FlashCard)
+              .toList
+
+        // encender (e-ie) (2133)$$$to turn on
+        def parseOther(stringToParse:String):Either[String,OtherWord] = {
+            val wordFieldInfo = "^(.*)(\\(.*\\))?\\((\\d+)\\)$".r
+            val split: List[String] = stringToParse.split("\\$\\$\\$").toList
+            val fieldInfo = wordFieldInfo.findFirstMatchIn(split(0)).map( t => (t.group(1), Option(t.group(2)), t.group(3)))
+
+            fieldInfo.map(f => OtherWord(f._1.trim, split(1),f._3.toInt, f._2.map(_.trim))).toRight(stringToParse)
+        }
+
+
+        def other2FlashCard(ow: OtherWord): Card = {
+            val question: String = MustacheRenderer.renderTemplate("{{word}} ({{rank}})",
+                Map("word" -> ow.verb, "rank" -> ow.rank.toString))
+            val answer: String = MustacheRenderer.renderTemplate("{{definition}} ({{gender}})",
+                Map("definition" -> ow.definition, "gender" -> ow.speciality.getOrElse("no speciality")))
+
+            Card(UUID.randomUUID().toString, question, answer)
+        }
+
     }
 
-    def noun2FlashCard(n: Noun): Card = {
-        val question: String = MustacheRenderer.renderTemplate("{{word}} ({{rank}})", Map("word" -> n.noun, "rank" -> n.rank.toString))
-        val answer: String = MustacheRenderer.renderTemplate("{{definition}} ({{gender}})", Map("definition" -> n.definition, "gender" -> n.gender.det))
+    object SpanishNouns extends CardProvider {
 
-        Card(UUID.randomUUID().toString, question, answer)
-    }
+        case class NounFact(id:String, gender: Gender, noun: String, definition: String, rank: Int)
+        case class Gender(det:String)
 
-    def other2FlashCard(ow: OtherWord): Card = {
-        val question: String = MustacheRenderer.renderTemplate("{{word}} ({{rank}})",
-            Map("word" -> ow.verb, "rank" -> ow.rank.toString))
-        val answer: String = MustacheRenderer.renderTemplate("{{definition}} ({{gender}})",
-            Map("definition" -> ow.definition, "gender" -> ow.speciality.getOrElse("no speciality")))
+        private val resourcePath: String = CommonConst.PROJECT_PATH + "src/main/resources/data/spanish-nouns-top-2514.csv"
 
-        Card(UUID.randomUUID().toString, question, answer)
-    }
+        override def allCards: List[Card] = Source.fromFile(resourcePath)
+              .getLines()
+              .drop(1) // remove header
+              .map(parseNoun map noun2card)
+              .toList
 
-    def parseCards[T](parser: (String) => Either[String, T], path: String): Iterator[T] = {
-        getSource(path).getLines()
-          .map(parser)
-          .flatMap(t => t.right.toOption)
-    }
+        // example-format: n-spa-1872;;el;;cumpleaños;;birthday;;3785
+        def parseNoun: String => NounFact = { line =>
+            val split: List[String] = line.split(";;").toList
+            assert(split.size == 5) // right format
 
-    def getSource(s: String): BufferedSource = {
-        scala.io.Source.fromFile(s)
+            NounFact(split(0), parseGender(split(1)), split(2), split(3), split(4).toInt)
+        }
+
+        def parseGender(genderString: String): Gender = genderString match {
+            case "el" => Gender("el")
+            case "la" => Gender("la")
+            case "los" => Gender("los")
+            case "las" => Gender("las")
+            case _ => throw new IllegalArgumentException("couldn't parse gender " + genderString)
+        }
+
+        def noun2card(n: NounFact): Card = {
+            val answer: String = MustacheRenderer.renderTemplate("{{definition}} ({{gender}})", Map("definition" -> n.definition, "gender" -> n.gender.det))
+
+            Card(n.id, renderQuestion(n), answer)
+        }
+
+        def renderQuestion(n: NounFact) = MustacheRenderer.renderTemplate(
+            "{{word}} ({{rank}})", Map("word" -> n.noun, "rank" -> n.rank.toString))
+
     }
 
 }

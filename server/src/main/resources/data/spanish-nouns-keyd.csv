@@ -1,0 +1,2515 @@
+id;;det;;word;;definition;;rank
+n-spa-1;;la;;vez;;time . . . as in a particular occasion;;44
+n-spa-2;;el;;año;;year;;55
+n-spa-3;;el;;tiempo;;time . . . as a concept; weather;;68
+n-spa-4;;el;;día;;day;;71
+n-spa-5;;la;;cosa;;thing;;78
+n-spa-6;;el;;hombre;;man, mankind;;80
+n-spa-7;;el;;parte;;part;;86
+n-spa-8;;la;;vida;;life;;88
+n-spa-9;;el;;momento;;moment;;108
+n-spa-10;;la;;forma;;shape, form, way;;113
+n-spa-11;;la;;casa;;house;;116
+n-spa-12;;el;;mundo;;world;;118
+n-spa-13;;la;;mujer;;woman;;127
+n-spa-14;;el;;caso;;case;;130
+n-spa-15;;el;;país;;country;;133
+n-spa-16;;el;;lugar;;place;;135
+n-spa-17;;la;;persona;;person;;137
+n-spa-18;;la;;hora;;hour;;143
+n-spa-19;;el;;trabajo;;work;;145
+n-spa-20;;el;;punto;;point, dot, period;;147
+n-spa-21;;la;;mano;;hand;;150
+n-spa-22;;la;;manera;;way;;152
+n-spa-23;;el;;ﬁn;;end;;156
+n-spa-24;;el;;tipo;;type, sort;;157
+n-spa-25;;la;;gente;;people;;158
+n-spa-26;;el;;ejemplo;;example;;162
+n-spa-27;;el;;lado;;side;;165
+n-spa-28;;el;;hijo;;son;;166
+n-spa-29;;los;;hijos;;children, offspring;;166
+n-spa-30;;el;;problema;;problem;;169
+n-spa-31;;la;;cuenta;;calculation, count; account; check, bill; bead;;170
+n-spa-32;;el;;medio;;middle, center; environment; medium; means, way;;171
+n-spa-33;;la;;palabra;;word;;176
+n-spa-34;;el;;niño;;child;;178
+n-spa-35;;el;;padre;;father;;182
+n-spa-36;;el;;cambio;;change;;186
+n-spa-37;;la;;historia;;history, story;;192
+n-spa-38;;la;;idea;;idea;;193
+n-spa-39;;la;;agua;;water;;194
+n-spa-40;;la;;noche;;night;;196
+n-spa-41;;la;;ciudad;;city;;197
+n-spa-42;;el;;modo;;way, manner;;198
+n-spa-43;;el;;nombre;;name;;199
+n-spa-44;;la;;familia;;family;;201
+n-spa-45;;la;;realidad;;reality;;202
+n-spa-46;;la;;obra;;work; deed; work of art; renovation;;206
+n-spa-47;;la;;verdad;;truth;;209
+n-spa-48;;el;;mes;;month;;210
+n-spa-49;;la;;razón;;reason;;212
+n-spa-50;;el;;grupo;;group;;216
+n-spa-51;;la;;relación;;relationship;;230
+n-spa-52;;el;;cuerpo;;body;;232
+n-spa-53;;el;;hecho;;event, fact;;235
+n-spa-54;;el;;principio;;beginning;;237
+n-spa-55;;el;;señor, la señora;;gentleman, man, lady, woman, wife, mister, maistresse;;240
+n-spa-56;;el;;pueblo;;town;;241
+n-spa-57;;la;;tarde;;afternoon, evening;;242
+n-spa-58;;el;;ojo;;eye;;247
+n-spa-59;;la;;calle;;street;;248
+n-spa-60;;el;;libro;;book;;253
+n-spa-61;;la;;fuerza;;strength, force;;255
+n-spa-62;;la;;luz;;light;;256
+n-spa-63;;el;;santo, la santa;;saint;;258
+n-spa-64;;el;;frente;;front;;260
+n-spa-65;;la;;frente;;forehead;;260
+n-spa-66;;el;;amigo, la amiga;;friend;;262
+n-spa-67;;el;;sentido;;sense;;265
+n-spa-68;;el;;paso;;step, pace;;267
+n-spa-69;;la;;situación;;situation;;268
+n-spa-70;;la;;gracia;;skill, ability; joke; grace;;272
+n-spa-71;;el;;siglo;;century;;273
+n-spa-72;;el;;dios;;god;;274
+n-spa-73;;la;;tierra;;earth, land;;276
+n-spa-74;;el;;papel;;paper; role, part;;277
+n-spa-75;;la;;madre;;mother;;278
+n-spa-76;;el;;tema;;subject, topic; theme;;283
+n-spa-77;;la;;clase;;class;;288
+n-spa-78;;el;;dinero;;money;;291
+n-spa-79;;el;;campo;;field, countryside;;295
+n-spa-80;;la;;cabeza;;head;;298
+n-spa-81;;el;;orden;;order of numbers;;302
+n-spa-82;;la;;orden;;religious order;;302
+n-spa-83;;el;;don;;gift, present; talent; male courtesy title;;303
+n-spa-84;;la;;semana;;week;;304
+n-spa-85;;el;;interés;;interest;;308
+n-spa-86;;la;;vista;;sight, view;;310
+n-spa-87;;el;;acuerdo;;accord;;313
+n-spa-88;;el;;número;;number;;315
+n-spa-89;;el;;fondo;;bottom, back of, end of;;318
+n-spa-90;;el;;camino;;road, way;;319
+n-spa-91;;la;;voz;;voice; opinion; shout; sound; word, term; rumor;;320
+n-spa-92;;el;;estudio;;the study of, office study;;321
+n-spa-93;;el;;valor;;value;;326
+n-spa-94;;la;;medida;;measure;;333
+n-spa-95;;el;;centro;;center, downtown;;339
+n-spa-96;;la;;necesidad;;necessity;;340
+n-spa-97;;la;;condición;;condition;;341
+n-spa-98;;la;;falta;;lack, fault;;344
+n-spa-99;;la;;edad;;age;;350
+n-spa-100;;el;;estado;;state of being of matter, geographical state;;351
+n-spa-101;;el;;ser;;being;;352
+n-spa-102;;la;;puerta;;door;;354
+n-spa-103;;la;;cara;;face;;356
+n-spa-104;;la;;época;;epoch, age, period;;358
+n-spa-105;;el;;color;;color;;359
+n-spa-106;;la;;experiencia;;experience;;361
+n-spa-107;;el;;movimiento;;movement;;362
+n-spa-108;;el;;pesar;;regret;;366
+n-spa-109;;la;;posibilidad;;possibility;;367
+n-spa-110;;el;;juego;;play; game, sport;;371
+n-spa-111;;el;;aire;;air;;374
+n-spa-112;;la;;guerra;;war;;377
+n-spa-113;;el;;resultado;;result;;379
+n-spa-114;;la;;ley;;law;;384
+n-spa-115;;el;;aspecto;;aspect; physical appearance;;385
+n-spa-116;;el;;pie;;foot, base;;386
+n-spa-117;;la;;especie;;kind;;388
+n-spa-118;;el;;servicio;;service;;390
+n-spa-119;;la;;actividad;;activity;;393
+n-spa-120;;la;;cuestión;;matter, affair, question;;398
+n-spa-121;;la;;duda;;doubt;;399
+n-spa-122;;la;;diferencia;;difference;;400
+n-spa-123;;la;;mañana;;morning, tomorrow;;401
+n-spa-124;;la;;cantidad;;quantity;;404
+n-spa-125;;la;;acción;;action;;405
+n-spa-126;;la;;sociedad;;society;;408
+n-spa-127;;el;;peso;;weight;;417
+n-spa-128;;el;;efecto;;effect;;418
+n-spa-129;;el;;objeto;;object;;419
+n-spa-130;;el;;amor;;love;;423
+n-spa-131;;la;;muerte;;death;;424
+n-spa-132;;el;;partido;;party; game, match;;425
+n-spa-133;;el;;derecho;;right, law;;427
+n-spa-134;;el;;poder;;power, control; influence; ability; branch of government; force; possession; power of attorney;;428
+n-spa-135;;la;;importancia;;importance;;429
+n-spa-136;;el;;sistema;;system;;430
+n-spa-137;;el;;viaje;;travel;;431
+n-spa-138;;el;;suelo;;ground, floor;;432
+n-spa-139;;el;;respecto;;respect;;433
+n-spa-140;;el;;conocimiento;;knowledge;;434
+n-spa-141;;la;;libertad;;freedom, liberty;;435
+n-spa-142;;la;;atención;;attention;;441
+n-spa-143;;el;;esfuerzo;;effort;;444
+n-spa-144;;el;;resto;;rest;;447
+n-spa-145;;la;;zona;;area, zone;;449
+n-spa-146;;el;;miedo;;fear;;450
+n-spa-147;;el;;proceso;;process;;452
+n-spa-148;;el;;minuto;;minute;;459
+n-spa-149;;la;;mesa;;table;;461
+n-spa-150;;la;;ocasión;;occasion;;463
+n-spa-151;;el;;programa;;program;;467
+n-spa-152;;el;;favor;;favor;;468
+n-spa-153;;la;;respuesta;;answer, response;;472
+n-spa-154;;la;;línea;;line;;473
+n-spa-155;;el;;espacio;;space;;474
+n-spa-156;;el;;nivel;;level;;475
+n-spa-157;;el;;gobierno;;government;;476
+n-spa-158;;el;;cabo;;end, stub, end piece;;477
+n-spa-159;;la;;pregunta;;question;;481
+n-spa-160;;la;;imagen;;image;;484
+n-spa-161;;la;;carrera;;run, running; race; career;;485
+n-spa-162;;la;;ﬁgura;;ﬁgure;;495
+n-spa-163;;el;;animal;;animal;;497
+n-spa-164;;la;;base;;base;;498
+n-spa-165;;la;;posición;;position;;503
+n-spa-166;;el;;motivo;;motive;;504
+n-spa-167;;la;;prueba;;proof, evidence; trial, test;;505
+n-spa-168;;la;;política;;politics, policy;;506
+n-spa-169;;el;;dato;;fact;;513
+n-spa-170;;los;;datos;;data, information;;513
+n-spa-171;;la;;empresa;;business;;517
+n-spa-172;;el;;asunto;;affair, matter, subject;;518
+n-spa-173;;la;;presencia;;appearance, presence;;519
+n-spa-174;;la;;cultura;;culture;;521
+n-spa-175;;la;;serie;;series;;522
+n-spa-176;;el;;carácter;;character, kind;;530
+n-spa-177;;la;;mayoría;;majority;;531
+n-spa-178;;la;;escuela;;school;;532
+n-spa-179;;el;;autor, la autora;;author;;538
+n-spa-180;;el;;hermano;;brother;;539
+n-spa-181;;la;;función;;function; duty; performance;;543
+n-spa-182;;la;;causa;;cause;;546
+n-spa-183;;la;;decisión;;decision;;549
+n-spa-184;;la;;música;;music;;550
+n-spa-185;;la;;expresión;;expression;;555
+n-spa-186;;el;;río;;river;;559
+n-spa-187;;la;;seguridad;;safety, security;;560
+n-spa-188;;el;;término;;end; term, expression;;561
+n-spa-189;;el;;metro;;meter, subway;;563
+n-spa-190;;el;;o la médico;;doctor;;564
+n-spa-191;;el;;arte;;art;;567
+n-spa-192;;la;;consecuencia;;consequence;;570
+n-spa-193;;el;;acto;;act;;572
+n-spa-194;;la;;pena;;sentence, penalty; sorrow, grief; problem;;575
+n-spa-195;;el;;segundo;;second;;577
+n-spa-196;;la;;altura;;height, altitude;;578
+n-spa-197;;el;;deseo;;desire, wish;;579
+n-spa-198;;el;;joven;;young person;;581
+n-spa-199;;el;;sueño;;dream, sleep;;583
+n-spa-200;;la;;tarea;;task, homework;;585
+n-spa-201;;la;;carta;;letter, correspondence; playing card; charter, constitution; menu; map, chart;;586
+n-spa-202;;la;;propiedad;;property;;588
+n-spa-203;;el;;producto;;product;;589
+n-spa-204;;el;;gusto;;taste, pleasure;;593
+n-spa-205;;la;;ayuda;;help, assistance;;594
+n-spa-206;;la;;lengua;;tongue, language;;596
+n-spa-207;;el;;plan;;plan;;598
+n-spa-208;;la;;vuelta;;turn, revolution, lap; return; change;;600
+n-spa-209;;el;;proyecto;;project, plan;;604
+n-spa-210;;la;;memoria;;memory;;605
+n-spa-211;;el;;origen;;beginning, origin;;606
+n-spa-212;;el;;elemento;;element;;607
+n-spa-213;;el;;mercado;;market;;609
+n-spa-214;;el;;curso;;course, direction; school year; course, school subject;;610
+n-spa-215;;la;;sangre;;blood;;613
+n-spa-216;;el;;interior;;interior;;614
+n-spa-217;;el;;uso;;use; usage;;619
+n-spa-218;;el;;brazo;;arm;;620
+n-spa-219;;el;;o la profesor;;professor;;621
+n-spa-220;;el;;futuro;;future;;623
+n-spa-221;;la;;oportunidad;;opportunity, chance;;624
+n-spa-222;;la;;mitad;;half; middle;;625
+n-spa-223;;el;;recuerdo;;memories, a memory, remembrance, souvenir;;628
+n-spa-224;;la;;opinión;;opinion;;632
+n-spa-225;;la;;boca;;mouth, entrance, opening;;635
+n-spa-226;;la;;dirección;;address; direction; leadership; steering;;636
+n-spa-227;;la;;pieza;;piece, part;;639
+n-spa-228;;la;;actitud;;attitude;;644
+n-spa-229;;el;;mar;;sea;;645
+n-spa-230;;la;;entrada;;entrance, admission ticket; beginning; entrée; musical cue;;647
+n-spa-231;;el;;contacto;;contact;;648
+n-spa-232;;el;;corazón;;heart, core;;649
+n-spa-233;;el;;capital;;capital, money;;651
+n-spa-234;;la;;capital;;capital city;;651
+n-spa-235;;el;;título;;title, heading;;653
+n-spa-236;;el;;cuarto;;quarter, fourth, room;;655
+n-spa-237;;el;;material;;material;;656
+n-spa-238;;el;;golpe;;hit, strike, punch;;657
+n-spa-239;;la;;comunicación;;communication;;659
+n-spa-240;;la;;enfermedad;;sickness, illness;;666
+n-spa-241;;el;;bien;;benefit, belongings;;667
+n-spa-242;;la;;materia;;matter, material, subject;;668
+n-spa-243;;el;;sitio;;place, space;;672
+n-spa-244;;la;;naturaleza;;nature, character;;674
+n-spa-245;;la;;capacidad;;capacity;;675
+n-spa-246;;la;;distancia;;distance;;678
+n-spa-247;;la;;información;;information;;682
+n-spa-248;;el;;ambiente;;atmosphere; environment;;683
+n-spa-249;;el;;desarrollo;;development;;685
+n-spa-250;;el;;sol;;sun;;686
+n-spa-251;;el;;compañero, la compañera;;companion, mate, partner;;693
+n-spa-252;;la;;salida;;exit; departure; solution; start of a race; wisecrack; sunrise;;694
+n-spa-253;;la;;conciencia;;conscience, consciousness;;696
+n-spa-254;;la;;costumbre;;custom;;700
+n-spa-255;;la;;paz;;peace;;702
+n-spa-256;;la;;noticia;;news;;703
+n-spa-257;;la;;circunstancia;;circumstance;;704
+n-spa-258;;el;;dolor;;pain, ache, grief;;705
+n-spa-259;;el;;estilo;;style;;707
+n-spa-260;;el;;precio;;price, cost, value;;708
+n-spa-261;;la;;planta;;plant, sole;;711
+n-spa-262;;el;;personaje;;fictional character, celebrity;;712
+n-spa-263;;el;;éxito;;success;;714
+n-spa-264;;la;;hija;;daughter;;715
+n-spa-265;;el;;ediﬁcio;;building;;717
+n-spa-266;;la;;autoridad;;authority;;718
+n-spa-267;;la;;piedra;;stone;;719
+n-spa-268;;el;;conjunto;;collection, group; ensemble, outfit; whole, entirety;;721
+n-spa-269;;la;;suerte;;luck; fate;;725
+n-spa-270;;el;;espíritu;;spirit;;731
+n-spa-271;;el;;miembro;;member, limb;;732
+n-spa-272;;el;;recurso;;resource, recourse, means;;735
+n-spa-273;;la;;pared;;interior wall;;736
+n-spa-274;;el;;equipo;;team; gear or equipment;;737
+n-spa-275;;el;;error;;error, mistake;;738
+n-spa-276;;la;;diﬁcultad;;difﬁculty;;741
+n-spa-277;;la;;voluntad;;will, willpower, intention;;745
+n-spa-278;;la;;reunión;;meeting, reunion;;746
+n-spa-279;;el;;o la modelo;;model;;747
+n-spa-280;;la;;fecha;;date;;749
+n-spa-281;;el;;propósito;;intention, purpose;;752
+n-spa-282;;el;;cuidado;;care, concern;;754
+n-spa-283;;el;;puesto;;job, place, position;;755
+n-spa-284;;el;;grado;;degree, grade;;756
+n-spa-285;;la;;lucha;;ﬁght, struggle, wrestle;;758
+n-spa-286;;el;;jefe;;leader, boss, manager;;761
+n-spa-287;;el;;periódico;;newspaper, periodical;;765
+n-spa-288;;el;;par;;pair, couple;;768
+n-spa-289;;el;;público;;public, audience;;769
+n-spa-290;;la;;calidad;;quality;;772
+n-spa-291;;la;;ciencia;;science;;775
+n-spa-292;;el;;tamaño;;size, dimension;;776
+n-spa-293;;el;;o la doctor;;doctor;;778
+n-spa-294;;el;;cuadro;;square; painting, picture; baseball diamond, infield; panel, board;;779
+n-spa-295;;el;;caballo;;horse;;780
+n-spa-296;;la;;responsabilidad;;responsibility;;781
+n-spa-297;;el;;detalle;;detail;;784
+n-spa-298;;la;;marcha;;march, progress;;785
+n-spa-299;;la;;carne;;meat, flesh;;787
+n-spa-300;;el;;pensamiento;;thought, thinking;;789
+n-spa-301;;el;;cargo;;burden; charge or duty; position or office;;791
+n-spa-302;;la;;construcción;;construction;;794
+n-spa-303;;el;;juicio;;judgment;;795
+n-spa-304;;el;;terreno;;terrain; earth, ground; plot or tract of land;;796
+n-spa-305;;el;;piso;;ﬂoor, storey;;797
+n-spa-306;;la;;compañía;;company . . . as in a group of people or a business;;798
+n-spa-307;;el;;texto;;text;;800
+n-spa-308;;la;;fuente;;spring, fountain, source;;801
+n-spa-309;;el;;presente;;present;;802
+n-spa-310;;la;;revista;;magazine, journal;;804
+n-spa-311;;la;;esperanza;;hope;;805
+n-spa-312;;la;;máquina;;machine;;806
+n-spa-313;;la;;frase;;phrase;;809
+n-spa-314;;la;;sala;;room, hall;;811
+n-spa-315;;el;;instrumento;;instrument;;813
+n-spa-316;;la;;defensa;;defense;;815
+n-spa-317;;el;;director, la directora;;director, manager; orchestral conductor;;816
+n-spa-318;;la;;explicación;;explanation;;818
+n-spa-319;;el;;artículo;;geleral article, grammatical article, magazine article;;819
+n-spa-320;;el;;radio;;radio set;;824
+n-spa-321;;la;;radio;;radio communication;;824
+n-spa-322;;la;;película;;movie, ﬁlm;;826
+n-spa-323;;la;;elección;;choice, selection, election;;827
+n-spa-324;;la;;visita;;visit; visitor;;828
+n-spa-325;;el;;apoyo;;support;;830
+n-spa-326;;el;;presidente;;president;;831
+n-spa-327;;la;;arma;;weapon;;832
+n-spa-328;;el;;árbol;;tree;;833
+n-spa-329;;el;;encuentro;;meeting, encounter;;836
+n-spa-330;;la;;corriente;;current, flow of current;;838
+n-spa-331;;la;;lectura;;reading;;839
+n-spa-332;;la;;existencia;;existence, life;;840
+n-spa-333;;el;;lenguaje;;language, speech;;841
+n-spa-334;;el;;destino;;destiny, fate; destination;;844
+n-spa-335;;la;;educación;;education;;845
+n-spa-336;;la;;operación;;operation;;848
+n-spa-337;;la;;nota;;note, grade;;853
+n-spa-338;;el;;teatro;;theater, drama;;861
+n-spa-339;;el;;negocio;;business, transaction;;864
+n-spa-340;;la;;letra;;letter, handwriting, lyrics;;865
+n-spa-341;;el;;sentimiento;;feeling, sentiment;;867
+n-spa-342;;la;;solución;;solution, answer;;871
+n-spa-343;;la;;comida;;food, meal, dinner;;873
+n-spa-344;;la;;impresión;;impression, printing;;874
+n-spa-345;;el;;plano;;plane, map, level;;875
+n-spa-346;;la;;intención;;intention;;876
+n-spa-347;;el;;ritmo;;rhythm;;877
+n-spa-348;;el;;banco;;banking institution; stool, bench; pew; school of fish;;881
+n-spa-349;;la;;piel;;skin, hide, fur;;884
+n-spa-350;;el;;control;;control;;889
+n-spa-351;;la;;investigación;;investigation;;890
+n-spa-352;;la;;conversación;;conversation;;892
+n-spa-353;;el;;verano;;summer;;893
+n-spa-354;;el;;respeto;;respect, regard;;894
+n-spa-355;;el;;norte;;north;;895
+n-spa-356;;la;;tradición;;tradition;;898
+n-spa-357;;la;;población;;population;;900
+n-spa-358;;la;;pareja;;couple, pair;;901
+n-spa-359;;el;;pasado;;past;;902
+n-spa-360;;el;;diario;;newspaper;;903
+n-spa-361;;la;;generación;;generation;;906
+n-spa-362;;la;;visión;;vision;;908
+n-spa-363;;el;;peligro;;danger, menace;;913
+n-spa-364;;el;;oro;;gold;;914
+n-spa-365;;el;;vino;;wine;;917
+n-spa-366;;la;;etapa;;period, stage;;921
+n-spa-367;;el;;silencio;;silence;;923
+n-spa-368;;el;;o la artista;;artist, performer;;928
+n-spa-369;;la;;labor;;labor, work, task;;930
+n-spa-370;;el;;cielo;;sky, heaven, ceiling;;932
+n-spa-371;;la;;práctica;;practice, skill;;933
+n-spa-372;;el;;límite;;limit;;934
+n-spa-373;;la;;masa;;mass; dough, batter;;935
+n-spa-374;;las;;masas;;the masses;;935
+n-spa-375;;la;;formación;;formation, education;;938
+n-spa-376;;el;;perro;;dog;;939
+n-spa-377;;la;;izquierda;;left;;940
+n-spa-378;;la;;energía;;energy;;946
+n-spa-379;;la;;conﬁanza;;conﬁdence, trust;;947
+n-spa-380;;la;;ﬂor;;ﬂower;;950
+n-spa-381;;el;;esposo, la esposa;;spouse;;951
+n-spa-382;;la;;revolución;;revolution;;957
+n-spa-383;;el;;maestro, la maestra;;teacher, master;;961
+n-spa-384;;el;;fenómeno;;phenomenon;;966
+n-spa-385;;la;;presión;;pressure;;967
+n-spa-386;;el;;alumno, la alumna;;pupil, student;;969
+n-spa-387;;la;;teoría;;theory;;970
+n-spa-388;;el;;tono;;tone;;972
+n-spa-389;;la;;salud;;health;;973
+n-spa-390;;la;;vía;;road, route, railroad track;;982
+n-spa-391;;la;;alma;;soul;;984
+n-spa-392;;la;;madera;;wood;;987
+n-spa-393;;la;;ﬁesta;;party, feast;;988
+n-spa-394;;el;;calor;;heat, warmth;;989
+n-spa-395;;el;;hogar;;home, hearth;;992
+n-spa-396;;la;;mente;;mind;;993
+n-spa-397;;la;;preocupación;;worry, concern;;995
+n-spa-398;;el;;concepto;;concept;;997
+n-spa-399;;el;;teléfono;;phone, telephone;;999
+n-spa-400;;la;;hoja;;sheet, leaf;;1000
+n-spa-401;;el;;escritor, la escritora;;writer;;1011
+n-spa-402;;el;;intento;;attempt, try;;1012
+n-spa-403;;la;;regla;;rule, ruler, regulation;;1014
+n-spa-404;;el;;riesgo;;risk;;1016
+n-spa-405;;el;;o la policía;;police;;1017
+n-spa-406;;el;;o la estudiante;;student;;1019
+n-spa-407;;la;;plaza;;square, marketplace;;1020
+n-spa-408;;la;;llamada;;call, knock;;1022
+n-spa-409;;la;;sensación;;sensation, feeling;;1023
+n-spa-410;;el;;enemigo, la enemiga;;enemy;;1024
+n-spa-411;;la;;unidad;;unit, unity;;1025
+n-spa-412;;el;;idioma;;language (i.....);;1027
+n-spa-413;;la;;raíz;;root of a plant;;1028
+n-spa-414;;el;;compromiso;;compromise;;1029
+n-spa-415;;el;;comentario;;comment, remark; commentary;;1030
+n-spa-416;;la;;carga;;cargo, freight; burden; charge of energy; attack;;1031
+n-spa-417;;el;;marido;;husband (m.....);;1032
+n-spa-418;;la;;derecha;;to the right, right hand;;1035
+n-spa-419;;el;;extremo;;extreme, end;;1036
+n-spa-420;;el;;individuo;;individual, person;;1037
+n-spa-421;;el;;contenido;;contents, content;;1038
+n-spa-422;;la;;obligación;;obligation;;1040
+n-spa-423;;el;;corte;;cut;;1041
+n-spa-424;;la;;corte;;court;;1041
+n-spa-425;;el;;total;;total;;1043
+n-spa-426;;el;;daño;;damage; harm, injury;;1045
+n-spa-427;;el;;mensaje;;message;;1047
+n-spa-428;;la;;lista;;list, roster, roll;;1049
+n-spa-429;;la;;región;;region;;1050
+n-spa-430;;la;;niña;;child, young girl;;1052
+n-spa-431;;la;;culpa;;fault, blame;;1053
+n-spa-432;;la;;discusión;;discussion, argument;;1055
+n-spa-433;;el;;pelo;;hair;;1056
+n-spa-434;;la;;fe;;faith;;1060
+n-spa-435;;la;;referencia;;reference, allusion;;1063
+n-spa-436;;el;;sur;;south;;1064
+n-spa-437;;el;;gesto;;gesture;;1065
+n-spa-438;;la;;perspectiva;;perspective;;1066
+n-spa-439;;el;;colegio;;colegio, escuela;;1073
+n-spa-440;;la;;venta;;sale;;1075
+n-spa-441;;el;;documento;;document;;1076
+n-spa-442;;la;;televisión;;television;;1078
+n-spa-443;;el;;chico;;boy;;1079
+n-spa-444;;la;;novela;;novel;;1080
+n-spa-445;;el;;alcance;;reach;;1083
+n-spa-446;;la;;crisis;;crisis;;1085
+n-spa-447;;la;;literatura;;literature;;1090
+n-spa-448;;la;;batalla;;battle;;1091
+n-spa-449;;el;;dueño, la dueña;;owner, proprietor, landlord;;1093
+n-spa-450;;el;;vecino;;neighbor;;1095
+n-spa-451;;el;;sector;;sector;;1096
+n-spa-452;;la;;pintura;;painting, paint;;1097
+n-spa-453;;el;;accidente;;accident;;1098
+n-spa-454;;la;;inﬂuencia;;inﬂuence;;1102
+n-spa-455;;el;;empleado;;employee;;1104
+n-spa-456;;la;;moneda;;coins, currency;;1107
+n-spa-457;;la;;facilidad;;ease, facility;;1108
+n-spa-458;;el;;matrimonio;;marriage;;1109
+n-spa-459;;la;;iglesia;;church;;1111
+n-spa-460;;la;;oﬁcina;;ofﬁce;;1113
+n-spa-461;;la;;institución;;institution;;1115
+n-spa-462;;el;;frío;;cold;;1120
+n-spa-463;;el;;domingo;;Sunday;;1121
+n-spa-464;;la;;reacción;;reaction;;1122
+n-spa-465;;el;;acontecimiento;;event;;1125
+n-spa-466;;la;;costa;;coast;;1126
+n-spa-467;;el;;método;;method;;1129
+n-spa-468;;la;;comunidad;;community;;1130
+n-spa-469;;el;;coche;;car;;1131
+n-spa-470;;la;;página;;page;;1135
+n-spa-471;;la;;frecuencia;;frequency;;1137
+n-spa-472;;la;;conclusión;;conclusion;;1138
+n-spa-473;;la;;escena;;scene, stage;;1139
+n-spa-474;;la;;estructura;;structure;;1141
+n-spa-475;;el;;beneﬁcio;;gain, profit; benefit;;1142
+n-spa-476;;el;;alimento;;food, nourishment;;1143
+n-spa-477;;la;;velocidad;;speed, velocity; automobile gear;;1145
+n-spa-478;;el;;barrio;;neighborhood;;1146
+n-spa-479;;el;;análisis;;analysis;;1148
+n-spa-480;;la;;frontera;;border, frontier;;1150
+n-spa-481;;el;;temor;;fear;;1154
+n-spa-482;;el;;ataque;;attack;;1157
+n-spa-483;;el;;cine;;cinema, movies;;1159
+n-spa-484;;la;;rama;;branch, limb;;1160
+n-spa-485;;el;;comienzo;;start, beginning;;1162
+n-spa-486;;el;;barco;;boat, ship;;1164
+n-spa-487;;la;;partida;;game, match, departure;;1165
+n-spa-488;;el;;aparato;;machine, appliance, apparatus; system; display;;1168
+n-spa-489;;el;;extranjero;;foreigner;;1171
+n-spa-490;;la;;cámara;;camera, chamber;;1172
+n-spa-491;;la;;creación;;creation;;1173
+n-spa-492;;la;;gana;;desire;;1177
+n-spa-493;;la;;moda;;fashion, form;;1180
+n-spa-494;;el;;ruido;;noise;;1184
+n-spa-495;;la;;cama;;bed;;1185
+n-spa-496;;la;;técnica;;technique;;1187
+n-spa-497;;el;;consejo;;advice;;1188
+n-spa-498;;la;;violencia;;violence;;1190
+n-spa-499;;el;;sonido;;sound;;1192
+n-spa-500;;la;;estrella;;star;;1194
+n-spa-501;;la;;mirada;;gaze, look;;1197
+n-spa-502;;la;;pierna;;leg;;1201
+n-spa-503;;la;;hambre;;hunger, starvation;;1204
+n-spa-504;;el;;placer;;pleasure;;1205
+n-spa-505;;la;;profesión;;profession, occupation;;1206
+n-spa-506;;el;;objetivo;;objective;;1210
+n-spa-507;;el;;honor;;honor, honesty;;1211
+n-spa-508;;la;;montaña;;mountain;;1212
+n-spa-509;;el;;instante;;instant, moment;;1215
+n-spa-510;;el;;viento;;wind, scent;;1216
+n-spa-511;;la;;lluvia;;rain;;1217
+n-spa-512;;el;;ejército;;army;;1218
+n-spa-513;;el;;tren;;train, convoy;;1220
+n-spa-514;;el;;círculo;;circle, club;;1222
+n-spa-515;;la;;ventaja;;advantage, beneﬁt;;1226
+n-spa-516;;la;;isla;;island;;1229
+n-spa-517;;la;;amistad;;friendship;;1232
+n-spa-518;;la;;cadena;;chain;;1236
+n-spa-519;;el;;político;;politician;;1237
+n-spa-520;;el;;rey;;king;;1238
+n-spa-521;;el;;ánimo;;zest, spirit, heart;;1240
+n-spa-522;;el;;trato;;treatment, manner, agreement;;1241
+n-spa-523;;el;;ejercicio;;exercise, practice;;1242
+n-spa-524;;la;;organización;;organization;;1243
+n-spa-525;;el;;agosto;;August;;1244
+n-spa-526;;el;;o la secretario(a);;secretary;;1245
+n-spa-527;;el;;dedo;;ﬁnger, toe, digit;;1248
+n-spa-528;;el;;gasto;;expense, expenditure;;1249
+n-spa-529;;el;;café;;coffee, café;;1250
+n-spa-530;;el;;diálogo;;dialogue, conversation;;1251
+n-spa-531;;el;;discurso;;lecture, discourse, talk;;1254
+n-spa-532;;la;;hermana;;sister;;1256
+n-spa-533;;la;;caja;;bank, box, safe;;1258
+n-spa-534;;el;;o la juez(a);;judge;;1259
+n-spa-535;;el;;particular;;individual, matter;;1260
+n-spa-536;;la;;poeta;;poet;;1262
+n-spa-537;;la;;sorpresa;;surprise;;1264
+n-spa-538;;la;;ventana;;window;;1265
+n-spa-539;;la;;característica;;characteristic, aspect;;1266
+n-spa-540;;la;;suma;;sum, amount, summary;;1271
+n-spa-541;;el;;volumen;;volume;;1274
+n-spa-542;;la;;estación;;station, season;;1275
+n-spa-543;;el;;argumento;;argument, plot;;1279
+n-spa-544;;la;;categoría;;category;;1280
+n-spa-545;;la;;plata;;silver, money;;1281
+n-spa-546;;el;;conﬂicto;;conﬂict;;1282
+n-spa-547;;el;;avión;;plane, airplane, aircraft;;1283
+n-spa-548;;la;;ropa;;clothes, clothing;;1285
+n-spa-549;;el;;examen;;examination, exam;;1286
+n-spa-550;;el;;habitante;;inhabitant;;1287
+n-spa-551;;la;;justicia;;justice, fairness;;1290
+n-spa-552;;el;;criterio;;criterion;;1292
+n-spa-553;;el;;plazo;;deadline, installment;;1295
+n-spa-554;;el;;kilómetro;;kilometer;;1297
+n-spa-555;;el;;hospital;;hospital;;1298
+n-spa-556;;la;;satisfacción;;satisfaction;;1299
+n-spa-557;;la;;silla;;chair, seat;;1307
+n-spa-558;;la;;juventud;;youth;;1311
+n-spa-559;;el;;acceso;;access, entry;;1315
+n-spa-560;;el;;marco;;frame, mark, setting;;1316
+n-spa-561;;la;;prensa;;press;;1318
+n-spa-562;;la;;excepción;;exception;;1319
+n-spa-563;;la;;ausencia;;absence;;1321
+n-spa-564;;la;;sombra;;shade, shadow;;1324
+n-spa-565;;la;;profundidad;;depth, profundity;;1330
+n-spa-566;;la;;leche;;milk;;1334
+n-spa-567;;la;;consideración;;consideration, regard;;1335
+n-spa-568;;el;;premio;;prize, reward;;1337
+n-spa-569;;el;;nacimiento;;birth, origin;;1339
+n-spa-570;;el;;invierno;;winter;;1340
+n-spa-571;;el;;diciembre;;December;;1341
+n-spa-572;;el;;comportamiento;;behavior, conduct;;1343
+n-spa-573;;la;;crítica;;criticism, critique;;1344
+n-spa-574;;el;;fuego;;ﬁre, gunﬁre;;1346
+n-spa-575;;la;;tendencia;;tendency, style;;1347
+n-spa-576;;la;;norma;;standard, pattern, norm;;1349
+n-spa-577;;la;;rueda;;wheel;;1352
+n-spa-578;;el;;puente;;bridge;;1353
+n-spa-579;;el;;rasgo;;feature, trait;;1355
+n-spa-580;;el;;cuento;;story, tale;;1357
+n-spa-581;;el;;signo;;sign, mark, symbol;;1359
+n-spa-582;;la;;señal;;signal;;1360
+n-spa-583;;la;;campaña;;campaign;;1362
+n-spa-584;;el;;puerto;;port, harbor;;1364
+n-spa-585;;la;;aventura;;adventure;;1366
+n-spa-586;;la;;marca;;mark, brand, trademark;;1370
+n-spa-587;;la;;ilusión;;illusion, hope, dream;;1372
+n-spa-588;;la;;compra;;shopping, buy, purchase;;1374
+n-spa-589;;la;;inteligencia;;intelligence;;1375
+n-spa-590;;la;;virtud;;virtue, quality;;1378
+n-spa-591;;el;;remedio;;alternative, cure, solution;;1379
+n-spa-592;;el;;territorio;;territory;;1382
+n-spa-593;;la;;facultad;;faculty, ability;;1383
+n-spa-594;;la;;fotografía;;photograph;;1385
+n-spa-595;;el;;techo;;roof;;1386
+n-spa-596;;la;;conducta;;conduct, behavior;;1388
+n-spa-597;;el;;salto;;jump, hop, skip;;1391
+n-spa-598;;el;;pan;;bread;;1392
+n-spa-599;;la;;disposición;;disposal, disposition;;1398
+n-spa-600;;el;;general;;general;;1400
+n-spa-601;;la;;disciplina;;discipline;;1401
+n-spa-602;;el;;personal;;personnel;;1404
+n-spa-603;;la;;columna;;column, spine;;1406
+n-spa-604;;el;;indio;;Indian;;1411
+n-spa-605;;el;;gato;;cat;;1412
+n-spa-606;;el;;o la margen;;bank, edge, margin;;1413
+n-spa-607;;la;;resistencia;;resistance;;1415
+n-spa-608;;la;;pérdida;;loss;;1417
+n-spa-609;;el;;tratamiento;;treatment, processing;;1418
+n-spa-610;;la;;entrevista;;interview;;1419
+n-spa-611;;el;;espectáculo;;spectacle, show;;1420
+n-spa-612;;la;;personalidad;;personality, celebrity;;1421
+n-spa-613;;el;;mayo;;May;;1422
+n-spa-614;;la;;representación;;representation;;1425
+n-spa-615;;el;;régimen;;regime, diet;;1426
+n-spa-616;;la;;punta;;tip, point;;1427
+n-spa-617;;la;;alegría;;joy, happiness;;1429
+n-spa-618;;la;;misión;;mission, task;;1432
+n-spa-619;;el;;empleo;;work, job, occupation;;1436
+n-spa-620;;la;;participación;;participation, involvement;;1438
+n-spa-621;;el;;período;;period, time;;1440
+n-spa-622;;la;;busca;;search, hunt;;1441
+n-spa-623;;la;;superﬁcie;;surface;;1442
+n-spa-624;;la;;pasión;;passion, desire;;1445
+n-spa-625;;el;;vehículo;;vehicle, car;;1446
+n-spa-626;;el;;enero;;January;;1449
+n-spa-627;;el;;capítulo;;chapter;;1450
+n-spa-628;;el;;fracaso;;failure, collapse;;1451
+n-spa-629;;el;;experto;;expert;;1452
+n-spa-630;;la;;inquietud;;restlessness, anxiety;;1453
+n-spa-631;;el;;organismo;;organization, organism;;1458
+n-spa-632;;la;;canción;;song;;1459
+n-spa-633;;la;;religión;;religion;;1460
+n-spa-634;;el;;departamento;;department;;1462
+n-spa-635;;la;;periodista;;journalist;;1464
+n-spa-636;;la;;interpretación;;interpretation;;1468
+n-spa-637;;la;;belleza;;beauty;;1472
+n-spa-638;;la;;universidad;;university;;1473
+n-spa-639;;la;;riqueza;;riches, wealth;;1474
+n-spa-640;;el;;rato;;moment, while, time;;1478
+n-spa-641;;el;;equilibrio;;balance;;1487
+n-spa-642;;el;;fruto;;fruit, result;;1490
+n-spa-643;;el;;o la representante;;representative;;1491
+n-spa-644;;el;;exceso;;excess;;1495
+n-spa-645;;la;;capa;;layer, coat;;1496
+n-spa-646;;el;;defecto;;defect;;1497
+n-spa-647;;la;;fábrica;;factory, manufacture;;1498
+n-spa-648;;la;;espalda;;back . . . body part;;1499
+n-spa-649;;el;;género;;sort, gender, genre;;1501
+n-spa-650;;la;;economía;;economy, economics, thriftiness;;1504
+n-spa-651;;el;;bosque;;forest;;1506
+n-spa-652;;el;;paisaje;;landscape;;1508
+n-spa-653;;el;;llamado;;call, calling;;1510
+n-spa-654;;el;;paciente;;patient;;1511
+n-spa-655;;la;;tensión;;tension, stress, strain;;1514
+n-spa-656;;el;;ministro;;government secretary, minister;;1519
+n-spa-657;;el;;impulso;;impulse, momentum;;1520
+n-spa-658;;el;;comercio;;commerce, trade;;1522
+n-spa-659;;la;;espera;;wait;;1525
+n-spa-660;;la;;reserva;;reservation, reserve;;1527
+n-spa-661;;la;;competencia;;competition, contest;;1529
+n-spa-662;;la;;observación;;observation;;1535
+n-spa-663;;el;;vacío;;emptiness, void;;1538
+n-spa-664;;la;;cifra;;figure, number;;1540
+n-spa-665;;la;;escala;;scale, ladder, rank;;1542
+n-spa-666;;el;;procedimiento;;procedure, proceedings;;1544
+n-spa-667;;la;;fórmula;;formula;;1546
+n-spa-668;;el;;ámbito;;sphere, space;;1547
+n-spa-669;;el;;informe;;report;;1548
+n-spa-670;;la;;dimensión;;dimension, size;;1549
+n-spa-671;;el;;o la cliente;;customer, client;;1550
+n-spa-672;;la;;manifestación;;protest, manifestation;;1551
+n-spa-673;;el;;pico;;beak, peak;;1553
+n-spa-674;;la;;sensibilidad;;sensitivity;;1554
+n-spa-675;;el;;regreso;;return;;1557
+n-spa-676;;la;;temperatura;;temperature;;1558
+n-spa-677;;el;;julio;;July;;1559
+n-spa-678;;la;;bomba;;bomb, explosion, pump;;1562
+n-spa-679;;el;;órgano;;organ;;1563
+n-spa-680;;el;;avance;;advance, progress;;1565
+n-spa-681;;la;;humanidad;;humanity, mankind;;1566
+n-spa-682;;la;;ﬁrma;;company, signature, signing;;1567
+n-spa-683;;el;;soldado;;soldier;;1568
+n-spa-684;;el;;clima;;climate;;1576
+n-spa-685;;la;;emoción;;emotion, excitement;;1577
+n-spa-686;;el;;automóvil;;automobile;;1578
+n-spa-687;;el;;mal;;harm, evil, wrong;;1580
+n-spa-688;;la;;habilidad;;skill, ability;;1582
+n-spa-689;;la;;identidad;;identity;;1583
+n-spa-690;;la;;desgracia;;misfortune, bad luck;;1584
+n-spa-691;;el;;deber;;duty;;1588
+n-spa-692;;la;;cola;;line, queue, tail;;1589
+n-spa-693;;el;;progreso;;progress;;1591
+n-spa-694;;la;;muestra;;proof, sample, sign;;1594
+n-spa-695;;el;;hábito;;habit;;1596
+n-spa-696;;el;;mecanismo;;mechanism;;1599
+n-spa-697;;la;;vivienda;;housing, dwelling;;1600
+n-spa-698;;la;;área;;area, zone;;1602
+n-spa-699;;la;;mezcla;;mixture, blend;;1606
+n-spa-700;;la;;habitación;;room, bedroom, habitat;;1610
+n-spa-701;;la;;instrucción;;instruction;;1611
+n-spa-702;;la;;versión;;version, account;;1613
+n-spa-703;;el;;lujo;;luxury;;1614
+n-spa-704;;la;;intervención;;intervention;;1615
+n-spa-705;;la;;llegada;;arrival;;1616
+n-spa-706;;la;;testigo;;witness;;1618
+n-spa-707;;el;;dominio;;power, control;;1619
+n-spa-708;;la;;raza;;race, lineage;;1620
+n-spa-709;;el;;descubrimiento;;discovery;;1622
+n-spa-710;;las;;vacaciones;;vacation;;1623
+n-spa-711;;la;;provincia;;province, region;;1624
+n-spa-712;;el;;saber;;knowledge;;1625
+n-spa-713;;la;;claridad;;clearness, clarity;;1630
+n-spa-714;;la;;arena;;sand;;1635
+n-spa-715;;la;;postura;;posture, position, attitude;;1636
+n-spa-716;;el;;salón;;hall, room;;1637
+n-spa-717;;el;;escenario;;stage, setting, scene;;1638
+n-spa-718;;el;;largo;;length;;1640
+n-spa-719;;el;;hotel;;hotel;;1643
+n-spa-720;;el;;oﬁcio;;job, occupation, function;;1644
+n-spa-721;;la;;ﬁla;;line, row, ﬁle;;1647
+n-spa-722;;el;;o la patrón(a);;employer, landlord, patron saint;;1648
+n-spa-723;;el;;pecho;;chest, breast;;1649
+n-spa-724;;la;;tienda;;shop, store, tent;;1650
+n-spa-725;;la;;protección;;protection;;1652
+n-spa-726;;el;;funcionario;;civil servant;;1653
+n-spa-727;;el;;transporte;;transportation, transport;;1657
+n-spa-728;;la;;red;;network, net, system;;1658
+n-spa-729;;la;;caída;;fall, drop, falling;;1659
+n-spa-730;;el;;valle;;valley;;1663
+n-spa-731;;el;;vuelo;;ﬂight;;1665
+n-spa-732;;el;;sexo;;sex;;1667
+n-spa-733;;la;;iniciativa;;initiative;;1668
+n-spa-734;;la;;concentración;;concentration, gathering;;1670
+n-spa-735;;el;;grito;;cry, shout, scream;;1671
+n-spa-736;;la;;esencia;;essence;;1672
+n-spa-737;;la;;cocina;;kitchen;;1673
+n-spa-738;;el;;reﬂejo;;reﬂection;;1675
+n-spa-739;;la;;deﬁnición;;deﬁnition;;1676
+n-spa-740;;el;;abogado;;lawyer;;1680
+n-spa-741;;la;;sesión;;session, meeting;;1683
+n-spa-742;;el;;reloj;;clock, watch;;1685
+n-spa-743;;el;;muchacho;;boy;;1687
+n-spa-744;;el;;octubre;;October;;1688
+n-spa-745;;la;;exposición;;exhibition, display;;1689
+n-spa-746;;el;;ingreso;;entrance, admission, income;;1690
+n-spa-747;;el;;dibujo;;drawing, sketch;;1692
+n-spa-748;;el;;hueso;;bone;;1695
+n-spa-749;;el;;o la militar;;soldier, military person;;1697
+n-spa-750;;el;;motor;;engine, motor;;1698
+n-spa-751;;la;;oposición;;opposition;;1699
+n-spa-752;;el;;patio;;courtyard, playground, yard;;1700
+n-spa-753;;la;;fruta;;fruit;;1701
+n-spa-754;;el;;ideal;;ideal;;1702
+n-spa-755;;el;;actor;;actor;;1705
+n-spa-756;;la;;confusión;;confusion;;1706
+n-spa-757;;el;;traje;;suit, dress, costume;;1710
+n-spa-758;;la;;exigencia;;requirement, demand;;1711
+n-spa-759;;la;;víctima;;victim, casualty;;1712
+n-spa-760;;la;;playa;;beach, seaside;;1713
+n-spa-761;;el;;o la trabajador;;worker, laborer;;1714
+n-spa-762;;el;;hierro;;iron;;1716
+n-spa-763;;la;;tela;;cloth, fabric;;1719
+n-spa-764;;la;;producción;;production;;1721
+n-spa-765;;el;;febrero;;February;;1722
+n-spa-766;;el;;símbolo;;symbol;;1723
+n-spa-767;;la;;medicina;;medicine;;1725
+n-spa-768;;la;;búsqueda;;search;;1727
+n-spa-769;;la;;tranquilidad;;tranquility, peace;;1729
+n-spa-770;;el;;espejo;;mirror, reﬂection;;1730
+n-spa-771;;la;;comprensión;;understanding;;1732
+n-spa-772;;el;;cerebro;;brain;;1734
+n-spa-773;;el;;tiro;;throw, shot;;1737
+n-spa-774;;el;;abuelo;;grandfather;;1740
+n-spa-775;;la;;declaración;;declaration, statement;;1746
+n-spa-776;;el;;sujeto;;subject, individual;;1748
+n-spa-777;;la;;enseñanza;;teaching, instruction;;1751
+n-spa-778;;el;;permiso;;permission, permit;;1753
+n-spa-779;;la;;evolución;;evolution, development;;1754
+n-spa-780;;el;;tío;;uncle, guy;;1755
+n-spa-781;;la;;moral;;morals, ethics;;1756
+n-spa-782;;el;;parque;;park;;1760
+n-spa-783;;el;;ingeniero;;engineer;;1761
+n-spa-784;;el;;borde;;edge;;1763
+n-spa-785;;el;;entusiasmo;;enthusiasm;;1765
+n-spa-786;;la;;independencia;;independence;;1767
+n-spa-787;;la;;mentira;;lie;;1768
+n-spa-788;;el;;sueldo;;salary, pay;;1770
+n-spa-789;;la;;comparación;;comparison;;1772
+n-spa-790;;el;;seno;;breast, bosom, cavity;;1776
+n-spa-791;;el;;canto;;singing, chant;;1778
+n-spa-792;;la;;potencia;;power, potential;;1779
+n-spa-793;;el;;o la oﬁcial;;ofﬁcial, ofﬁcer;;1781
+n-spa-794;;la;;fortuna;;fortune, fate;;1782
+n-spa-795;;el;;crimen;;crime, murder;;1783
+n-spa-796;;el;;ciudadano;;citizen;;1787
+n-spa-797;;el;;baño;;bathroom, bath, swim;;1789
+n-spa-798;;el;;reconocimiento;;recognition;;1794
+n-spa-799;;el;;exterior;;exterior, outside;;1795
+n-spa-800;;el;;crédito;;credit, reputation;;1799
+n-spa-801;;la;;alternativa;;alternative;;1800
+n-spa-802;;el;;canal;;channel, canal;;1804
+n-spa-803;;el;;agente;;agent;;1806
+n-spa-804;;el;;pago;;payment;;1807
+n-spa-805;;la;;ﬁlosofía;;philosophy;;1808
+n-spa-806;;el;;lector;;reader, lecturer;;1810
+n-spa-807;;el;;triunfo;;triumph, victory;;1813
+n-spa-808;;el;;sábado;;Saturday;;1816
+n-spa-809;;la;;amiga;;female friend;;1817
+n-spa-810;;la;;carretera;;highway, road;;1818
+n-spa-811;;la;;victoria;;victory, triumph;;1821
+n-spa-812;;el;;pájaro;;bird;;1824
+n-spa-813;;la;;biblioteca;;library;;1825
+n-spa-814;;la;;reﬂexión;;reﬂection;;1826
+n-spa-815;;la;;vocación;;vocation, calling;;1829
+n-spa-816;;el;;continente;;continent;;1831
+n-spa-817;;la;;tabla;;chart, board, table, plank;;1833
+n-spa-818;;el;;ensayo;;essay, rehearsal;;1835
+n-spa-819;;el;;plato;;plate, dish;;1836
+n-spa-820;;el;;jardín;;garden;;1837
+n-spa-821;;la;;imaginación;;imagination, fantasy;;1838
+n-spa-822;;la;;poesía;;poetry, poem;;1841
+n-spa-823;;la;;el guardia;;guard, watch, lookout;;1842
+n-spa-824;;el;;privilegio;;privilege;;1843
+n-spa-825;;el;;monte;;mountain;;1844
+n-spa-826;;la;;precisión;;precision;;1847
+n-spa-827;;el;;sacriﬁcio;;sacriﬁce;;1848
+n-spa-828;;el;;hilo;;thread, yarn, wire;;1851
+n-spa-829;;la;;aparición;;appearance, apparition;;1854
+n-spa-830;;el;;poema;;poem;;1855
+n-spa-831;;la;;curiosidad;;curiosity, quaintness;;1857
+n-spa-832;;el;;diente;;tooth, cog;;1859
+n-spa-833;;el;;primo;;cousin;;1860
+n-spa-834;;la;;apariencia;;appearance, aspect;;1863
+n-spa-835;;la;;novedad;;latest news, newness;;1864
+n-spa-836;;el;;castigo;;punishment, penalty;;1867
+n-spa-837;;el;;carro;;car, cart;;1871
+n-spa-838;;el;;aumento;;increase, rise;;1873
+n-spa-839;;la;;pobreza;;poverty, lack, scarcity;;1874
+n-spa-840;;el;;dólar;;dollar;;1878
+n-spa-841;;el;;local;;place, quarters;;1880
+n-spa-842;;la;;industria;;industry, factory;;1884
+n-spa-843;;el;;caballero;;gentleman, knight;;1885
+n-spa-844;;la;;especialista;;specialist;;1886
+n-spa-845;;la;;temporada;;season, period, time;;1887
+n-spa-846;;el;;humor;;mood, humor;;1889
+n-spa-847;;la;;nación;;nation;;1891
+n-spa-848;;la;;felicidad;;happiness;;1892
+n-spa-849;;el;;o la amante;;lover;;1893
+n-spa-850;;el;;cálculo;;calculation, calculus;;1897
+n-spa-851;;la;;composición;;composition, make-up, essay;;1898
+n-spa-852;;la;;rapidez;;speed, velocity;;1899
+n-spa-853;;el;;huevo;;egg;;1900
+n-spa-854;;el;;crecimiento;;growth, increase;;1902
+n-spa-855;;la;;clave;;key;;1903
+n-spa-856;;la;;tragedia;;tragedy;;1905
+n-spa-857;;la;;colección;;collection;;1906
+n-spa-858;;la;;chica;;girl, female;;1907
+n-spa-859;;el;;prestigio;;prestige;;1908
+n-spa-860;;la;;sección;;section, cut;;1910
+n-spa-861;;la;;bolsa;;bag, purse, stock exchange;;1915
+n-spa-862;;la;;cinta;;tape, ribbon, ﬁlm, strip;;1916
+n-spa-863;;el;;cuello;;neck, collar;;1920
+n-spa-864;;la;;continuación;;continuation, follow-up;;1921
+n-spa-865;;el;;abril;;April;;1922
+n-spa-866;;la;;actuación;;performance, acting;;1924
+n-spa-867;;el;;factor;;factor, cause, inﬂuence;;1925
+n-spa-868;;la;;esquina;;corner;;1926
+n-spa-869;;el;;hombro;;shoulder;;1927
+n-spa-870;;la;;infancia;;infancy, childhood;;1928
+n-spa-871;;el;;descanso;;rest, interval, break;;1930
+n-spa-872;;el;;zapato;;shoe;;1932
+n-spa-873;;el;;parecer;;opinion, looks;;1933
+n-spa-874;;el;;familiar;;relative;;1934
+n-spa-875;;el;;mérito;;worth, merit;;1935
+n-spa-876;;el;;muro;;exterior wall, rampart;;1942
+n-spa-877;;el;;montón;;lot of, heap, pile;;1946
+n-spa-878;;la;;disco;;disc, disk, record;;1948
+n-spa-879;;la;;demanda;;petition, request, demand;;1950
+n-spa-880;;el;;mueble;;furniture piece;;1952
+n-spa-881;;el;;desastre;;disaster;;1953
+n-spa-882;;el;;secreto;;secret;;1954
+n-spa-883;;la;;angustia;;anguish, distress;;1957
+n-spa-884;;la;;nube;;cloud;;1961
+n-spa-885;;la;;miseria;;misery, wretchedness;;1963
+n-spa-886;;el;;signiﬁcado;;meaning;;1966
+n-spa-887;;la;;fama;;reputation, fame;;1967
+n-spa-888;;el;;palacio;;palace;;1968
+n-spa-889;;el;;oído;;hearing, ear;;1969
+n-spa-890;;el;;polvo;;dust, powder;;1971
+n-spa-891;;el;;sacerdote;;priest;;1974
+n-spa-892;;la;;lección;;lesson;;1977
+n-spa-893;;la;;rosa;;rose;;1978
+n-spa-894;;el;;olor;;smell, odor, fragrance;;1986
+n-spa-895;;el;;contrato;;contract, agreement;;1989
+n-spa-896;;la;;presentación;;presentation, introduction;;1990
+n-spa-897;;la;;cárcel;;jail, prison;;1991
+n-spa-898;;la;;división;;division;;1992
+n-spa-899;;el;;revés;;setback, mishap, misfortune;;1993
+n-spa-900;;la;;cualidad;;quality, attribute;;1997
+n-spa-901;;el;;índice;;index, foreﬁnger;;2000
+n-spa-902;;el;;marzo;;March;;2002
+n-spa-903;;la;;atmósfera;;atmosphere, environment;;2003
+n-spa-904;;el;;planeta;;planet;;2004
+n-spa-905;;el;;orgullo;;pride;;2006
+n-spa-906;;la;;jornada;;working day, shift;;2007
+n-spa-907;;el;;palo;;stick, pole;;2012
+n-spa-908;;el;;diseño;;design;;2013
+n-spa-909;;la;;lógica;;logic;;2015
+n-spa-910;;la;;herencia;;inheritance, legacy;;2016
+n-spa-911;;el;;deporte;;sport;;2019
+n-spa-912;;la;;reina;;queen;;2020
+n-spa-913;;la;;bandera;;ﬂag;;2021
+n-spa-914;;la;;maravilla;;wonder, marvel;;2023
+n-spa-915;;la;;banda;;musical band, sash;;2025
+n-spa-916;;el;;cristal;;glass, crystal, window;;2026
+n-spa-917;;la;;anécdota;;anecdote;;2028
+n-spa-918;;la;;leyenda;;legend;;2031
+n-spa-919;;el;;muerto;;dead person;;2032
+n-spa-920;;el;;azúcar;;sugar;;2033
+n-spa-921;;la;;inclinación;;slope, incline, tendency;;2035
+n-spa-922;;el;;rostro;;face, countenance;;2040
+n-spa-923;;la;;separación;;separation;;2041
+n-spa-924;;el;;eco;;echo, response;;2042
+n-spa-925;;la;;cita;;appointment, date, quotation;;2045
+n-spa-926;;la;;actualidad;;present time;;2046
+n-spa-927;;la;;fantasía;;fantasy, fancy;;2050
+n-spa-928;;la;;promesa;;promise;;2051
+n-spa-929;;la;;pata;;leg, paw;;2052
+n-spa-930;;el;;foto;;photo, picture;;2054
+n-spa-931;;la;;administración;;administration;;2055
+n-spa-932;;la;;civilización;;civilization;;2057
+n-spa-933;;la;;ocupación;;occupation, use;;2059
+n-spa-934;;el;;asiento;;seat, chair;;2061
+n-spa-935;;la;;pista;;clue, track, trace;;2065
+n-spa-936;;el;;testimonio;;testimony, evidence;;2066
+n-spa-937;;el;;regalo;;gift, present;;2067
+n-spa-938;;la;;contradicción;;contradiction;;2073
+n-spa-939;;el;;metal;;metal;;2075
+n-spa-940;;el;;aceite;;oil;;2076
+n-spa-941;;el;;código;;code;;2078
+n-spa-942;;la;;unión;;union;;2081
+n-spa-943;;la;;extensión;;extension, area, expanse;;2082
+n-spa-944;;el;;varón;;male, man;;2088
+n-spa-945;;la;;evidencia;;evidence, proof;;2091
+n-spa-946;;la;;dignidad;;dignity;;2092
+n-spa-947;;el;;escándalo;;scandal;;2093
+n-spa-948;;la;;colega;;colleague;;2094
+n-spa-949;;el;;horario;;schedule, timetable;;2095
+n-spa-950;;la;;orilla;;shore, edge;;2096
+n-spa-951;;la;;copia;;copy;;2098
+n-spa-952;;la;;huella;;trace, track, footstep;;2099
+n-spa-953;;el;;ejemplar;;copy, issue;;2101
+n-spa-954;;el;;cura;;priest;;2103
+n-spa-955;;la;;cura;;cure;;2103
+n-spa-956;;la;;garantía;;guarantee, warranty;;2106
+n-spa-957;;el;;vaso;;drinking glass, vase;;2107
+n-spa-958;;el;;perﬁl;;proﬁle, outline;;2108
+n-spa-959;;la;;proporción;;proportion;;2109
+n-spa-960;;la;;ceremonia;;ceremony;;2111
+n-spa-961;;el;;vidrio;;glass, pane;;2112
+n-spa-962;;la;;ruta;;route;;2113
+n-spa-963;;el;;anuncio;;advertisement, announcement;;2114
+n-spa-964;;la;;soledad;;loneliness, solitude;;2116
+n-spa-965;;la;;tesis;;thesis, exposition;;2117
+n-spa-966;;el;;rincón;;corner;;2118
+n-spa-967;;la;;nariz;;nose;;2119
+n-spa-968;;el;;bolsillo;;pocket;;2121
+n-spa-969;;la;;asociación;;association;;2123
+n-spa-970;;el;;mando;;command, authority;;2125
+n-spa-971;;el;;sabor;;flavor, taste;;2126
+n-spa-972;;la;;década;;decade;;2127
+n-spa-973;;la;;preparación;;preparation, training;;2128
+n-spa-974;;el;;afecto;;affection, fondness;;2132
+n-spa-975;;la;;protesta;;objection, protest;;2134
+n-spa-976;;la;;patria;;native land, fatherland;;2135
+n-spa-977;;el;;consumo;;consumption;;2136
+n-spa-978;;la;;selva;;forest, jungle;;2138
+n-spa-979;;la;;deuda;;debt;;2139
+n-spa-980;;el;;horizonte;;horizon;;2140
+n-spa-981;;el;;talento;;talent, skill;;2143
+n-spa-982;;el;;gas;;gas;;2144
+n-spa-983;;el;;té;;tea;;2145
+n-spa-984;;la;;gloria;;glory, fame;;2146
+n-spa-985;;el;;noviembre;;November;;2148
+n-spa-986;;el;;candidato;;candidate;;2149
+n-spa-987;;la;;llave;;key, faucet, wrench;;2150
+n-spa-988;;el;;inconveniente;;inconvenience, drawback;;2151
+n-spa-989;;el;;afán;;eagerness, zeal, effort;;2152
+n-spa-990;;la;;etcétera;;etcetera;;2154
+n-spa-991;;la;;comisión;;commission, committee;;2155
+n-spa-992;;la;;posesión;;possession;;2158
+n-spa-993;;la;;dama;;lady, dame;;2159
+n-spa-994;;la;;onda;;wave, ripple;;2160
+n-spa-995;;la;;botella;;bottle, ﬂask;;2161
+n-spa-996;;la;;torre;;tower;;2162
+n-spa-997;;la;;combinación;;combination;;2164
+n-spa-998;;el;;cadáver;;corpse, body;;2165
+n-spa-999;;el;;paquete;;package, packet;;2166
+n-spa-1000;;el;;apellido;;last name;;2167
+n-spa-1001;;la;;conferencia;;conference, lecture;;2171
+n-spa-1002;;la;;propuesta;;proposal, proposition;;2173
+n-spa-1003;;la;;intensidad;;intensity, force;;2174
+n-spa-1004;;la;;explosión;;explosion;;2175
+n-spa-1005;;el;;odio;;hatred;;2177
+n-spa-1006;;el;;universo;;universe;;2179
+n-spa-1007;;el;;milagro;;miracle;;2181
+n-spa-1008;;la;;entrega;;delivery;;2182
+n-spa-1009;;el;;mapa;;map;;2185
+n-spa-1010;;el;;héroe;;hero;;2186
+n-spa-1011;;el;;lunes;;Monday;;2187
+n-spa-1012;;el;;tráﬁco;;trafﬁc, trade;;2188
+n-spa-1013;;el;;terror;;terror, horror;;2189
+n-spa-1014;;la;;casualidad;;chance, coincidence;;2190
+n-spa-1015;;la;;risa;;laugh, chuckle;;2192
+n-spa-1016;;la;;cuerda;;cord, rope;;2193
+n-spa-1017;;la;;consulta;;consultation, advice;;2194
+n-spa-1018;;la;;edición;;edition, publication;;2195
+n-spa-1019;;el;;rayo;;ray, beam, lightning;;2197
+n-spa-1020;;la;;tía;;aunt;;2199
+n-spa-1021;;el;;adulto;;adult, grown-up;;2200
+n-spa-1022;;el;;voto;;vote;;2201
+n-spa-1023;;la;;calma;;calm, lull;;2202
+n-spa-1024;;la;;oferta;;offer, bid, supply;;2205
+n-spa-1025;;la;;vergüenza;;embarrassment;;2206
+n-spa-1026;;el;;ave;;bird;;2207
+n-spa-1027;;la;;rodilla;;knee;;2208
+n-spa-1028;;el;;paseo;;walk, ride;;2209
+n-spa-1029;;el;;registro;;register, record;;2214
+n-spa-1030;;el;;pintor;;painter;;2218
+n-spa-1031;;el;;delito;;crime, offense;;2219
+n-spa-1032;;el;;vestido;;dress;;2220
+n-spa-1033;;el;;relato;;tale, story;;2221
+n-spa-1034;;el;;baile;;dance, ball;;2222
+n-spa-1035;;el;;misterio;;mystery;;2223
+n-spa-1036;;el;;ciclo;;cycle;;2225
+n-spa-1037;;el;;síntoma;;symptom;;2228
+n-spa-1038;;la;;amenaza;;threat;;2229
+n-spa-1039;;el;;recorrido;;journey, itinerary, route;;2231
+n-spa-1040;;la;;concepción;;conception;;2232
+n-spa-1041;;la;;tristeza;;sadness;;2233
+n-spa-1042;;la;;vaca;;cow;;2234
+n-spa-1043;;la;;criatura;;creature, child;;2235
+n-spa-1044;;la;;creencia;;belief;;2236
+n-spa-1045;;el;;núcleo;;nucleus, core;;2238
+n-spa-1046;;el;;perdón;;forgiveness, pardon;;2240
+n-spa-1047;;la;;madrugada;;dawn, daybreak;;2241
+n-spa-1048;;el;;obrero;;worker, laborer;;2243
+n-spa-1049;;el;;cariño;;love, affection;;2246
+n-spa-1050;;el;;ángel;;angel;;2248
+n-spa-1051;;el;;rigor;;rigor, harshness;;2249
+n-spa-1052;;el;;contraste;;contrast;;2251
+n-spa-1053;;el;;turno;;turn; work shift;;2252
+n-spa-1054;;el;;reino;;kingdom, reign;;2255
+n-spa-1055;;el;;funcionamiento;;operation, functioning;;2258
+n-spa-1056;;el;;auto;;auto, car;;2259
+n-spa-1057;;la;;ala;;wing;;2260
+n-spa-1058;;el;;debate;;debate;;2261
+n-spa-1059;;la;;aplicación;;application;;2263
+n-spa-1060;;el;;laboratorio;;laboratory;;2264
+n-spa-1061;;el;;o la vendedor(a);;salesperson;;2266
+n-spa-1062;;la;;copa;;cup, glass, tree top;;2267
+n-spa-1063;;el;;tratado;;treaty, treatise;;2270
+n-spa-1064;;el;;rechazo;;rejection, refusal;;2275
+n-spa-1065;;la;;totalidad;;whole, totality;;2276
+n-spa-1066;;el;;papá;;dad;;2281
+n-spa-1067;;la;;mamá;;mom;;2286
+n-spa-1068;;la;;vela;;candle, sail, vigil;;2287
+n-spa-1069;;el;;establecimiento;;establishment;;2289
+n-spa-1070;;el;;matiz;;hint, touch; shade, nuance; tint, hue;;2291
+n-spa-1071;;la;;meta;;finish line; goal, target, objective;;2293
+n-spa-1072;;la;;comodidad;;comfort, convenience;;2296
+n-spa-1073;;el;;o la pariente;;relative;;2297
+n-spa-1074;;la;;distribución;;distribution;;2299
+n-spa-1075;;la;;invitación;;invitation;;2300
+n-spa-1076;;la;;destrucción;;destruction;;2301
+n-spa-1077;;la;;opción;;option, choice;;2305
+n-spa-1078;;el;;máximo;;maximum;;2308
+n-spa-1079;;la;;tarjeta;;card;;2309
+n-spa-1080;;la;;fase;;phase;;2310
+n-spa-1081;;la;;tropa;;troops, forces;;2312
+n-spa-1082;;el;;socio;;member, partner;;2314
+n-spa-1083;;el;;guía;;guide, leader;;2318
+n-spa-1084;;el;;hielo;;ice;;2321
+n-spa-1085;;la;;primavera;;spring, spring-like;;2325
+n-spa-1086;;la;;simpatía;;sympathy, afﬁnity;;2327
+n-spa-1087;;el;;centímetro;;centimeter;;2329
+n-spa-1088;;la;;pantalla;;screen, monitor;;2330
+n-spa-1089;;el;;toro;;bull;;2331
+n-spa-1090;;el;;cultivo;;cultivation, crop;;2333
+n-spa-1091;;el;;horror;;horror, atrocity;;2334
+n-spa-1092;;el;;bienestar;;wellbeing, welfare;;2335
+n-spa-1093;;la;;paciencia;;patience;;2336
+n-spa-1094;;la;;convicción;;conviction;;2339
+n-spa-1095;;el;;uniforme;;uniform;;2341
+n-spa-1096;;la;;media;;average;;2342
+n-spa-1097;;el;;mínimo;;minimum;;2343
+n-spa-1098;;la;;compañera;;female companion;;2346
+n-spa-1099;;el;;junio;;June;;2349
+n-spa-1100;;el;;drama;;drama;;2350
+n-spa-1101;;el;;doble;;double;;2354
+n-spa-1102;;el;;episodio;;episode, incident;;2355
+n-spa-1103;;la;;aﬁrmación;;statement, assertion;;2357
+n-spa-1104;;el;;bar;;bar, snack bar, café;;2359
+n-spa-1105;;la;;liberación;;liberation;;2361
+n-spa-1106;;la;;estancia;;stay, stance, ranch;;2364
+n-spa-1107;;la;;variedad;;variety;;2368
+n-spa-1108;;el;;capitán;;captain, chief;;2370
+n-spa-1109;;la;;droga;;drug;;2371
+n-spa-1110;;el;;taller;;studio, garage, worskshop;;2373
+n-spa-1111;;el;;desorden;;disturbance, disorder;;2374
+n-spa-1112;;el;;esclavo;;slave;;2377
+n-spa-1113;;el;;manejo;;handling, management;;2385
+n-spa-1114;;la;;lágrima;;tear, teardrop;;2386
+n-spa-1115;;la;;colaboración;;collaboration;;2387
+n-spa-1116;;el;;ángulo;;angle;;2389
+n-spa-1117;;el;;impacto;;impact;;2390
+n-spa-1118;;la;;urgencia;;urgency;;2391
+n-spa-1119;;el;;creador;;inventor, creator;;2393
+n-spa-1120;;la;;luna;;moon;;2394
+n-spa-1121;;la;;instalación;;installation, facilities;;2395
+n-spa-1122;;el;;homenaje;;homage, tribute;;2396
+n-spa-1123;;la;;ruina;;ruin, collapse;;2397
+n-spa-1124;;el;;azar;;random, chance, hazard;;2400
+n-spa-1125;;la;;ola;;wave, billow;;2406
+n-spa-1126;;la;;oreja;;ear;;2407
+n-spa-1127;;la;;abuela;;grandmother;;2408
+n-spa-1128;;la;;doña;;female courtesy title;;2410
+n-spa-1129;;el;;arco;;arch, arc, bow;;2412
+n-spa-1130;;el;;oriente;;East;;2413
+n-spa-1131;;el;;rumbo;;direction, course, bearing;;2414
+n-spa-1132;;la;;ejecución;;performance, execution;;2415
+n-spa-1133;;el;;caos;;chaos;;2419
+n-spa-1134;;la;;colonia;;colony, cologne;;2420
+n-spa-1135;;el;;alcohol;;alcohol . . . the chemical compound;;2421
+n-spa-1136;;la;;alcohol;;alchol . . . the beverage;;2421
+n-spa-1137;;la;;nieve;;snow;;2423
+n-spa-1138;;la;;multitud;;multitude;;2424
+n-spa-1139;;el;;ganado;;livestock, cattle;;2425
+n-spa-1140;;el;;pez;;living fish;;2426
+n-spa-1141;;el;;o la líder;;leader;;2427
+n-spa-1142;;el;;club;;club, group;;2429
+n-spa-1143;;el;;desierto;;desert;;2431
+n-spa-1144;;la;;escritura;;writing, scripture;;2432
+n-spa-1145;;la;;danza;;dance;;2434
+n-spa-1146;;el;;concierto;;concert, concerto;;2435
+n-spa-1147;;el;;partidario;;supporter, partisan;;2436
+n-spa-1148;;el;;templo;;temple, church;;2437
+n-spa-1149;;el;;líquido;;liquid;;2438
+n-spa-1150;;la;;debilidad;;weakness;;2439
+n-spa-1151;;la;;ambición;;ambition;;2440
+n-spa-1152;;la;;locura;;madness, insanity;;2441
+n-spa-1153;;el;;o la comerciante;;merchant, businessman;;2442
+n-spa-1154;;la;;camisa;;shirt;;2443
+n-spa-1155;;la;;pluma;;pen, feather;;2444
+n-spa-1156;;la;;pelota;;ball;;2445
+n-spa-1157;;el;;pasaje;;fare, passage, lane;;2446
+n-spa-1158;;la;;limpieza;;cleanliness, purity;;2447
+n-spa-1159;;la;;admiración;;admiration;;2448
+n-spa-1160;;la;;fantasma;;ghost, phantom;;2449
+n-spa-1161;;la;;transformación;;transformation;;2450
+n-spa-1162;;la;;caza;;hunt, hunting, game;;2451
+n-spa-1163;;el;;almacén;;warehouse, storehouse;;2455
+n-spa-1164;;la;;expectativa;;expectation, hope, prospect;;2456
+n-spa-1165;;la;;ruptura;;break-up, rupture;;2457
+n-spa-1166;;la;;inversión;;investment, outlay;;2458
+n-spa-1167;;la;;herida;;wound, injury;;2460
+n-spa-1168;;la;;hipótesis;;hypothesis;;2461
+n-spa-1169;;el;;giro;;turn, draft, expression;;2465
+n-spa-1170;;el;;esquema;;outline, diagram, plan;;2466
+n-spa-1171;;el;;mito;;myth;;2467
+n-spa-1172;;la;;oscuridad;;darkness;;2468
+n-spa-1173;;la;;pensión;;boarding house;;2469
+n-spa-1174;;la;;desaparición;;disappearance;;2470
+n-spa-1175;;el;;bloque;;block;;2480
+n-spa-1176;;el;;cierre;;zipper, closing;;2481
+n-spa-1177;;la;;broma;;joke;;2482
+n-spa-1178;;el;;viernes;;Friday;;2483
+n-spa-1179;;la;;tumba;;tomb, grave;;2485
+n-spa-1180;;el;;despacho;;ofﬁce, study;;2487
+n-spa-1181;;la;;viuda;;widow;;2488
+n-spa-1182;;los;;pantalones;;pants;;2489
+n-spa-1183;;el;;intercambio;;exchange, interchange;;2490
+n-spa-1184;;la;;mancha;;stain, spot;;2491
+n-spa-1185;;el;;retrato;;portrait, photograph;;2492
+n-spa-1186;;la;;lata;;aluminum can;;2493
+n-spa-1187;;el;;combate;;boxing match, combat;;2494
+n-spa-1188;;la;;instancia;;instance;;2495
+n-spa-1189;;la;;roca;;rock;;2497
+n-spa-1190;;la;;herramienta;;tool;;2498
+n-spa-1191;;el;;panorama;;panorama, landscape;;2500
+n-spa-1192;;el;;camión;;truck, van, tanker;;2503
+n-spa-1193;;el;;olvido;;forgetfulness, omission;;2504
+n-spa-1194;;la;;estrategia;;strategy;;2505
+n-spa-1195;;la;;muchacha;;girl;;2506
+n-spa-1196;;la;;propaganda;;advertising, propaganda;;2508
+n-spa-1197;;la;;misa;;religious mass;;2510
+n-spa-1198;;el;;inicio;;beginning, start;;2512
+n-spa-1199;;el;;fútbol;;soccer;;2513
+n-spa-1200;;la;;esfera;;sphere;;2514
+n-spa-1201;;la;;arquitectura;;architecture;;2516
+n-spa-1202;;la;;especialidad;;specialty, specialized ﬁeld;;2517
+n-spa-1203;;el;;músico;;musician;;2518
+n-spa-1204;;el;;eje;;shaft, axle; axis;;2521
+n-spa-1205;;el;;abandono;;abandonment, desertion;;2524
+n-spa-1206;;el;;museo;;museum;;2525
+n-spa-1207;;el;;propietario;;owner;;2526
+n-spa-1208;;el;;trozo;;piece, chunk;;2527
+n-spa-1209;;la;;armonía;;harmony;;2529
+n-spa-1210;;el;;pacto;;pact, agreement;;2530
+n-spa-1211;;la;;selección;;selection, choice;;2533
+n-spa-1212;;la;;protagonista;;protagonist, main character;;2536
+n-spa-1213;;el;;ferrocarril;;railway;;2537
+n-spa-1214;;la;;intimidad;;private life, intimacy;;2540
+n-spa-1215;;la;;nave;;spacecraft, ship;;2542
+n-spa-1216;;la;;oración;;prayer;;2543
+n-spa-1217;;el;;cansancio;;tiredness, weariness;;2544
+n-spa-1218;;el;;tejido;;fabric, tissue;;2547
+n-spa-1219;;la;;trampa;;trap;;2548
+n-spa-1220;;la;;descripción;;description;;2550
+n-spa-1221;;el;;pecado;;sin;;2551
+n-spa-1222;;la;;injusticia;;injustice;;2554
+n-spa-1223;;el;;adiós;;goodbye;;2557
+n-spa-1224;;el;;tabaco;;tobacco, cigarette, cigar;;2560
+n-spa-1225;;el;;suceso;;event, incident;;2563
+n-spa-1226;;el;;antecedente;;antecedent;;2567
+n-spa-1227;;la;;barrera;;barrier, obstacle;;2568
+n-spa-1228;;el;;tribunal;;court;;2571
+n-spa-1229;;la;;invasión;;invasion;;2573
+n-spa-1230;;el;;septiembre;;September;;2574
+n-spa-1231;;la;;dependencia;;dependence, dependency;;2575
+n-spa-1232;;la;;democracia;;democracy;;2576
+n-spa-1233;;la;;limitación;;limitation;;2581
+n-spa-1234;;el;;invitado;;guest;;2583
+n-spa-1235;;el;;pescado;;ﬁsh;;2584
+n-spa-1236;;el;;obstáculo;;obstacle;;2588
+n-spa-1237;;la;;aspiración;;ambition, aspiration;;2589
+n-spa-1238;;el;;corredor;;corridor;;2591
+n-spa-1239;;el;;o la corredor(a);;runner, broker;;2591
+n-spa-1240;;el;;resumen;;summary;;2593
+n-spa-1241;;la;;basura;;garbage, rubbish;;2594
+n-spa-1242;;la;;escalera;;stairs, ladder;;2595
+n-spa-1243;;la;;gravedad;;seriousness, gravity;;2596
+n-spa-1244;;el;;fundamento;;foundation, ground;;2597
+n-spa-1245;;la;;sustancia;;substance, essence;;2598
+n-spa-1246;;la;;derrota;;defeat, loss;;2601
+n-spa-1247;;la;;sospecha;;suspicion;;2602
+n-spa-1248;;la;;huelga;;strike, protest;;2604
+n-spa-1249;;el;;abuso;;abuse, misuse;;2605
+n-spa-1250;;el;;jueves;;Thursday;;2606
+n-spa-1251;;el;;arreglo;;arrangement;;2607
+n-spa-1252;;la;;sal;;salt;;2608
+n-spa-1253;;la;;dosis;;dose;;2609
+n-spa-1254;;el;;acento;;accent, stress;;2610
+n-spa-1255;;el;;aviso;;warning;;2611
+n-spa-1256;;el;;lazo;;bow, knot, tie, lasso;;2612
+n-spa-1257;;el;;entorno;;environment, surroundings;;2614
+n-spa-1258;;el;;nieto;;grandchild;;2615
+n-spa-1259;;el;;príncipe;;prince;;2616
+n-spa-1260;;la;;mediodía;;noon, midday;;2618
+n-spa-1261;;la;;gota;;drop;;2619
+n-spa-1262;;el;;cajón;;drawer;;2620
+n-spa-1263;;la;;señorita;;young woman;;2622
+n-spa-1264;;la;;preferencia;;preference;;2623
+n-spa-1265;;el;;pozo;;well, shaft;;2625
+n-spa-1266;;el;;rumor;;rumor, murmur;;2626
+n-spa-1267;;el;;concurso;;competition, gathering;;2628
+n-spa-1268;;el;;tesoro;;treasure, thesaurus;;2629
+n-spa-1269;;el;;presupuesto;;budget;;2630
+n-spa-1270;;la;;vigilancia;;surveillance, vigilance;;2632
+n-spa-1271;;la;;presa;;dam, female prisoner;;2635
+n-spa-1272;;el;;estómago;;stomach;;2636
+n-spa-1273;;la;;bola;;ball, sphere;;2639
+n-spa-1274;;la;;determinación;;determination;;2640
+n-spa-1275;;la;;reforma;;reform, improvement;;2641
+n-spa-1276;;el;;verso;;verse, poem;;2643
+n-spa-1277;;el;;requisito;;prerequisite, requirement;;2644
+n-spa-1278;;el;;o la adolescente;;adolescent;;2645
+n-spa-1279;;el;;kilo;;kilogram;;2648
+n-spa-1280;;la;;conquista;;conquest;;2650
+n-spa-1281;;el;;ﬁlósofo;;philosopher;;2653
+n-spa-1282;;el;;genio;;genius, disposition;;2654
+n-spa-1283;;la;;sucesión;;succession, series;;2655
+n-spa-1284;;el;;componente;;component, ingredient;;2656
+n-spa-1285;;el;;sufrimiento;;suffering;;2658
+n-spa-1286;;la;;entidad;;entity;;2660
+n-spa-1287;;el;;saludo;;greeting;;2661
+n-spa-1288;;la;;certeza;;certainty;;2663
+n-spa-1289;;el;;depósito;;deposit, sediment;;2664
+n-spa-1290;;el;;pasillo;;hall, corridor;;2666
+n-spa-1291;;la;;solidaridad;;solidarity, togetherness;;2668
+n-spa-1292;;el;;papa;;Pope;;2669
+n-spa-1293;;la;;papa;;potato;;2669
+n-spa-1294;;la;;geografía;;geography;;2670
+n-spa-1295;;el;;juguete;;toy;;2672
+n-spa-1296;;el;;chiste;;joke, funny story;;2674
+n-spa-1297;;el;;aprendizaje;;learning, apprenticeship;;2675
+n-spa-1298;;el;;esposo;;husband, spouse;;2676
+n-spa-1299;;la;;boda;;marriage, wedding;;2677
+n-spa-1300;;el;;fresco;;freshness, coolness;;2679
+n-spa-1301;;el;;lago;;lake;;2680
+n-spa-1302;;la;;orientación;;orientation, direction;;2683
+n-spa-1303;;la;;madurez;;maturity, ripeness;;2684
+n-spa-1304;;la;;demostración;;demonstration;;2687
+n-spa-1305;;el;;cumplimiento;;fulﬁllment, compliment;;2691
+n-spa-1306;;el;;respaldo;;support, backing, back;;2692
+n-spa-1307;;el;;incendio;;ﬁre, conﬂagration;;2695
+n-spa-1308;;la;;joya;;jewel, treasure;;2698
+n-spa-1309;;el;;cementerio;;cemetery, graveyard;;2700
+n-spa-1310;;la;;publicación;;publication;;2702
+n-spa-1311;;la;;variación;;variation;;2703
+n-spa-1312;;la;;promoción;;promotion;;2706
+n-spa-1313;;la;;sentencia;;legal sentence, judgment;;2709
+n-spa-1314;;la;;resolución;;resolution;;2711
+n-spa-1315;;la;;coincidencia;;coincidence;;2713
+n-spa-1316;;el;;estímulo;;stimulus, encouragement;;2714
+n-spa-1317;;la;;barra;;bar, rod, rail;;2721
+n-spa-1318;;la;;novia;;girlfriend, bride;;2726
+n-spa-1319;;el;;piano;;piano;;2727
+n-spa-1320;;la;;pretensión;;pretension, claim;;2728
+n-spa-1321;;la;;habla;;speech, talking;;2729
+n-spa-1322;;el;;novio;;boyfriend, groom;;2730
+n-spa-1323;;el;;espectador;;spectator, onlooker;;2732
+n-spa-1324;;la;;bota;;boot, wineskin;;2735
+n-spa-1325;;el;;pretexto;;pretext, excuse;;2737
+n-spa-1326;;la;;ﬁebre;;fever, excitement;;2739
+n-spa-1327;;la;;síntesis;;synthesis;;2742
+n-spa-1328;;el;;este;;East;;2743
+n-spa-1329;;el;;nervio;;nerve;;2744
+n-spa-1330;;el;;cientíﬁco;;scientist;;2745
+n-spa-1331;;el;;grano;;grain, kernel;;2748
+n-spa-1332;;la;;asistencia;;attendance, assistance;;2751
+n-spa-1333;;la;;sonrisa;;smile;;2754
+n-spa-1334;;el;;o la león(a);;lion;;2756
+n-spa-1335;;la;;aceptación;;acceptance, approval;;2758
+n-spa-1336;;el;;labio;;lip;;2759
+n-spa-1337;;el;;o la visitante;;visitor;;2760
+n-spa-1338;;el;;traslado;;transfer;;2763
+n-spa-1339;;la;;tentación;;temptation;;2765
+n-spa-1340;;el;;porvenir;;future;;2766
+n-spa-1341;;la;;atracción;;attraction;;2768
+n-spa-1342;;la;;corona;;crown;;2772
+n-spa-1343;;la;;docena;;dozen;;2774
+n-spa-1344;;la;;perfección;;perfection;;2776
+n-spa-1345;;la;;humedad;;humidity;;2777
+n-spa-1346;;la;;cosecha;;harvest, crop;;2778
+n-spa-1347;;la;;desesperación;;desperation, exasperation;;2780
+n-spa-1348;;la;;curva;;curve;;2781
+n-spa-1349;;el;;amo, la ama;;master or mistress, owner, animal keeper;;2787
+n-spa-1350;;el;;humo;;smoke;;2789
+n-spa-1351;;la;;realización;;fulﬁllment, realization;;2790
+n-spa-1352;;el;;cuartel;;quarters, barracks;;2791
+n-spa-1353;;el;;tránsito;;trafﬁc, transit;;2792
+n-spa-1354;;el;;énfasis;;emphasis;;2794
+n-spa-1355;;el;;empresario;;manager, entrepreneur;;2796
+n-spa-1356;;el;;saco;;sack, bag, plunder;;2798
+n-spa-1357;;la;;cruz;;cross, burden;;2800
+n-spa-1358;;la;;pausa;;pause;;2802
+n-spa-1359;;el;;vicio;;vice, bad habit, defect;;2805
+n-spa-1360;;el;;impuesto;;tax;;2806
+n-spa-1361;;el;;arquitecto;;architect;;2808
+n-spa-1362;;el;;cruce;;crossing, intersection;;2809
+n-spa-1363;;la;;convivencia;;coexistence, living together;;2811
+n-spa-1364;;el;;cable;;cable;;2812
+n-spa-1365;;la;;bondad;;goodness, kindness;;2814
+n-spa-1366;;el;;experimento;;experiment;;2815
+n-spa-1367;;la;;crónica;;account, chronicle;;2817
+n-spa-1368;;la;;dictadura;;dictatorship;;2824
+n-spa-1369;;la;;eﬁcacia;;efﬁciency, effectiveness;;2825
+n-spa-1370;;el;;vapor;;steam, vapor;;2827
+n-spa-1371;;la;;bebida;;drink, beverage;;2828
+n-spa-1372;;la;;charla;;talk, chat;;2830
+n-spa-1373;;la;;gestión;;management, step, negotiation;;2831
+n-spa-1374;;la;;cartera;;wallet, satchel;;2834
+n-spa-1375;;la;;circulación;;circulation, trafﬁc;;2837
+n-spa-1376;;la;;denuncia;;accusation;;2838
+n-spa-1377;;la;;tormenta;;storm;;2841
+n-spa-1378;;el;;foco;;focus;;2843
+n-spa-1379;;la;;residencia;;residence;;2844
+n-spa-1380;;el;;cuero;;leather, skin;;2848
+n-spa-1381;;la;;hierba;;herb, grass, weed;;2850
+n-spa-1382;;la;;manzana;;apple, city block;;2853
+n-spa-1383;;el;;pedazo;;piece, bit;;2855
+n-spa-1384;;la;;sabiduría;;wisdom, knowledge;;2856
+n-spa-1385;;el;;cigarrillo;;cigarette;;2858
+n-spa-1386;;la;;magnitud;;magnitude, extent;;2863
+n-spa-1387;;el;;botón;;button;;2865
+n-spa-1388;;la;;igualdad;;equality;;2867
+n-spa-1389;;la;;noción;;notion, idea;;2871
+n-spa-1390;;la;;semilla;;seed;;2875
+n-spa-1391;;la;;avenida;;avenue;;2876
+n-spa-1392;;el;;diablo;;devil;;2878
+n-spa-1393;;el;;hueco;;hole, cavity;;2880
+n-spa-1394;;el;;o la colaborador(a);;collaborator;;2881
+n-spa-1395;;el;;capricho;;caprice, whim;;2882
+n-spa-1396;;la;;guitarra;;guitar;;2885
+n-spa-1397;;la;;agencia;;agency, branch;;2886
+n-spa-1398;;la;;rabia;;rage;;2887
+n-spa-1399;;el;;monumento;;monument;;2889
+n-spa-1400;;la;;correspondencia;;correspondence;;2893
+n-spa-1401;;el;;barro;;clay, mud;;2894
+n-spa-1402;;la;;fuga;;ﬂight, escape;;2895
+n-spa-1403;;la;;identiﬁcación;;identiﬁcation;;2897
+n-spa-1404;;el;;contexto;;context;;2898
+n-spa-1405;;el;;sombrero;;hat, sombrero;;2899
+n-spa-1406;;el;;o la ayudante;;helper, assistant;;2901
+n-spa-1407;;la;;maniobra;;maneuver, operation;;2903
+n-spa-1408;;el;;prejuicio;;prejudice;;2906
+n-spa-1409;;la;;recomendación;;recommendation;;2908
+n-spa-1410;;el;;instinto;;instinct;;2914
+n-spa-1411;;la;;precaución;;caution, forethought;;2918
+n-spa-1412;;el;;robo;;theft, robbery;;2919
+n-spa-1413;;el;;cabello;;hair;;2920
+n-spa-1414;;la;;utilidad;;usefulness, utility;;2921
+n-spa-1415;;la;;queja;;complaint;;2922
+n-spa-1416;;el;;celo;;jealousy, zeal;;2924
+n-spa-1417;;la;;publicidad;;advertising, publicity;;2925
+n-spa-1418;;la;;índole;;nature, temperament;;2927
+n-spa-1419;;el;;choque;;crash, collision;;2930
+n-spa-1420;;la;;tecnología;;technology;;2931
+n-spa-1421;;el;;tubo;;tube, pipe;;2932
+n-spa-1422;;la;;mercancía;;goods, merchandise;;2935
+n-spa-1423;;el;;tronco;;trunk, torso;;2936
+n-spa-1424;;el;;culto;;worship, cult;;2937
+n-spa-1425;;la;;palma;;palm tree, palm;;2938
+n-spa-1426;;la;;prenda;;piece of clothing;;2939
+n-spa-1427;;el;;coro;;choir, chorus;;2940
+n-spa-1428;;el;;túnel;;tunnel;;2942
+n-spa-1429;;la;;cercanía;;nearness, proximity;;2943
+n-spa-1430;;el;;cuchillo;;knife;;2945
+n-spa-1431;;el;;desprecio;;contempt, disdain;;2946
+n-spa-1432;;el;;plástico;;plastic;;2947
+n-spa-1433;;el;;complejo;;complex;;2948
+n-spa-1434;;la;;naranja;;orange . . . fruit;;2950
+n-spa-1435;;la;;cuota;;quota, share, dues;;2955
+n-spa-1436;;la;;mosca;;housefly;;2956
+n-spa-1437;;la;;doctrina;;doctrine, teachings;;2959
+n-spa-1438;;la;;laguna;;lagoon;;2961
+n-spa-1439;;la;;distinción;;distinction;;2962
+n-spa-1440;;la;;tribu;;tribe;;2963
+n-spa-1441;;el;;refugio;;shelter, refuge;;2964
+n-spa-1442;;la;;cena;;dinner;;2971
+n-spa-1443;;la;;incertidumbre;;uncertainty;;2972
+n-spa-1444;;el;;ahorro;;saving, thrift;;2977
+n-spa-1445;;la;;prisión;;prison, imprisonment;;2980
+n-spa-1446;;el;;o la investigador;;researcher, investigator;;2981
+n-spa-1447;;el;;técnico;;technician;;2982
+n-spa-1448;;el;;paraíso;;paradise;;2983
+n-spa-1449;;el;;postre;;dessert;;2985
+n-spa-1450;;la;;alimentación;;feeding, food;;2989
+n-spa-1451;;la;;miel;;honey;;2990
+n-spa-1452;;el;;desafío;;challenge, provocation;;2992
+n-spa-1453;;el;;aeropuerto;;airport;;2993
+n-spa-1454;;el;;abrigo;;overcoat, shelter;;2996
+n-spa-1455;;el;;sello;;stamp, seal;;2999
+n-spa-1456;;la;;campana;;bell;;3000
+n-spa-1457;;el;;incidente;;incident;;3003
+n-spa-1458;;el;;fragmento;;fragment, passage;;3004
+n-spa-1459;;la;;mina;;mine;;3013
+n-spa-1460;;el;;restaurante;;restaurant;;3014
+n-spa-1461;;el;;porcentaje;;percentage;;3015
+n-spa-1462;;el;;o la conductor;;driver, conductor;;3016
+n-spa-1463;;la;;magia;;magic;;3019
+n-spa-1464;;el;;comedor;;dining room;;3021
+n-spa-1465;;la;;seriedad;;seriousness;;3022
+n-spa-1466;;la;;gallina;;hen, coward;;3023
+n-spa-1467;;la;;espada;;sword;;3024
+n-spa-1468;;la;;excelencia;;excellence;;3026
+n-spa-1469;;el;;músculo;;muscle;;3029
+n-spa-1470;;la;;persecución;;pursuit, persecution;;3031
+n-spa-1471;;el;;imperio;;empire, fortune;;3032
+n-spa-1472;;el;;casco;;helmet;;3033
+n-spa-1473;;la;;pelea;;ﬁght, quarrel;;3034
+n-spa-1474;;el;;retorno;;return;;3035
+n-spa-1475;;la;;vera;;edge;;3038
+n-spa-1476;;el;;latín;;Latin;;3040
+n-spa-1477;;la;;rutina;;routine;;3042
+n-spa-1478;;la;;mejora;;improvement;;3044
+n-spa-1479;;el;;domicilio;;residence, address;;3045
+n-spa-1480;;la;;porquería;;ﬁlth, junk;;3046
+n-spa-1481;;el;;susto;;fright, scare;;3048
+n-spa-1482;;el;;amanecer;;daybreak, dawn;;3051
+n-spa-1483;;la;;célula;;cell in biology;;3052
+n-spa-1484;;el;;crítico;;critic;;3054
+n-spa-1485;;la;;inspiración;;inspiration, inhalation;;3055
+n-spa-1486;;el;;ladrillo;;brick;;3056
+n-spa-1487;;la;;proyección;;projection, screening;;3057
+n-spa-1488;;la;;lana;;wool;;3060
+n-spa-1489;;el;;inﬁerno;;hell, inferno;;3062
+n-spa-1490;;el;;acero;;steel;;3064
+n-spa-1491;;el;;preso;;prisoner;;3069
+n-spa-1492;;el;;billete;;dollar bill;;3070
+n-spa-1493;;la;;tontería;;stupidity, stupid thing;;3074
+n-spa-1494;;el;;cauce;;river bed, ditch;;3075
+n-spa-1495;;la;;ignorancia;;ignorance;;3076
+n-spa-1496;;el;;encanto;;charm, spell;;3078
+n-spa-1497;;la;;sed;;thirst;;3080
+n-spa-1498;;el;;escudo;;shield, coat of arms;;3081
+n-spa-1499;;la;;muñeca;;doll, wrist;;3082
+n-spa-1500;;el;;rango;;rank, range;;3085
+n-spa-1501;;el;;invento;;invention;;3086
+n-spa-1502;;el;;recinto;;grounds, precincts;;3088
+n-spa-1503;;la;;tinta;;ink;;3089
+n-spa-1504;;la;;garganta;;throat, gorge;;3090
+n-spa-1505;;el;;viajero;;traveler, passenger;;3091
+n-spa-1506;;el;;asesino;;killer, assassin;;3092
+n-spa-1507;;el;;rito;;rite, ritual;;3093
+n-spa-1508;;el;;atractivo;;attraction, charm;;3094
+n-spa-1509;;la;;frustración;;frustration;;3096
+n-spa-1510;;el;;cemento;;cement, concrete;;3098
+n-spa-1511;;la;;catástrofe;;catastrophe;;3099
+n-spa-1512;;el;;dulce;;candy, sweets;;3100
+n-spa-1513;;la;;recuperación;;recovery, recuperation;;3101
+n-spa-1514;;el;;almuerzo;;lunch;;3104
+n-spa-1515;;la;;uña;;nail, ﬁngernail, toenail;;3106
+n-spa-1516;;el;;costo;;price, cost, expense;;3110
+n-spa-1517;;el;;maniﬁesto;;manifest, clear, evident;;3111
+n-spa-1518;;la;;repetición;;repetition;;3113
+n-spa-1519;;el;;patrimonio;;patrimony, inheritance;;3114
+n-spa-1520;;la;;estatua;;statue;;3116
+n-spa-1521;;la;;decadencia;;decline, decay;;3117
+n-spa-1522;;el;;enfermero;;nurse;;3122
+n-spa-1523;;el;;aﬁcionado;;fan, devotee;;3125
+n-spa-1524;;el;;agujero;;hole, opening;;3128
+n-spa-1525;;el;;arroz;;rice;;3130
+n-spa-1526;;la;;cerveza;;beer, ale;;3134
+n-spa-1527;;la;;escasez;;scarcity, shortage;;3135
+n-spa-1528;;el;;ministerio;;ministry;;3136
+n-spa-1529;;la;;transición;;transition;;3139
+n-spa-1530;;la;;negativa;;negative, denial;;3142
+n-spa-1531;;la;;falda;;skirt;;3143
+n-spa-1532;;el;;o la cantante;;singer;;3147
+n-spa-1533;;la;;constancia;;perseverance;;3148
+n-spa-1534;;el;;anillo;;ring, ring finger;;3150
+n-spa-1535;;el;;balance;;evaluation, assessment; balance sheet;;3151
+n-spa-1536;;el;;entendimiento;;understanding;;3152
+n-spa-1537;;el;;transcurso;;passing, course, lapse;;3155
+n-spa-1538;;el;;desayuno;;breakfast;;3157
+n-spa-1539;;la;;alfombra;;rug, carpet, mat;;3158
+n-spa-1540;;el;;o la historiador(a);;historian;;3159
+n-spa-1541;;la;;ﬁcción;;ﬁction;;3165
+n-spa-1542;;el;;o la jugador;;player, gambler;;3168
+n-spa-1543;;el;;cartel;;poster, sign;;3169
+n-spa-1544;;la;;desconﬁanza;;distrust;;3170
+n-spa-1545;;la;;respiración;;respiration, breath;;3171
+n-spa-1546;;la;;caña;;cane, reed;;3173
+n-spa-1547;;el;;prisionero;;prisoner;;3176
+n-spa-1548;;la;;turista;;tourist;;3177
+n-spa-1549;;la;;abundancia;;abundance;;3178
+n-spa-1550;;el;;o la asistente;;assistant;;3180
+n-spa-1551;;el;;queso;;cheese;;3182
+n-spa-1552;;el;;indicio;;indication, sign;;3184
+n-spa-1553;;el;;cerro;;hill;;3187
+n-spa-1554;;la;;galería;;gallery, balcony;;3191
+n-spa-1555;;el;;engaño;;deceit, falsehood, hoax;;3192
+n-spa-1556;;la;;continuidad;;continuity;;3195
+n-spa-1557;;la;;receta;;recipe, prescription;;3196
+n-spa-1558;;la;;conveniencia;;convenience, usefulness;;3197
+n-spa-1559;;la;;carencia;;lack, shortage;;3199
+n-spa-1560;;el;;cerdo;;pig, sow, slob;;3200
+n-spa-1561;;el;;empeño;;insistence, determination;;3203
+n-spa-1562;;la;;agresión;;aggression, attack;;3204
+n-spa-1563;;la;;fortaleza;;fortress, strength;;3205
+n-spa-1564;;el;;balcón;;balcony;;3207
+n-spa-1565;;el;;o la observador(a);;observer;;3208
+n-spa-1566;;la;;renta;;income;;3210
+n-spa-1567;;la;;justiﬁcación;;justiﬁcation;;3211
+n-spa-1568;;el;;enfrentamiento;;confrontation;;3212
+n-spa-1569;;la;;junta;;meeting, conference, seam;;3213
+n-spa-1570;;la;;trayectoria;;trajectory, path;;3215
+n-spa-1571;;la;;indiferencia;;indifference;;3217
+n-spa-1572;;la;;taza;;cup, bowl;;3218
+n-spa-1573;;el;;vínculo;;tie, bond, link;;3219
+n-spa-1574;;el;;cuaderno;;notebook, workbook;;3220
+n-spa-1575;;el;;pánico;;panic;;3227
+n-spa-1576;;el;;cañón;;canyon, cannon;;3229
+n-spa-1577;;el;;pollo;;chicken;;3231
+n-spa-1578;;la;;trascendencia;;transcendent nature;;3233
+n-spa-1579;;la;;corrupción;;corruption;;3236
+n-spa-1580;;la;;confesión;;confession, admission;;3237
+n-spa-1581;;la;;corbata;;tie, sash;;3238
+n-spa-1582;;el;;macho;;male, manliness;;3239
+n-spa-1583;;la;;secuencia;;sequence;;3241
+n-spa-1584;;el;;cáncer;;cancer;;3242
+n-spa-1585;;el;;archivo;;archive, ﬁle, ﬁling cabinet;;3244
+n-spa-1586;;el;;trámite;;procedure, step, requirement;;3246
+n-spa-1587;;la;;raya;;line, ray, stripe;;3249
+n-spa-1588;;el;;televisor;;television set;;3250
+n-spa-1589;;la;;estabilidad;;stability;;3251
+n-spa-1590;;la;;grandeza;;greatness, size;;3252
+n-spa-1591;;la;;prisa;;hurry;;3253
+n-spa-1592;;la;;matemática;;mathematics;;3257
+n-spa-1593;;el;;demonio;;demon, devil;;3258
+n-spa-1594;;la;;manga;;sleeve;;3266
+n-spa-1595;;la;;seda;;silk;;3271
+n-spa-1596;;la;;envidia;;envy;;3272
+n-spa-1597;;la;;emergencia;;emergency;;3273
+n-spa-1598;;la;;grasa;;grease, fat;;3275
+n-spa-1599;;el;;o la alcalde(sa);;mayor;;3277
+n-spa-1600;;el;;congreso;;congress;;3280
+n-spa-1601;;el;;aplauso;;applause, praise, acclaim;;3282
+n-spa-1602;;la;;prima;;female cousin, down payment;;3283
+n-spa-1603;;la;;ansiedad;;anxiety;;3284
+n-spa-1604;;el;;o la dirigente;;leader, director, manager;;3285
+n-spa-1605;;el;;ascenso;;promotion, climb;;3286
+n-spa-1606;;la;;ﬁnalidad;;purpose, aim;;3287
+n-spa-1607;;la;;nostalgia;;nostalgia, homesickness;;3290
+n-spa-1608;;la;;mención;;mention;;3291
+n-spa-1609;;la;;aﬁción;;fondness, interest;;3292
+n-spa-1610;;la;;lástima;;shame, pity;;3294
+n-spa-1611;;el;;lápiz;;pencil;;3296
+n-spa-1612;;el;;nido;;nest;;3298
+n-spa-1613;;la;;orquesta;;orchestra, dance band;;3301
+n-spa-1614;;la;;conexión;;connection, relationship;;3302
+n-spa-1615;;el;;vigor;;force, strength, vigor;;3306
+n-spa-1616;;el;;salario;;salary, wages;;3307
+n-spa-1617;;el;;ﬁlo;;edge, cutting edge;;3309
+n-spa-1618;;el;;maíz;;corn, maize;;3314
+n-spa-1619;;la;;autonomía;;autonomy, range;;3317
+n-spa-1620;;la;;ama;;housekeeper, housewife;;3321
+n-spa-1621;;el;;beso;;kiss;;3322
+n-spa-1622;;la;;cintura;;waist;;3323
+n-spa-1623;;la;;pauta;;guideline, rule, standard;;3325
+n-spa-1624;;la;;recepción;;reception, waiting-room;;3327
+n-spa-1625;;la;;bala;;bullet, shot;;3328
+n-spa-1626;;el;;suicidio;;suicide;;3329
+n-spa-1627;;la;;placa;;plaque, plate, badge;;3330
+n-spa-1628;;el;;asesinato;;murder, assassination;;3333
+n-spa-1629;;la;;mentalidad;;mindset, mind;;3334
+n-spa-1630;;la;;jerarquía;;hierarchy, rank;;3335
+n-spa-1631;;la;;duración;;duration, length;;3336
+n-spa-1632;;el;;hallazgo;;ﬁnding, discovery;;3337
+n-spa-1633;;la;;proximidad;;proximity;;3338
+n-spa-1634;;la;;estadística;;statistic;;3339
+n-spa-1635;;el;;castillo;;castle;;3343
+n-spa-1636;;la;;traducción;;translation;;3344
+n-spa-1637;;la;;diversión;;fun, entertainment;;3345
+n-spa-1638;;la;;introducción;;introduction;;3346
+n-spa-1639;;la;;lámpara;;lamp;;3347
+n-spa-1640;;el;;dicho;;saying, proverb;;3348
+n-spa-1641;;la;;audiencia;;audience, hearing;;3353
+n-spa-1642;;el;;pasajero;;passenger;;3354
+n-spa-1643;;el;;costado;;side, ﬂank;;3356
+n-spa-1644;;el;;otoño;;autumn;;3357
+n-spa-1645;;la;;feria;;fair, festival;;3358
+n-spa-1646;;el;;exilio;;exile;;3359
+n-spa-1647;;el;;o la portador(a);;carrier, bearer, messenger;;3362
+n-spa-1648;;el;;obispo;;bishop;;3363
+n-spa-1649;;la;;apertura;;opening, beginning;;3368
+n-spa-1650;;la;;ideología;;ideology;;3369
+n-spa-1651;;el;;o la cazador(a);;hunter;;3376
+n-spa-1652;;el;;seguro;;insurance;;3377
+n-spa-1653;;el;;ingenio;;ingenuity, talent, wit;;3378
+n-spa-1654;;la;;hembra;;female, woman;;3379
+n-spa-1655;;el;;bando;;faction, side;;3380
+n-spa-1656;;el;;dormitorio;;bedroom, dormitory;;3382
+n-spa-1657;;la;;plenitud;;fullness, abundance;;3383
+n-spa-1658;;el;;coraje;;courage, toughness;;3385
+n-spa-1659;;el;;plomo;;lead, bullet;;3386
+n-spa-1660;;el;;o la descendiente;;descendant;;3387
+n-spa-1661;;la;;república;;republic;;3389
+n-spa-1662;;la;;sierra;;mountain range, saw;;3390
+n-spa-1663;;el;;guante;;glove;;3392
+n-spa-1664;;el;;cartón;;cardboard, carton, sketch;;3393
+n-spa-1665;;la;;adolescencia;;adolescence;;3397
+n-spa-1666;;la;;complicación;;complication;;3400
+n-spa-1667;;el;;taxi;;taxi, cab;;3402
+n-spa-1668;;la;;porción;;part, portion, share;;3403
+n-spa-1669;;el;;timbre;;doorbell, bell, seal, stamp;;3404
+n-spa-1670;;el;;monstruo;;monster, monstrosity;;3405
+n-spa-1671;;el;;bebé;;baby;;3406
+n-spa-1672;;el;;trayecto;;trajectory, course, path;;3407
+n-spa-1673;;el;;globo;;balloon, globe;;3408
+n-spa-1674;;la;;celebración;;celebration;;3409
+n-spa-1675;;el;;quehacer;;task, job, chore;;3410
+n-spa-1676;;la;;obsesión;;mania, obsession;;3412
+n-spa-1677;;el;;bronce;;bronze;;3413
+n-spa-1678;;la;;licencia;;license, permission;;3415
+n-spa-1679;;la;;motivación;;motivation;;3416
+n-spa-1680;;la;;depresión;;depression, slump;;3419
+n-spa-1681;;el;;pulmón;;lung;;3420
+n-spa-1682;;la;;ﬁbra;;ﬁber, grain;;3424
+n-spa-1683;;el;;petróleo;;oil, petroleum;;3427
+n-spa-1684;;la;;permanencia;;permanence, tenure;;3429
+n-spa-1685;;el;;miércoles;;Wednesday;;3431
+n-spa-1686;;el;;horno;;oven, furnace;;3432
+n-spa-1687;;el;;logro;;success, achievement;;3433
+n-spa-1688;;el;;vientre;;womb, belly;;3434
+n-spa-1689;;la;;petición;;request, petition;;3435
+n-spa-1690;;el;;o la civil;;civilian;;3436
+n-spa-1691;;el;;reparto;;distribution, delivery;;3437
+n-spa-1692;;la;;advertencia;;warning, notice;;3438
+n-spa-1693;;la;;previsión;;forecast, precaution;;3440
+n-spa-1694;;el;;mandato;;mandate, order, command;;3443
+n-spa-1695;;la;;timidez;;shyness, timidity;;3447
+n-spa-1696;;el;;toque;;touch, ringing, warning;;3448
+n-spa-1697;;la;;máscara;;mask;;3449
+n-spa-1698;;la;;venganza;;revenge, vengeance;;3450
+n-spa-1699;;la;;barba;;beard;;3451
+n-spa-1700;;la;;alarma;;alarm;;3452
+n-spa-1701;;el;;aliento;;breath, courage, spirit;;3454
+n-spa-1702;;la;;pureza;;purity, chastity;;3455
+n-spa-1703;;la;;comedia;;comedy, play, pretense;;3457
+n-spa-1704;;la;;aldea;;small village;;3458
+n-spa-1705;;el;;párrafo;;paragraph;;3461
+n-spa-1706;;el;;brillo;;shine, twinkling, sparkle;;3463
+n-spa-1707;;el;;rastro;;track, sign, ﬂea market;;3465
+n-spa-1708;;el;;adorno;;decoration, adornment;;3468
+n-spa-1709;;el;;mono;;monkey;;3471
+n-spa-1710;;el;;razonamiento;;reasoning;;3472
+n-spa-1711;;el;;o la pastor(a);;shepherd, pastor;;3474
+n-spa-1712;;el;;tramo;;section, stretch, plot;;3475
+n-spa-1713;;el;;reto;;challenge, deﬁance;;3476
+n-spa-1714;;la;;pesadilla;;nightmare;;3479
+n-spa-1715;;el;;centenar;;hundred;;3480
+n-spa-1716;;la;;molestia;;bother, nuisance, trouble;;3481
+n-spa-1717;;la;;paja;;straw, thatching;;3483
+n-spa-1718;;la;;concesión;;awarding, concession;;3486
+n-spa-1719;;el;;nudo;;knot;;3488
+n-spa-1720;;el;;martes;;Tuesday;;3490
+n-spa-1721;;la;;utilización;;use, utilization;;3491
+n-spa-1722;;la;;tapa;;cover, lid;;3492
+n-spa-1723;;la;;traición;;treason, betrayal;;3493
+n-spa-1724;;la;;pesca;;ﬁshing;;3495
+n-spa-1725;;el;;malestar;;discomfort, unease, unrest;;3496
+n-spa-1726;;la;;rata;;rat;;3497
+n-spa-1727;;el;;o la defensor(a);;defender;;3499
+n-spa-1728;;el;;auxilio;;help, aid, assistance;;3500
+n-spa-1729;;el;;cobre;;copper;;3503
+n-spa-1730;;la;;intuición;;intuition;;3509
+n-spa-1731;;la;;invención;;invention, contrivance;;3510
+n-spa-1732;;la;;vena;;vein;;3512
+n-spa-1733;;el;;freno;;brake;;3513
+n-spa-1734;;la;;interrupción;;interruption;;3518
+n-spa-1735;;la;;condena;;prison sentence, penalty;;3519
+n-spa-1736;;la;;inocencia;;innocence;;3520
+n-spa-1737;;el;;relieve;;relief;;3521
+n-spa-1738;;la;;semejanza;;similarity, likeness;;3522
+n-spa-1739;;la;;cumbre;;summit, top;;3523
+n-spa-1740;;el;;colmo;;climax;;3525
+n-spa-1741;;el;;o la administrador(a);;administrator, manager;;3527
+n-spa-1742;;el;;decreto;;decree, order;;3529
+n-spa-1743;;la;;ironía;;irony;;3531
+n-spa-1744;;la;;seña;;sign, mark, seal;;3533
+n-spa-1745;;el;;ritual;;ritual, rite;;3534
+n-spa-1746;;el;;escritorio;;desk, bureau;;3539
+n-spa-1747;;la;;solicitud;;request, application;;3540
+n-spa-1748;;la;;víspera;;eve;;3541
+n-spa-1749;;el;;insecto;;insect;;3542
+n-spa-1750;;el;;ridículo;;ridicule;;3543
+n-spa-1751;;la;;ira;;rage, wrath;;3545
+n-spa-1752;;la;;ceniza;;ash;;3546
+n-spa-1753;;la;;monja;;nun;;3548
+n-spa-1754;;el;;parto;;birth;;3550
+n-spa-1755;;el;;circuito;;circuit, circumference, track;;3554
+n-spa-1756;;la;;oveja;;sheep, ewe;;3556
+n-spa-1757;;la;;ubicación;;position, location;;3559
+n-spa-1758;;la;;hacienda;;ranch;;3561
+n-spa-1759;;la;;antigüedad;;antiquity, seniority;;3562
+n-spa-1760;;el;;puño;;ﬁst, handle, cuff;;3563
+n-spa-1761;;la;;excusa;;excuse;;3564
+n-spa-1762;;la;;trama;;plot, theme;;3566
+n-spa-1763;;la;;alteración;;alteration, change;;3569
+n-spa-1764;;la;;acusación;;accusation, charge;;3573
+n-spa-1765;;la;;salvación;;salvation, rescue;;3575
+n-spa-1766;;el;;fundador;;founder;;3577
+n-spa-1767;;el;;original;;original;;3581
+n-spa-1768;;la;;maquinaria;;machinery;;3582
+n-spa-1769;;la;;tortura;;torture;;3585
+n-spa-1770;;el;;humano;;human;;3586
+n-spa-1771;;la;;insistencia;;insistence, persistence;;3587
+n-spa-1772;;el;;sobrino;;nephew;;3593
+n-spa-1773;;el;;apunte;;note, annotation;;3599
+n-spa-1774;;el;;antepasado;;ancestor;;3600
+n-spa-1775;;el;;sillón;;armchair, seat;;3604
+n-spa-1776;;el;;colectivo;;collective, group;;3606
+n-spa-1777;;la;;dieta;;diet;;3607
+n-spa-1778;;el;;o la teniente;;lieutenant, deputy mayor;;3608
+n-spa-1779;;el;;polo;;pole, polo, polo shirt;;3609
+n-spa-1780;;el;;abismo;;abyss, large gap;;3612
+n-spa-1781;;el;;algodón;;cotton;;3613
+n-spa-1782;;la;;harina;;ﬂour;;3614
+n-spa-1783;;la;;exactitud;;accuracy;;3615
+n-spa-1784;;el;;provecho;;beneﬁt, use;;3617
+n-spa-1785;;la;;prudencia;;prudence, moderation;;3621
+n-spa-1786;;el;;insulto;;insult;;3622
+n-spa-1787;;el;;ﬂujo;;ﬂow, tide, discharge;;3624
+n-spa-1788;;la;;aguja;;needle, spire, stylus;;3625
+n-spa-1789;;el;;planteamiento;;proposal, exposition;;3626
+n-spa-1790;;la;;cortina;;curtain, screen;;3630
+n-spa-1791;;la;;reproducción;;reproduction;;3637
+n-spa-1792;;la;;expansión;;expansion, spreading;;3638
+n-spa-1793;;el;;umbral;;threshold, outset;;3639
+n-spa-1794;;la;;alusión;;allusion, hint;;3640
+n-spa-1795;;el;;descenso;;decline, descent, lowering;;3641
+n-spa-1796;;el;;océano;;ocean;;3646
+n-spa-1797;;la;;proposición;;proposition;;3647
+n-spa-1798;;el;;absurdo;;absurdity, nonsense;;3648
+n-spa-1799;;la;;parada;;bus stop, train stop;;3649
+n-spa-1800;;el;;titular;;headline, holder;;3655
+n-spa-1801;;el;;calendario;;calendar;;3656
+n-spa-1802;;el;;o la interlocutor;;conversational partner, interlocutor;;3657
+n-spa-1803;;el;;disgusto;;disgust, annoyance;;3660
+n-spa-1804;;la;;conservación;;conservation;;3661
+n-spa-1805;;la;;elaboración;;production;;3663
+n-spa-1806;;el;;correo;;mail, post office;;3665
+n-spa-1807;;el;;circo;;circus;;3666
+n-spa-1808;;el;;adversario;;adversary;;3667
+n-spa-1809;;la;;cubierta;;covering, top, lid;;3668
+n-spa-1810;;el;;aniversario;;anniversary;;3669
+n-spa-1811;;la;;franja;;strip, stripe, fringe;;3670
+n-spa-1812;;la;;pila;;baptismal font, battery, heap;;3672
+n-spa-1813;;la;;goma;;rubber;;3677
+n-spa-1814;;el;;ancho;;width;;3679
+n-spa-1815;;la;;uva;;grape;;3682
+n-spa-1816;;la;;ética;;ethics;;3683
+n-spa-1817;;la;;inscripción;;inscription, registration;;3684
+n-spa-1818;;la;;adquisición;;acquisition;;3687
+n-spa-1819;;el;;sentimiento;;feeling;;3690
+n-spa-1820;;la;;renuncia;;resignation, renunciation;;3693
+n-spa-1821;;el;;préstamo;;loan, borrowing;;3694
+n-spa-1822;;la;;dedicación;;dedication, devotion;;3698
+n-spa-1823;;el;;instituto;;institute;;3699
+n-spa-1824;;la;;paloma;;dove;;3700
+n-spa-1825;;la;;devoción;;devotion;;3702
+n-spa-1826;;la;;espina;;thorn, spine;;3708
+n-spa-1827;;la;;aprobación;;approval, consent;;3709
+n-spa-1828;;la;;fachada;;front of a building;;3710
+n-spa-1829;;el;;jugo;;juice;;3712
+n-spa-1830;;el;;discípulo;;disciple;;3714
+n-spa-1831;;el;;coronel;;colonel;;3715
+n-spa-1832;;la;;modiﬁcación;;modiﬁcation, alteration;;3717
+n-spa-1833;;la;;acumulación;;accumulation;;3718
+n-spa-1834;;el;;mantenimiento;;maintenance, sustenance;;3720
+n-spa-1835;;la;;cabecera;;head, header;;3723
+n-spa-1836;;la;;revelación;;revelation;;3724
+n-spa-1837;;la;;peseta;;peseta;;3725
+n-spa-1838;;la;;cuna;;cradle, birth, lineage;;3726
+n-spa-1839;;el;;ácido;;acid;;3729
+n-spa-1840;;la;;incapacidad;;inability, incompetence;;3730
+n-spa-1841;;la;;villa;;village, town;;3731
+n-spa-1842;;el;;lecho;;river bed, couch;;3732
+n-spa-1843;;el;;alquiler;;rent, rental;;3733
+n-spa-1844;;la;;redacción;;editing, wording, essay;;3735
+n-spa-1845;;la;;ﬁcha;;index card, chip, token;;3736
+n-spa-1846;;la;;inseguridad;;insecurity;;3738
+n-spa-1847;;el;;coma;;coma;;3739
+n-spa-1848;;la;;coma;;comma;;3739
+n-spa-1849;;la;;agricultura;;agriculture, farming;;3741
+n-spa-1850;;la;;naturalidad;;ease, spontaneity;;3742
+n-spa-1851;;la;;serenidad;;serenity, calm;;3743
+n-spa-1852;;la;;pistola;;gun, pistol;;3745
+n-spa-1853;;el;;diputado;;deputy, member;;3749
+n-spa-1854;;el;;duelo;;grief, afﬂiction;;3751
+n-spa-1855;;el;;comandante;;commanding ofﬁcer;;3755
+n-spa-1856;;la;;ópera;;opera;;3757
+n-spa-1857;;la;;réplica;;answer, retort, copy;;3758
+n-spa-1858;;el;;pulso;;pulse, pulsation;;3762
+n-spa-1859;;la;;explotación;;exploitation, cultivation;;3764
+n-spa-1860;;la;;bestia;;beast, brute;;3765
+n-spa-1861;;el;;abrazo;;hug, embrace;;3767
+n-spa-1862;;el;;asalto;;assault, robbery;;3768
+n-spa-1863;;el;;reposo;;rest, peace;;3769
+n-spa-1864;;la;;lámina;;sheet, sheet metal;;3770
+n-spa-1865;;la;;pasta;;pasta, dough;;3771
+n-spa-1866;;la;;polémica;;polemics, argument;;3774
+n-spa-1867;;el;;chocolate;;chocolate;;3776
+n-spa-1868;;la;;generosidad;;generosity;;3777
+n-spa-1869;;el;;realismo;;realism;;3780
+n-spa-1870;;el;;acorde;;agreement, accord;;3783
+n-spa-1871;;la;;sugerencia;;suggestion;;3784
+n-spa-1872;;el;;cumpleaños;;birthday;;3785
+n-spa-1873;;la;;ronda;;round;;3786
+n-spa-1874;;la;;capilla;;chapel;;3788
+n-spa-1875;;el;;expediente;;dossier, proceedings;;3791
+n-spa-1876;;la;;tolerancia;;tolerance;;3792
+n-spa-1877;;la;;sopa;;soup;;3795
+n-spa-1878;;el;;o la rival;;rival;;3796
+n-spa-1879;;la;;ternura;;tenderness;;3797
+n-spa-1880;;la;;variante;;variant, difference;;3798
+n-spa-1881;;el;;molde;;mold, cast;;3800
+n-spa-1882;;el;;espectro;;ghost, specter;;3802
+n-spa-1883;;el;;recorte;;cutback, reduction; clipping;;3804
+n-spa-1884;;el;;reglamento;;regulations, rules;;3805
+n-spa-1885;;la;;vitalidad;;vitality;;3807
+n-spa-1886;;la;;adaptación;;adaptation;;3809
+n-spa-1887;;la;;etiqueta;;label, etiquette;;3810
+n-spa-1888;;la;;muralla;;city wall;;3812
+n-spa-1889;;la;;represión;;repression;;3814
+n-spa-1890;;la;;reducción;;reduction;;3815
+n-spa-1891;;la;;difusión;;spread, diffusion;;3816
+n-spa-1892;;el;;encargo;;job, order, errand;;3818
+n-spa-1893;;el;;oeste;;west;;3821
+n-spa-1894;;el;;pescador;;ﬁsherman;;3824
+n-spa-1895;;el;;diagnóstico;;diagnosis;;3825
+n-spa-1896;;la;;cuadra;;city block;;3826
+n-spa-1897;;la;;rienda;;rein, restraint;;3829
+n-spa-1898;;la;;crueldad;;cruelty;;3830
+n-spa-1899;;la;;ansia;;urge, impulse; longing, desire;;3832
+n-spa-1900;;la;;cúpula;;cupola, dome;;3833
+n-spa-1901;;la;;llama;;ﬂame, llama;;3835
+n-spa-1902;;la;;vegetación;;vegetation;;3837
+n-spa-1903;;la;;lema;;motto, slogan;;3838
+n-spa-1904;;el;;bote;;boat, container;;3840
+n-spa-1905;;el;;perfume;;perfume;;3843
+n-spa-1906;;la;;central;;power plant;;3844
+n-spa-1907;;la;;pertenencia;;membership, property;;3846
+n-spa-1908;;la;;casita;;cottage;;3849
+n-spa-1909;;la;;alianza;;alliance;;3851
+n-spa-1910;;el;;o la ratón, ratona;;mouse;;3856
+n-spa-1911;;la;;hazaña;;deed, heroic feat;;3857
+n-spa-1912;;la;;dureza;;hardness, toughness;;3858
+n-spa-1913;;la;;sábana;;bed sheet;;3859
+n-spa-1914;;la;;revisión;;checking revision;;3860
+n-spa-1915;;la;;retirada;;retreat, withdrawal;;3861
+n-spa-1916;;el;;aroma;;aroma;;3863
+n-spa-1917;;el;;optimismo;;optimism;;3864
+n-spa-1918;;el;;mate;;maté the beverage;;3865
+n-spa-1919;;el;;evento;;event;;3867
+n-spa-1920;;el;;físico;;physicist;;3868
+n-spa-1921;;el;;pasto;;grass, pasture;;3870
+n-spa-1922;;el;;gallo;;rooster;;3872
+n-spa-1923;;el;;rendimiento;;yield, output, efﬁciency;;3874
+n-spa-1924;;la;;lentitud;;slowness;;3875
+n-spa-1925;;la;;aula;;classroom;;3876
+n-spa-1926;;el;;himno;;hymn, anthem;;3881
+n-spa-1927;;el;;sindicato;;trade union;;3882
+n-spa-1928;;la;;mariposa;;butterﬂy, wing nut;;3883
+n-spa-1929;;la;;ﬁdelidad;;faithfulness, accuracy;;3885
+n-spa-1930;;el;;retraso;;delay;;3886
+n-spa-1931;;el;;desplazamiento;;movement, removal;;3887
+n-spa-1932;;la;;compatriota;;fellow countryman;;3891
+n-spa-1933;;la;;localidad;;town, locality;;3894
+n-spa-1934;;el;;lobo;;wolf;;3898
+n-spa-1935;;la;;asamblea;;assembly;;3899
+n-spa-1936;;el;;pañuelo;;handkerchief, shawl;;3900
+n-spa-1937;;el;;temblor;;trembling; tremor;;3902
+n-spa-1938;;la;;gira;;tour;;3903
+n-spa-1939;;el;;manto;;cloak;;3904
+n-spa-1940;;el;;asombro;;amazement, astonishment;;3906
+n-spa-1941;;el;;o la gobernador(a);;governor;;3907
+n-spa-1942;;la;;amplitud;;breadth, extent, range;;3908
+n-spa-1943;;el;;carbón;;coal, charcoal;;3909
+n-spa-1944;;el;;campamento;;camp, camping;;3910
+n-spa-1945;;la;;excursión;;excursion;;3916
+n-spa-1946;;el;;tomate;;tomato;;3920
+n-spa-1947;;el;;cinturón;;belt;;3922
+n-spa-1948;;el;;bulto;;bulk, shape;;3925
+n-spa-1949;;el;;vocabulario;;vocabulary;;3927
+n-spa-1950;;la;;especulación;;speculation, conjecture;;3928
+n-spa-1951;;el;;manual;;manual;;3929
+n-spa-1952;;el;;disparo;;shot, discharge;;3932
+n-spa-1953;;el;;residuo;;residue, waste;;3934
+n-spa-1954;;la;;vanidad;;vanity, conceit;;3935
+n-spa-1955;;la;;renovación;;renewal, renovation;;3937
+n-spa-1956;;la;;peste;;plague, pestilence, pest;;3943
+n-spa-1957;;la;;expedición;;expedition;;3944
+n-spa-1958;;la;;mecánica;;mechanics, mechanism;;3949
+n-spa-1959;;la;;electricidad;;electricity;;3950
+n-spa-1960;;el;;ascensor;;elevator;;3954
+n-spa-1961;;la;;bicicleta;;bicycle;;3955
+n-spa-1962;;el;;aporte;;contribution;;3957
+n-spa-1963;;la;;beca;;scholarship, grant;;3959
+n-spa-1964;;el;;trigo;;wheat;;3961
+n-spa-1965;;la;;plataforma;;platform, springboard;;3965
+n-spa-1966;;la;;clínica;;clinic;;3967
+n-spa-1967;;el;;heredero;;heir, heiress;;3968
+n-spa-1968;;el;;estadio;;stadium;;3970
+n-spa-1969;;el;;desﬁle;;parade, line, formation;;3973
+n-spa-1970;;el;;buque;;ship, vessel, hull;;3974
+n-spa-1971;;el;;parentesco;;kinship;;3975
+n-spa-1972;;el;;fallo;;mistake, blunder, fault;;3976
+n-spa-1973;;la;;rebeldía;;rebelliousness, deﬁance;;3977
+n-spa-1974;;la;;corrección;;correction, amendment;;3979
+n-spa-1975;;la;;chispa;;spark;;3980
+n-spa-1976;;el;;o la virgen;;virgin;;3981
+n-spa-1977;;la;;supervivencia;;survival;;3983
+n-spa-1978;;la;;caridad;;charity;;3984
+n-spa-1979;;la;;comunión;;communion;;3986
+n-spa-1980;;el;;o la embajador(a);;ambassador;;3987
+n-spa-1981;;el;;tercio;;third;;3988
+n-spa-1982;;la;;iluminación;;illumination, lighting;;3989
+n-spa-1983;;la;;censura;;censorship, criticism;;3990
+n-spa-1984;;la;;disputa;;dispute, argument, quarrel;;3991
+n-spa-1985;;el;;esplendor;;splendor;;3992
+n-spa-1986;;el;;perjuicio;;damage, loss;;3994
+n-spa-1987;;la;;medalla;;medal, medallion;;3995
+n-spa-1988;;la;;lealtad;;loyalty, faithfulness;;3996
+n-spa-1989;;el;;divorcio;;divorce;;3997
+n-spa-1990;;el;;enfoque;;perspective, focus;;3999
+n-spa-1991;;la;;ﬁrmeza;;ﬁrmness;;4001
+n-spa-1992;;la;;colina;;hill, slope;;4003
+n-spa-1993;;la;;parcela;;piece of property;;4004
+n-spa-1994;;la;;jaula;;cage;;4005
+n-spa-1995;;el;;ajuste;;adjustment, settlement;;4006
+n-spa-1996;;el;;entierro;;burial;;4008
+n-spa-1997;;el;;o la servidor(a);;servant;;4010
+n-spa-1998;;la;;superioridad;;superiority;;4011
+n-spa-1999;;el;;turismo;;tourism;;4012
+n-spa-2000;;la;;barbaridad;;atrocity;;4013
+n-spa-2001;;el;;rollo;;roll, coil;;4014
+n-spa-2002;;el;;triángulo;;triangle;;4016
+n-spa-2003;;el;;aislamiento;;isolation;;4017
+n-spa-2004;;el;;alivio;;relief, unburdening;;4018
+n-spa-2005;;el;;entrenamiento;;training;;4019
+n-spa-2006;;el;;truco;;trick, ruse;;4020
+n-spa-2007;;el;;disparate;;crazy idea, nonsense;;4022
+n-spa-2008;;el;;cocinero;;cook;;4023
+n-spa-2009;;el;;fotógrafo;;photographer;;4027
+n-spa-2010;;la;;imposición;;imposition;;4028
+n-spa-2011;;el;;consuelo;;comfort, consolation;;4031
+n-spa-2012;;la;;transmisión;;broadcast, transmission;;4034
+n-spa-2013;;el;;sendero;;foot path;;4036
+n-spa-2014;;el;;desacuerdo;;disagreement;;4038
+n-spa-2015;;la;;academia;;academy;;4039
+n-spa-2016;;la;;catedral;;cathedral;;4041
+n-spa-2017;;la;;vanguardia;;vanguard, forefront;;4043
+n-spa-2018;;el;;embarazo;;pregnancy;;4051
+n-spa-2019;;la;;imposibilidad;;impossibility;;4052
+n-spa-2020;;el;;reportaje;;feature, article, report;;4056
+n-spa-2021;;el;;tambor;;drum;;4057
+n-spa-2022;;la;;fundación;;foundation;;4058
+n-spa-2023;;la;;transparencia;;transparency, slide;;4059
+n-spa-2024;;la;;elegancia;;elegance, style;;4060
+n-spa-2025;;el;;o la criminal;;criminal;;4061
+n-spa-2026;;el;;elogio;;praise, eulogy, compliment;;4062
+n-spa-2027;;la;;manta;;blanket;;4063
+n-spa-2028;;la;;alerta;;alert;;4068
+n-spa-2029;;la;;sinceridad;;sincerity;;4069
+n-spa-2030;;la;;cátedra;;academic chair;;4070
+n-spa-2031;;el;;repertorio;;repertoire, list, index;;4072
+n-spa-2032;;la;;plancha;;electric iron, plate, sheet;;4073
+n-spa-2033;;la;;terraza;;terrace, balcony;;4074
+n-spa-2034;;la;;gala;;gala;;4075
+n-spa-2035;;la;;era;;era;;4076
+n-spa-2036;;el;;arranque;;start, outburst, kick-start;;4077
+n-spa-2037;;la;;patada;;kick, punt;;4078
+n-spa-2038;;el;;lapso;;lapse;;4080
+n-spa-2039;;el;;sudor;;sweat, perspiration;;4081
+n-spa-2040;;el;;apetito;;appetite;;4082
+n-spa-2041;;la;;indicación;;indication;;4084
+n-spa-2042;;el;;aliado;;ally;;4086
+n-spa-2043;;la;;presidencia;;presidency;;4087
+n-spa-2044;;el;;consejero;;advisor, counselor;;4089
+n-spa-2045;;la;;consigna;;watchword, motto, slogan;;4091
+n-spa-2046;;la;;cortesía;;courtesy;;4092
+n-spa-2047;;el;;atributo;;attribute, quality;;4094
+n-spa-2048;;la;;furia;;fury, rage;;4095
+n-spa-2049;;la;;estatura;;stature, height;;4098
+n-spa-2050;;la;;vejez;;old age;;4099
+n-spa-2051;;el;;terremoto;;earthquake;;4100
+n-spa-2052;;la;;tira;;strip, strap;;4102
+n-spa-2053;;el;;emisor;;electronic transmitter;;4103
+n-spa-2054;;la;;integridad;;integrity;;4105
+n-spa-2055;;la;;autorización;;authorization;;4106
+n-spa-2056;;el;;seminario;;seminar, seminary;;4108
+n-spa-2057;;la;;marea;;wave, tide, ebb;;4109
+n-spa-2058;;el;;resentimiento;;resentment;;4110
+n-spa-2059;;el;;o la delincuente;;delinquent;;4111
+n-spa-2060;;el;;esqueleto;;skeleton, framework;;4121
+n-spa-2061;;la;;indignación;;indignation;;4122
+n-spa-2062;;la;;escultura;;sculpture, carving;;4125
+n-spa-2063;;la;;inﬁnidad;;infinity;;4127
+n-spa-2064;;el;;pilar;;pillar, column;;4128
+n-spa-2065;;la;;percepción;;perception;;4136
+n-spa-2066;;la;;minoría;;minority;;4137
+n-spa-2067;;el;;deterioro;;deterioration, damage;;4138
+n-spa-2068;;la;;sanción;;sanction, approval, penalty;;4141
+n-spa-2069;;la;;maleta;;suitcase, case;;4146
+n-spa-2070;;la;;faena;;task, job, performance;;4147
+n-spa-2071;;la;;serpiente;;snake;;4150
+n-spa-2072;;la;;agitación;;agitation, excitement;;4153
+n-spa-2073;;la;;ganancia;;gain, proﬁt;;4155
+n-spa-2074;;el;;pino;;pine tree;;4157
+n-spa-2075;;el;;llanto;;crying, weeping;;4163
+n-spa-2076;;la;;ida;;departure, ﬁrst half of a trip;;4164
+n-spa-2077;;la;;falla;;ﬂaw, failure;;4167
+n-spa-2078;;la;;contribución;;contribution;;4168
+n-spa-2079;;la;;burla;;mockery, joke, trick;;4169
+n-spa-2080;;el;;seguidor;;supporter, follower;;4170
+n-spa-2081;;la;;perla;;pearl;;4172
+n-spa-2082;;la;;integración;;integration;;4174
+n-spa-2083;;la;;siesta;;siesta, afternoon nap;;4176
+n-spa-2084;;el;;bigote;;mustache;;4182
+n-spa-2085;;la;;niñez;;infancy, childhood;;4184
+n-spa-2086;;la;;leña;;ﬁrewood;;4185
+n-spa-2087;;el;;atardecer;;evening, dusk;;4186
+n-spa-2088;;el;;interrogante;;question, interrogator;;4190
+n-spa-2089;;la;;lente;;lens;;4193
+n-spa-2090;;el;;compás;;rhythm, time, compass;;4194
+n-spa-2091;;la;;llanura;;plain, prairie, plainness;;4196
+n-spa-2092;;el;;collar;;necklace, collar;;4197
+n-spa-2093;;el;;veneno;;poison, venom;;4198
+n-spa-2094;;el;;mármol;;marble;;4199
+n-spa-2095;;la;;biografía;;biography;;4200
+n-spa-2096;;la;;rebelión;;rebellion;;4202
+n-spa-2097;;el;;hígado;;liver;;4203
+n-spa-2098;;el;;o la ladrón;;thief, robber;;4204
+n-spa-2099;;el;;tablero;;board, panel;;4207
+n-spa-2100;;la;;imitación;;imitation;;4209
+n-spa-2101;;el;;adelanto;;advance, progress;;4210
+n-spa-2102;;el;;intervalo;;interval, gap;;4214
+n-spa-2103;;el;;trago;;swig, drink;;4215
+n-spa-2104;;la;;fracción;;fraction;;4216
+n-spa-2105;;el;;convento;;convent, monastery;;4217
+n-spa-2106;;el;;arroyo;;brook, stream, gutter;;4218
+n-spa-2107;;el;;enlace;;connection, link;;4220
+n-spa-2108;;el;;diccionario;;dictionary;;4223
+n-spa-2109;;la;;afueras;;outskirts, suburbs;;4225
+n-spa-2110;;la;;ceja;;eyebrow, brow;;4227
+n-spa-2111;;la;;constitución;;constitution;;4231
+n-spa-2112;;la;;clasiﬁcación;;classiﬁcation;;4233
+n-spa-2113;;el;;lío;;mess, problem, bad situation;;4235
+n-spa-2114;;la;;sede;;headquarters, seat of authority;;4236
+n-spa-2115;;el;;litro;;liter;;4239
+n-spa-2116;;la;;bandeja;;tray;;4240
+n-spa-2117;;la;;aproximación;;approximation;;4241
+n-spa-2118;;el;;trapo;;rag, cloth;;4244
+n-spa-2119;;el;;o la conocedor;;connoisseur, expert;;4245
+n-spa-2120;;el;;altar;;altar;;4247
+n-spa-2121;;el;;acierto;;good aim, guess, hit;;4248
+n-spa-2122;;el;;piloto;;pilot, driver;;4249
+n-spa-2123;;la;;computadora;;computer;;4253
+n-spa-2124;;el;;alambre;;wire;;4255
+n-spa-2125;;el;;mango;;handle, mango;;4256
+n-spa-2126;;el;;rosario;;rosary, beads, string;;4258
+n-spa-2127;;la;;reconstrucción;;reconstruction;;4259
+n-spa-2128;;la;;parroquia;;parish;;4260
+n-spa-2129;;el;;o la comprador(a);;buyer;;4266
+n-spa-2130;;la;;piedad;;piety;;4267
+n-spa-2131;;la;;niebla;;fog;;4274
+n-spa-2132;;el;;verbo;;verb;;4278
+n-spa-2133;;la;;cadera;;hip;;4279
+n-spa-2134;;la;;procesión;;procession;;4280
+n-spa-2135;;la;;encuesta;;poll, survey, inquiry;;4281
+n-spa-2136;;la;;cría;;breeding, raising;;4282
+n-spa-2137;;la;;narración;;narration, account;;4283
+n-spa-2138;;el;;ramo;;bunch (of ﬂowers), branch;;4284
+n-spa-2139;;el;;o la traidor;;traitor;;4286
+n-spa-2140;;el;;catálogo;;catalog;;4287
+n-spa-2141;;el;;protector;;protector, defender;;4288
+n-spa-2142;;el;;amparo;;protection, shelter;;4289
+n-spa-2143;;la;;farmacia;;pharmacy, drugstore;;4290
+n-spa-2144;;la;;cima;;summit, peak, top;;4291
+n-spa-2145;;el;;riñón;;kidney;;4292
+n-spa-2146;;la;;ﬁnca;;property, estate;;4294
+n-spa-2147;;la;;caliﬁcación;;evaluation, qualiﬁcation;;4295
+n-spa-2148;;el;;caudal;;water flow, volume, or level;;4296
+n-spa-2149;;el;;trastorno;;confusion, trouble, upheaval;;4298
+n-spa-2150;;el;;jovencito;;young person;;4300
+n-spa-2151;;la;;incorporación;;inclusion, incorporation;;4301
+n-spa-2152;;el;;corral;;corral, yard;;4302
+n-spa-2153;;la;;fatiga;;fatigue;;4303
+n-spa-2154;;la;;bruja;;witch, hag;;4305
+n-spa-2155;;la;;exploración;;exploration;;4306
+n-spa-2156;;la;;ilustración;;illustration;;4309
+n-spa-2157;;el;;o la cómplice;;accomplice;;4310
+n-spa-2158;;la;;melodía;;melody;;4311
+n-spa-2159;;el;;o la productor(a);;producer;;4312
+n-spa-2160;;el;;portero;;porter, doorkeeper, goalkeeper;;4315
+n-spa-2161;;el;;conejo;;rabbit;;4316
+n-spa-2162;;la;;densidad;;density, thickness;;4318
+n-spa-2163;;la;;apuesta;;wager, bet;;4320
+n-spa-2164;;la;;nacionalidad;;nationality;;4321
+n-spa-2165;;el;;mozo;;waiter, youth, bellboy;;4324
+n-spa-2166;;el;;cuerno;;horn, antler;;4326
+n-spa-2167;;la;;talla;;clothing size, stature;;4330
+n-spa-2168;;el;;comisario;;commissioner, delegate;;4332
+n-spa-2169;;el;;acercamiento;;approach, approximation;;4334
+n-spa-2170;;el;;contorno;;outline, perimeter, edge;;4339
+n-spa-2171;;el;;egoísmo;;selﬁshness;;4340
+n-spa-2172;;el;;bordo;;side of a ship;;4341
+n-spa-2173;;la;;compensación;;compensation;;4342
+n-spa-2174;;la;;prohibición;;prohibition;;4343
+n-spa-2175;;el;;laberinto;;maze, labyrinth;;4348
+n-spa-2176;;la;;eternidad;;eternity;;4352
+n-spa-2177;;la;;pastilla;;pill, capsule;;4354
+n-spa-2178;;la;;mierda;;shit, crap, excrement;;4355
+n-spa-2179;;la;;contienda;;contest, dispute;;4356
+n-spa-2180;;el;;chorro;;stream, jet, spurt;;4361
+n-spa-2181;;el;;clavo;;nail, tack, peg;;4363
+n-spa-2182;;la;;sequía;;drought;;4364
+n-spa-2183;;la;;dinámica;;dynamics;;4365
+n-spa-2184;;el;;ocio;;leisure, leisure time;;4366
+n-spa-2185;;la;;normalidad;;normality;;4367
+n-spa-2186;;la;;resonancia;;resonance, repercussion;;4369
+n-spa-2187;;la;;chaqueta;;jacket;;4372
+n-spa-2188;;el;;asco;;disgust;;4375
+n-spa-2189;;el;;pleito;;litigation, suit, dispute;;4378
+n-spa-2190;;la;;sencillez;;simplicity;;4380
+n-spa-2191;;la;;estupidez;;stupidity, stupid thing;;4382
+n-spa-2192;;el;;o la senador(a);;senator;;4386
+n-spa-2193;;el;;rencor;;rancor, resentfulness;;4387
+n-spa-2194;;la;;probabilidad;;probability;;4393
+n-spa-2195;;el;;gobernante;;ruler, leader;;4396
+n-spa-2196;;la;;merced;;favor, mercy;;4397
+n-spa-2197;;la;;tonelada;;ton;;4399
+n-spa-2198;;el;;o la rebelde;;rebel;;4400
+n-spa-2199;;el;;anhelo;;longing, yearning;;4401
+n-spa-2200;;la;;princesa;;princess;;4402
+n-spa-2201;;la;;embajada;;embassy;;4404
+n-spa-2202;;la;;amargura;;bitterness, sorrow;;4408
+n-spa-2203;;la;;validez;;validity;;4410
+n-spa-2204;;el;;tacto;;sense of touch, feel;;4411
+n-spa-2205;;el;;codo;;elbow;;4412
+n-spa-2206;;la;;chimenea;;chimney, ﬁreplace;;4415
+n-spa-2207;;el;;abanico;;range, handheld fan;;4422
+n-spa-2208;;la;;camiseta;;T-shirt;;4427
+n-spa-2209;;la;;corteza;;bark, crust, rind, peel;;4430
+n-spa-2210;;la;;cordillera;;mountain range;;4432
+n-spa-2211;;la;;longitud;;length, longitude;;4434
+n-spa-2212;;la;;psicología;;psychology;;4437
+n-spa-2213;;la;;exageración;;exaggeration;;4442
+n-spa-2214;;la;;apreciación;;appreciation, assessment;;4443
+n-spa-2215;;el;;estallido;;crash, outbreak, explosion;;4445
+n-spa-2216;;el;;talón;;heel; check;;4447
+n-spa-2217;;el;;colchón;;mattress;;4449
+n-spa-2218;;el;;tinte;;dye; touch, hint, tinge;;4451
+n-spa-2219;;la;;imprenta;;printing house;;4453
+n-spa-2220;;el;;bastón;;cane, walking stick;;4454
+n-spa-2221;;la;;humillación;;humiliation;;4456
+n-spa-2222;;el;;trance;;trance, ﬁx, enrapture;;4457
+n-spa-2223;;el;;volante;;steering wheel;;4458
+n-spa-2224;;el;;reclamo;;decoy; advertising strategy;;4465
+n-spa-2225;;el;;o la asesor(a);;consultant, advisor;;4466
+n-spa-2226;;el;;o la novelista;;novelist;;4468
+n-spa-2227;;el;;herido;;wounded person;;4469
+n-spa-2228;;el;;grueso;;bulk, mass;;4474
+n-spa-2229;;la;;grabación;;recording;;4476
+n-spa-2230;;el;;frasco;;bottle, jar, ﬂask;;4477
+n-spa-2231;;la;;verdura;;vegetables, greenery;;4480
+n-spa-2232;;la;;violación;;violation, rape;;4481
+n-spa-2233;;la;;innovación;;innovation;;4482
+n-spa-2234;;la;;tertulia;;get-together, meeting of friends;;4483
+n-spa-2235;;la;;carcajada;;hearty laughter, guffaw;;4484
+n-spa-2236;;la;;cancha;;playing ﬁeld, court;;4485
+n-spa-2237;;el;;aburrimiento;;boredom;;4488
+n-spa-2238;;la;;exportación;;export, exportation;;4493
+n-spa-2239;;la;;el tranvía;;trolley, tram, streetcar;;4502
+n-spa-2240;;el;;cordón;;cord, yarn, braid;;4504
+n-spa-2241;;la;;prioridad;;priority;;4505
+n-spa-2242;;la;;modalidad;;mode, manner;;4506
+n-spa-2243;;el;;desenlace;;outcome, result;;4507
+n-spa-2244;;el;;bailarín;;dancer;;4508
+n-spa-2245;;el;;artefacto;;artifact, device;;4509
+n-spa-2246;;el;;trono;;throne;;4510
+n-spa-2247;;el;;adjetivo;;adjective;;4511
+n-spa-2248;;la;;gama;;range, musical scale;;4512
+n-spa-2249;;el;;gabinete;;cabinet of ministers, office, study;;4514
+n-spa-2250;;el;;peón;;unskilled laborer;;4519
+n-spa-2251;;el;;o la inspector;;inspector;;4521
+n-spa-2252;;la;;órbita;;orbit, socket, ﬁeld;;4522
+n-spa-2253;;la;;autopista;;freeway, motorway;;4523
+n-spa-2254;;la;;prosa;;prose;;4524
+n-spa-2255;;el;;paréntesis;;parenthesis;;4525
+n-spa-2256;;la;;fabricación;;manufacture, production;;4526
+n-spa-2257;;la;;lesión;;injury, wound, harm;;4527
+n-spa-2258;;la;;mejilla;;cheek;;4528
+n-spa-2259;;el;;muelle;;dock, wharf;;4530
+n-spa-2260;;el;;velo;;veil;;4531
+n-spa-2261;;la;;decoración;;decoration;;4532
+n-spa-2262;;el;;rancho;;ranch, farm;;4533
+n-spa-2263;;la;;negociación;;negotiation;;4538
+n-spa-2264;;la;;euforia;;euphoria, elation;;4539
+n-spa-2265;;el;;convencimiento;;convincing;;4540
+n-spa-2266;;el;;desconcierto;;disorder, chaos;;4543
+n-spa-2267;;la;;economista;;economist;;4544
+n-spa-2268;;la;;sobra;;excess, surplus, leftover;;4547
+n-spa-2269;;la;;tasa;;rate, fee, levy;;4550
+n-spa-2270;;la;;balanza;;balance, weight scale;;4551
+n-spa-2271;;la;;factura;;invoice, bill;;4552
+n-spa-2272;;la;;hormiga;;ant;;4553
+n-spa-2273;;el;;oso;;bear;;4555
+n-spa-2274;;el;;trazo;;line, stroke;;4556
+n-spa-2275;;el;;gusano;;worm, caterpillar;;4559
+n-spa-2276;;la;;manía;;obsession, mania;;4562
+n-spa-2277;;la;;disculpa;;apology, excuse;;4563
+n-spa-2278;;la;;metáfora;;metaphor;;4568
+n-spa-2279;;la;;penetración;;penetration, insight;;4569
+n-spa-2280;;el;;whisky;;whisky;;4571
+n-spa-2281;;el;;delirio;;delirium, nonsense;;4574
+n-spa-2282;;la;;librería;;bookstore;;4577
+n-spa-2283;;la;;documentación;;documentation;;4578
+n-spa-2284;;la;;decena;;ten things;;4580
+n-spa-2285;;el;;tigre;;tiger;;4582
+n-spa-2286;;la;;senda;;path, lane;;4585
+n-spa-2287;;el;;temperamento;;temperament, personality;;4586
+n-spa-2288;;la;;dicha;;fortune, happiness, luck;;4590
+n-spa-2289;;la;;acta;;proceedings, meetings;;4592
+n-spa-2290;;la;;cera;;wax;;4593
+n-spa-2291;;el;;tanque;;tank;;4594
+n-spa-2292;;la;;batería;;battery, gun deck;;4597
+n-spa-2293;;la;;crema;;cream;;4598
+n-spa-2294;;el;;entretenimiento;;entertainment;;4600
+n-spa-2295;;la;;pala;;shovel;;4601
+n-spa-2296;;la;;servidumbre;;staff of servants, servitude;;4602
+n-spa-2297;;el;;psicólogo;;psychologist;;4604
+n-spa-2298;;la;;actriz;;actress;;4606
+n-spa-2299;;el;;burro;;donkey;;4610
+n-spa-2300;;la;;procedencia;;origin, source;;4611
+n-spa-2301;;el;;o la ﬁscal;;prosecutor;;4612
+n-spa-2302;;el;;o la participante;;participant;;4616
+n-spa-2303;;el;;rescate;;rescue; ransom;;4617
+n-spa-2304;;el;;apuro;;trouble, predicament;;4618
+n-spa-2305;;la;;cautela;;caution;;4621
+n-spa-2306;;la;;táctica;;tactics, strategy;;4623
+n-spa-2307;;el;;descuido;;neglect, oversight;;4624
+n-spa-2308;;la;;matanza;;slaughter, carnage;;4626
+n-spa-2309;;el;;escrito;;manuscript, writing;;4629
+n-spa-2310;;la;;pinta;;appearance, look, aspect;;4630
+n-spa-2311;;el;;caldo;;broth, soup;;4637
+n-spa-2312;;la;;agonía;;agony, grief;;4638
+n-spa-2313;;la;;tregua;;truce, rest;;4640
+n-spa-2314;;el;;vestuario;;wardrobe, changing room;;4641
+n-spa-2315;;la;;bodega;;cellar, pantry, warehouse;;4643
+n-spa-2316;;la;;antena;;antenna;;4644
+n-spa-2317;;la;;maldad;;malice, wickedness;;4646
+n-spa-2318;;la;;obediencia;;obedience;;4647
+n-spa-2319;;la;;ocurrencia;;idea, witty remark;;4648
+n-spa-2320;;el;;complemento;;complement, supplement;;4650
+n-spa-2321;;el;;o la editor(a);;editor, publisher;;4651
+n-spa-2322;;el;;periodismo;;journalism;;4652
+n-spa-2323;;la;;piscina;;swimming pool;;4653
+n-spa-2324;;la;;inyección;;shot, injection;;4658
+n-spa-2325;;el;;reproche;;reproach, criticism;;4660
+n-spa-2326;;la;;consistencia;;consistency;;4661
+n-spa-2327;;la;;nobleza;;nobility, uprightness;;4662
+n-spa-2328;;la;;impotencia;;impotence;;4664
+n-spa-2329;;la;;hostilidad;;hostility, enmity;;4667
+n-spa-2330;;el;;medicamento;;medicine, drug;;4669
+n-spa-2331;;la;;conspiración;;conspiracy;;4673
+n-spa-2332;;la;;detención;;detention, arrest;;4675
+n-spa-2333;;el;;autobús;;bus;;4676
+n-spa-2334;;la;;destreza;;skill;;4679
+n-spa-2335;;las;;entrañas;;insides, bowels;;4681
+n-spa-2336;;la;;gratitud;;gratitude;;4682
+n-spa-2337;;el;;editorial;;editorial article;;4685
+n-spa-2338;;la;;editorial;;publisher;;4685
+n-spa-2339;;el;;bicho;;bug, creature;;4687
+n-spa-2340;;el;;martillo;;hammer;;4688
+n-spa-2341;;la;;cooperación;;cooperation;;4690
+n-spa-2342;;la;;elevación;;rise, elevation, increase;;4691
+n-spa-2343;;el;;atentado;;terrorist attack, offense;;4692
+n-spa-2344;;el;;puñado;;ﬁstful, small group;;4693
+n-spa-2345;;la;;sirena;;siren, mermaid;;4696
+n-spa-2346;;la;;espuma;;foam, lather;;4697
+n-spa-2347;;el;;cirujano;;surgeon;;4698
+n-spa-2348;;la;;vereda;;path, sidewalk;;4700
+n-spa-2349;;la;;reivindicación;;claim, demand, redemption;;4702
+n-spa-2350;;la;;infección;;infection;;4703
+n-spa-2351;;el;;chiquillo;;kid, youngster;;4704
+n-spa-2352;;la;;distracción;;distraction, amusement;;4705
+n-spa-2353;;el;;ingrediente;;ingredient;;4708
+n-spa-2354;;la;;pugna;;battle, struggle;;4712
+n-spa-2355;;la;;torta;;cake;;4715
+n-spa-2356;;el;;o la intérprete;;actor, singer;;4716
+n-spa-2357;;la;;araña;;spider;;4717
+n-spa-2358;;la;;facción;;facial feature, faction;;4718
+n-spa-2359;;el;;diplomático;;diplomat;;4722
+n-spa-2360;;la;;exhibición;;exhibition, showing;;4723
+n-spa-2361;;el;;escaparate;;closet, wardrobe, kitchen cupboard, store window;;4725
+n-spa-2362;;el;;sargento;;sergeant;;4727
+n-spa-2363;;la;;estética;;aesthetics;;4730
+n-spa-2364;;la;;caballería;;cavalry, knighthood;;4731
+n-spa-2365;;el;;padrino;;godparent, sponsor;;4732
+n-spa-2366;;la;;diversidad;;diversity, variety;;4733
+n-spa-2367;;el;;banquete;;banquet, feast;;4734
+n-spa-2368;;el;;o la gigante, giganta;;giant;;4738
+n-spa-2369;;el;;pabellón;;pavilion;;4740
+n-spa-2370;;la;;abeja;;bee;;4741
+n-spa-2371;;el;;violín;;violin;;4745
+n-spa-2372;;el;;astro;;star;;4746
+n-spa-2373;;el;;o la dictador(a);;dictator;;4747
+n-spa-2374;;el;;roce;;brush, touch, graze;;4748
+n-spa-2375;;la;;prolongación;;extension;;4749
+n-spa-2376;;el;;cráneo;;skull, cranium;;4750
+n-spa-2377;;el;;agradecimiento;;gratitude;;4755
+n-spa-2378;;la;;audacia;;boldness, audacity;;4757
+n-spa-2379;;el;;cólera;;cholera;;4758
+n-spa-2380;;la;;cólera;;rage;;4758
+n-spa-2381;;la;;resignación;;resignation, acceptance;;4759
+n-spa-2382;;la;;legislación;;legislation;;4760
+n-spa-2383;;el;;caramelo;;piece of candy, caramel;;4762
+n-spa-2384;;la;;pólvora;;gunpowder, powder;;4763
+n-spa-2385;;el;;rol;;role, part;;4764
+n-spa-2386;;la;;el idiota;;idiot, dunce;;4769
+n-spa-2387;;la;;bahía;;bay;;4770
+n-spa-2388;;la;;latitud;;latitude;;4771
+n-spa-2389;;el;;buey;;ox;;4772
+n-spa-2390;;el;;vaivén;;swinging of a swing; rocking of a boad;;4773
+n-spa-2391;;la;;equivocación;;mistake, misconception;;4774
+n-spa-2392;;el;;comunismo;;communism;;4775
+n-spa-2393;;la;;partícula;;particle;;4776
+n-spa-2394;;el;;intermedio;;means, interval;;4777
+n-spa-2395;;la;;limosna;;alms, charity;;4779
+n-spa-2396;;el;;equivalente;;equivalent;;4780
+n-spa-2397;;la;;ﬂecha;;arrow, dart;;4781
+n-spa-2398;;la;;desilusión;;disappointment, letdown;;4784
+n-spa-2399;;el;;pato;;duck;;4786
+n-spa-2400;;la;;grieta;;crack, opening, slit;;4788
+n-spa-2401;;el;;jinete;;rider, horseman;;4789
+n-spa-2402;;el;;agricultor;;farmer;;4794
+n-spa-2403;;la;;garra;;claw, fang;;4795
+n-spa-2404;;el;;soporte;;bracket, support;;4797
+n-spa-2405;;la;;concurrencia;;audience, public, spectators; combination, coincidence;;4798
+n-spa-2406;;la;;pirámide;;pyramid;;4799
+n-spa-2407;;el;;fósforo;;match, match stick;;4803
+n-spa-2408;;la;;profeta;;prophet;;4804
+n-spa-2409;;el;;muslo;;thigh;;4807
+n-spa-2410;;el;;retiro;;withdrawal, retreat;;4809
+n-spa-2411;;el;;comando;;command, order;;4810
+n-spa-2412;;la;;emisión;;broadcast, emission;;4812
+n-spa-2413;;el;;tenor;;tenor;;4814
+n-spa-2414;;la;;recompensa;;reward, recompense;;4815
+n-spa-2415;;la;;complicidad;;complicity;;4816
+n-spa-2416;;el;;recelo;;mistrust, suspicion;;4817
+n-spa-2417;;la;;vibración;;vibration;;4818
+n-spa-2418;;la;;restricción;;restriction;;4819
+n-spa-2419;;la;;vara;;stick, rod;;4822
+n-spa-2420;;la;;clientela;;customers, clients;;4823
+n-spa-2421;;la;;soberanía;;sovereignty;;4824
+n-spa-2422;;la;;frialdad;;coldness, indifference;;4827
+n-spa-2423;;la;;inspección;;inspection;;4829
+n-spa-2424;;las;;iniciales;;initials;;4830
+n-spa-2425;;la;;incidencia;;ocurrence, impact;;4832
+n-spa-2426;;el;;retroceso;;movement backwards;;4833
+n-spa-2427;;el;;micrófono;;microphone;;4834
+n-spa-2428;;la;;ventanilla;;office window, vehicle window;;4836
+n-spa-2429;;la;;extinción;;extinction;;4838
+n-spa-2430;;el;;inﬁnito;;inﬁnite, inﬁnity;;4839
+n-spa-2431;;el;;campeón, la campeona;;champion;;4840
+n-spa-2432;;el;;oxígeno;;oxygen;;4844
+n-spa-2433;;la;;rigidez;;rigidity;;4845
+n-spa-2434;;la;;despedida;;goodbye, farewell;;4848
+n-spa-2435;;el;;encaje;;lace;;4850
+n-spa-2436;;la;;repercusión;;repercussion, impact;;4852
+n-spa-2437;;el;;o la ganador(a);;winner;;4855
+n-spa-2438;;el;;emperador;;emperor;;4856
+n-spa-2439;;el;;cometa;;comet;;4857
+n-spa-2440;;la;;cometa;;kite;;4857
+n-spa-2441;;el;;precedente;;precedent;;4858
+n-spa-2442;;el;;mosaico;;mosaic;;4861
+n-spa-2443;;la;;signiﬁcación;;meaning, signiﬁcance;;4862
+n-spa-2444;;la;;contestación;;answer;;4863
+n-spa-2445;;el;;asilo;;asylum, shelter;;4865
+n-spa-2446;;el;;incremento;;increase, raise;;4866
+n-spa-2447;;el;;lomo;;back, loin, spine;;4868
+n-spa-2448;;la;;navegación;;navigation, shipping;;4870
+n-spa-2449;;la;;ediﬁcación;;construction, building;;4871
+n-spa-2450;;la;;abstracción;;abstraction;;4872
+n-spa-2451;;el;;mortal;;mortal;;4879
+n-spa-2452;;la;;cabina;;stall, cockpit, cabin;;4882
+n-spa-2453;;el;;guerrero;;warrior, soldier;;4885
+n-spa-2454;;la;;acera;;sidewalk;;4886
+n-spa-2455;;el;;centavo;;cent;;4892
+n-spa-2456;;el;;molino;;mill, windmill;;4893
+n-spa-2457;;la;;decepción;;disappointment;;4895
+n-spa-2458;;el;;ente;;being;;4898
+n-spa-2459;;la;;inundación;;ﬂood, deluge;;4902
+n-spa-2460;;la;;diligencia;;diligence;;4903
+n-spa-2461;;la;;complejidad;;complexity;;4906
+n-spa-2462;;la;;vecindad;;nearness, vicinity;;4910
+n-spa-2463;;la;;cabra;;goat;;4912
+n-spa-2464;;el;;olfato;;sense of smell;;4913
+n-spa-2465;;la;;denominación;;name, denomination;;4914
+n-spa-2466;;la;;envergadura;;breadth, expanse;;4916
+n-spa-2467;;el;;o la admirador(a);;admirer;;4917
+n-spa-2468;;el;;rebaño;;herd, ﬂock;;4919
+n-spa-2469;;el;;vegetal;;plant, vegetable;;4921
+n-spa-2470;;la;;ﬁera;;beast;;4923
+n-spa-2471;;la;;olla;;pot, pan;;4927
+n-spa-2472;;el;;coco;;coconut;;4929
+n-spa-2473;;el;;sótano;;basement;;4930
+n-spa-2474;;la;;agresividad;;aggressiveness;;4931
+n-spa-2475;;la;;adhesión;;adherence;;4933
+n-spa-2476;;la;;convención;;convention, assembly;;4934
+n-spa-2477;;el;;paraje;;place, spot;;4935
+n-spa-2478;;el;;cohete;;rocket;;4937
+n-spa-2479;;la;;almohada;;pillow;;4939
+n-spa-2480;;la;;eﬁciencia;;efﬁciency;;4940
+n-spa-2481;;el;;tejado;;roof, housetop;;4944
+n-spa-2482;;el;;elefante;;elephant;;4945
+n-spa-2483;;la;;navaja;;knife, razor;;4947
+n-spa-2484;;la;;maldición;;damnation, curse;;4948
+n-spa-2485;;el;;marinero;;sailor;;4949
+n-spa-2486;;el;;bachillerato;;high school diploma;;4950
+n-spa-2487;;el;;desequilibrio;;imbalance, unsteadiness;;4953
+n-spa-2488;;el;;desperdicio;;waste, refuse, garbage;;4957
+n-spa-2489;;la;;ampliación;;enlargement, extension;;4959
+n-spa-2490;;el;;recipiente;;container, recipient, tank;;4960
+n-spa-2491;;el;;despliegue;;deployment, display;;4963
+n-spa-2492;;la;;libra;;pound;;4964
+n-spa-2493;;la;;incursión;;invasion, incursion;;4965
+n-spa-2494;;la;;toalla;;towel;;4967
+n-spa-2495;;el;;tenis;;tennis;;4968
+n-spa-2496;;la;;descarga;;unloading, discharge;;4971
+n-spa-2497;;la;;higiene;;hygiene;;4973
+n-spa-2498;;la;;cuenca;;socket, basin, bowl;;4975
+n-spa-2499;;la;;cal;;lime, whitewash;;4977
+n-spa-2500;;el;;pionero;;pioneer;;4980
+n-spa-2501;;el;;volcán;;volcano;;4981
+n-spa-2502;;la;;puta;;*****, prostitute;;4982
+n-spa-2503;;el;;diamante;;diamond;;4984
+n-spa-2504;;la;;delicadeza;;gentleness, tenderness;;4986
+n-spa-2505;;la;;expulsión;;expulsion, ejection;;4988
+n-spa-2506;;el;;enigma;;enigma;;4989
+n-spa-2507;;la;;hectárea;;hectare;;4991
+n-spa-2508;;el;;o la inmigrante;;immigrant;;4993
+n-spa-2509;;la;;prevención;;prevention, warning;;4995
+n-spa-2510;;el;;cerco;;fence, circle, ring;;4996
+n-spa-2511;;la;;penumbra;;semidarkness, twilight;;4997
+n-spa-2512;;la;;jugada;;move, play;;4998
+n-spa-2513;;la;;estampa;;print, engraving, illustration;;4999
+n-spa-2514;;la;;cueva;;cave;;5000
