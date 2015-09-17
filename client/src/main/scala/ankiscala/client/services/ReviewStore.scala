@@ -1,6 +1,6 @@
 package ankiscala.client.services
 
-import ankiscala.services.{ReviewItem, API, FlashCard}
+import ankiscala.services.{Card, ReviewItem, API}
 import autowire._
 import boopickle.Default._
 import rx.core.Var
@@ -22,7 +22,7 @@ object ReviewStore {
             cards <- AjaxClient[API].getCards().call()
         } yield {
                 reviews.map(reviewItem => {
-                    val card: Card = cards.find(_.id == reviewItem.factId).map(mapToCard).get
+                    val card: Card = cards.find(_.id == reviewItem.factId).get
                     CardReviewItem(reviewItem, card)
                 })
             }
@@ -34,10 +34,6 @@ object ReviewStore {
         AjaxClient[API].updateReview(c.review.id, ease, new Date().getTime().toLong)
           .call()
           .andThen { case _ => refreshReviews() }
-    }
-
-    def mapToCard: (FlashCard) => Card = {
-        c => Card(c.id, c.questionAnswerPair.question, c.questionAnswerPair.answer)
     }
 
 }

@@ -1,6 +1,6 @@
 package ankiscala.client.services
 
-import ankiscala.services.API
+import ankiscala.services.{Card, API}
 
 import autowire._
 import boopickle.Default._
@@ -20,7 +20,7 @@ object LearnCardsStore {
   def refreshAvailableCards(): Unit = {
     AjaxClient[API]
       .getCards().call()
-      .map(newCards => availableCards = newCards map ReviewStore.mapToCard)
+      .map(newCards => availableCards = newCards)
   }
 
   def markAsLearned(c: Card) = {

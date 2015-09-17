@@ -1,7 +1,7 @@
 package ankiscala.client.components
 
 import ankiscala.client.services.ReviewStore.CardReviewItem
-import ankiscala.client.services.{Card, ReviewStore}
+import ankiscala.client.services.ReviewStore
 import ankiscala.services.ReviewItem
 import japgolly.scalajs.react.extra.OnUnmount
 import japgolly.scalajs.react.extra.router2.RouterCtl

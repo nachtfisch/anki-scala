@@ -1,6 +1,7 @@
 package ankiscala.client.components
 
-import ankiscala.client.services.{Card, LearnCardsStore}
+import ankiscala.client.services.LearnCardsStore
+import ankiscala.services.Card
 import japgolly.scalajs.react.{ReactElement, ReactComponentB}
 import japgolly.scalajs.react.extra.router2.RouterCtl
 import japgolly.scalajs.react.vdom.prefix_<^._

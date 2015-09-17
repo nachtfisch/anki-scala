@@ -2,7 +2,7 @@ package ankiscala.services
 
 trait API {
 
-  def getCards(): Seq[FlashCard]
+  def getCards(): Seq[Card]
 
   def getReviews(userId:String, until:Long): Seq[ReviewItem]
 
