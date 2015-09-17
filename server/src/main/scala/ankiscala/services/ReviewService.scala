@@ -11,27 +11,34 @@ object ReviewService {
         def id: ReviewId
     }
     case class FactAdded(id: ReviewId, factId: String) extends ReviewEvent
-    case class FactReviewed(id: ReviewId, reviewTime: Long, ease: Int) extends ReviewEvent
+    case class FactReviewed(id: ReviewId, reviewedAt: Long, ease: Int) extends ReviewEvent
 
-    case class ReviewItems(byId: Map[ReviewId, ReviewItem] = Map.empty[ReviewId, ReviewItem]) {
+    case class ReviewItems(
+        byId: Map[ReviewId, ReviewItem] = Map.empty,
+        uncommitedEvents: List[ReviewEvent] = List.empty) {
 
-        def apply(event: ReviewEvent): ReviewItems = event match {
-            case event: FactAdded =>
-                handle(event)
+        def apply:PartialFunction[ReviewEvent, ReviewItems] = {
+            case event @ FactAdded(_,_) =>
+                applyEvent(event).copy(uncommitedEvents = uncommitedEvents :+ event)
             case event: FactReviewed =>
-                handle(event)
+                applyEvent(event).copy(uncommitedEvents = uncommitedEvents :+ event)
         }
 
-        def handle(event: FactReviewed): ReviewItems = {
-            val oldReview: ReviewItem = byId(event.id)
-            val newState: ReviewState = newReviewState(event.reviewTime, event.ease, oldReview.due, oldReview.reviewProgress)
-            val newReviewItem: ReviewItem = oldReview.copy(reviewProgress = newState,
-                due = calculateDue(newState, new DateTime(event.reviewTime)).getMillis)
+        def applyEvent(event: FactReviewed): ReviewItems = {
+            val newReviewItem: ReviewItem = updateReviewItem(event.id, event.reviewedAt, event.ease)
 
             this.copy(byId.updated(event.id, newReviewItem))
         }
 
-        def handle(event: FactAdded): ReviewItems = {
+        def updateReviewItem(id: ReviewId, at: Long, ease: Int): ReviewItem = {
+            val oldReview: ReviewItem = byId(id)
+            val newState: ReviewState = newReviewState(at, ease, oldReview.due, oldReview.reviewProgress)
+            val newReviewItem: ReviewItem = oldReview.copy(reviewProgress = newState,
+                due = calculateDue(newState, new DateTime(at)).getMillis)
+            newReviewItem
+        }
+
+        def applyEvent(event: FactAdded): ReviewItems = {
             val initialReviewState: ReviewState = ReviewState.InitialReviewState
             val item: ReviewItem = ReviewItem(event.id,
                 event.factId,
@@ -40,6 +47,8 @@ object ReviewService {
 
             this.copy(byId.updated(event.id, item))
         }
+
+        def markCommitted = copy(uncommitedEvents = List.empty)
 
         private def calculateDue(state: ReviewState, fromDate: DateTime): DateTime = {
             fromDate.plus(Period.days(state.level))
@@ -55,7 +64,7 @@ object ReviewService {
 
     object ReviewItems {
         def fromEventStream(events: ReviewEvent*) = {
-            events.foldLeft(ReviewItems())(_.apply(_))
+            events.foldLeft(ReviewItems())(_ apply _ )
         }
     }
 
