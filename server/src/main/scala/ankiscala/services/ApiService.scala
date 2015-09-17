@@ -19,12 +19,14 @@ class ApiService extends API {
     reviews = reviews.apply(FactReviewed(reviewId, time, ease))
   }
 
-
   override def getReviews(userId: String, until:Long): Seq[ReviewItem] = {
-    reviews.byId.values.toSeq.sortBy(_.due)
+    reviews.byId
+      .values.toSeq
+      .filter(_.due < until)
+      .sortBy(_.due)
   }
 
-  override def addReview(factId: String): Unit = {
+  override def newReview(factId: String): Unit = {
     reviews = reviews.apply(FactAdded(UUID.randomUUID().toString, factId))
   }
 
