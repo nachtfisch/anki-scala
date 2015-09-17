@@ -11,7 +11,7 @@ class ApiService extends API {
   var cards = SpanishCardGenerator.spanishCards
   var reviews = ReviewService.ReviewItems()
 
-  override def getCards(): Seq[FlashCard] = {
+  override def getCards(): Seq[Card] = {
     cards.take(20)
   }
 
