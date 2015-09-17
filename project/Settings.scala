@@ -29,7 +29,7 @@ object Settings {
   object versions {
     val scala = "2.11.7"
 
-    val akka = "2.3.9"
+    val akka = "2.3.13"
     val spray = "1.3.3"
     val json4s = "3.2.11"
 
@@ -64,6 +64,7 @@ object Settings {
   /** Dependencies only used by the JVM project */
   val jvmDependencies = Def.setting(Seq(
     "com.vmunier" %% "play-scalajs-scripts" % versions.playScripts,
+    "org.scalaz" %% "scalaz-core" % "7.1.3",
     "org.webjars" % "font-awesome" % "4.3.0-1" % Provided,
     "org.webjars" % "bootstrap" % versions.bootstrap % Provided,
     "com.lambdaworks" %% "jacks" % "2.3.3",
@@ -74,12 +75,14 @@ object Settings {
     "org.json4s" %% "json4s-ext" % Settings.versions.json4s,
     "com.github.spullara.mustache.java" % "compiler" % "0.8.17",
     "org.elasticsearch" % "elasticsearch" % "1.7.1",
-    "io.spray"            %%  "spray-can"     % Settings.versions.spray,
-    "io.spray"            %%  "spray-routing" % Settings.versions.spray,
-    "io.spray"            %%  "spray-testkit" % Settings.versions.spray  % "test",
-    "com.typesafe.akka"   %%  "akka-actor"    % Settings.versions.akka,
-    "com.typesafe.akka"   %%  "akka-testkit"  % Settings.versions.akka  % "test",
-    "org.specs2"          %%  "specs2-core"   % "2.3.11" % "test"
+    "io.spray" %% "spray-can" % Settings.versions.spray,
+    "io.spray" %% "spray-routing" % Settings.versions.spray,
+    "com.typesafe.akka" %% "akka-actor" % Settings.versions.akka,
+    "com.typesafe.akka" %% "akka-persistence-experimental" % Settings.versions.akka,
+    "com.geteventstore" %% "akka-persistence-eventstore" % "1.1.0"
+//    "io.spray" %% "spray-testkit" % Settings.versions.spray % "test",
+//    "com.typesafe.akka" %% "akka-testkit" % Settings.versions.akka % "test",
+//    "org.specs2" %% "specs2-core" % "2.3.11" % "test"
   ))
 
   /** Dependencies only used by the JS project (note the use of %%% instead of %%) */
