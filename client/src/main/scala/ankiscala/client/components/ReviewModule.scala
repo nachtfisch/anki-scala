@@ -7,6 +7,7 @@ import japgolly.scalajs.react.extra.OnUnmount
 import japgolly.scalajs.react.extra.router2.RouterCtl
 import japgolly.scalajs.react.vdom.prefix_<^._
 import japgolly.scalajs.react.{BackendScope, ReactComponentB, ReactElement}
+import org.widok.moment.{Date, Moment}
 import rx._
 import rx.ops._
 
@@ -51,13 +52,15 @@ object ReviewModule {
 
   def renderHeadIfPresent(cards: Seq[CardReviewItem], backend: Backend): ReactElement = {
     cards.headOption match {
-      case Some(c) => <.div(s"count #${cards.size} ${c.review.due} ${c.review.reviewProgress}", renderReview(c, backend))
+      case Some(c) => <.div(s"count #${cards.size} ${c.review.reviewProgress}", renderReview(c, backend))
       case None => <.p("nothing to review")
     }
   }
 
   def renderReview(c:CardReviewItem, backend: Backend): ReactElement = {
+    val due: Date = Moment(c.review.due.toDouble)
     <.div(
+      <.div("time: " + due.fromNow()),
       <.div(s"${c.card.front} -- ${c.card.back}"),
       <.div(<.button("didn't know"), answerOptions map { t => <.button(t.label, ^.onClick --> backend.reviewItem(c, t.value))})
     )

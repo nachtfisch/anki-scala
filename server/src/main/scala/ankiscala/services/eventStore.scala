@@ -1,9 +1,8 @@
 package ankiscala.services
 
-import akka.actor.ActorLogging
-import akka.persistence.PersistentActor
+import akka.actor._
+import akka.persistence._
 import ankiscala.services.ReviewService.ReviewEvent
-
 
 case class Persist(reviewEvent: ReviewEvent)
 case object GetState

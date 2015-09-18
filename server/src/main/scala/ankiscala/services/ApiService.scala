@@ -2,21 +2,36 @@ package ankiscala.services
 
 import java.util.UUID
 
+import akka.util.Timeout
 import ankiscala.services.ReviewService._
-import de.nachtfische.sampledata.SpanishCardGenerator
+import de.nachtfische.sampledata.SpanishCards
+import akka.actor._
+import akka.pattern.ask
+import play.libs.Akka
+import scala.concurrent.duration._
+import scala.concurrent.Await
 
 
 class ApiService extends API {
 
-  var cards = SpanishCardGenerator.spanishCards
+  var cards = SpanishCards.SpanishNouns.allCards
   var reviews = ReviewService.ReviewItems()
+
+  val system = Akka.system
+  
+  private val persister: ActorRef = system.actorOf(Props(classOf[ReviewPersistenceActor], "singleUser"))
+  initializeReviews()
+
 
   override def getCards(): Seq[Card] = {
     cards.take(20)
   }
 
   override def updateReview(reviewId: String, ease: Int, time: Long): Unit = {
-    reviews = reviews.apply(FactReviewed(reviewId, time, ease))
+    val reviewed: FactReviewed = FactReviewed(reviewId, time, ease)
+    persister ! Persist(reviewed)
+
+    reviews = reviews.apply(reviewed)
   }
 
   override def getReviews(userId: String, until:Long): Seq[ReviewItem] = {
@@ -27,7 +42,16 @@ class ApiService extends API {
   }
 
   override def newReview(factId: String): Unit = {
-    reviews = reviews.apply(FactAdded(UUID.randomUUID().toString, factId))
+    val added: FactAdded = FactAdded(UUID.randomUUID().toString, factId)
+    persister ! Persist(added)
+    reviews = reviews.apply(added)
+  }
+
+  private def initializeReviews(): Unit = {
+    implicit val timout = Timeout(100 seconds)
+    val events = Await.result(persister ? GetState, timout.duration).asInstanceOf[Seq[ReviewEvent]]
+    reviews = ReviewItems.fromEventStream(events: _*)
+
   }
 
 }

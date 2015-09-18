@@ -8,9 +8,8 @@ import de.nachtfische.ankimodel.MustacheRenderer
 
 import scala.io.Source
 import scalaz.Scalaz._
-import scalaz._
 
-object SpanishCardGenerator {
+object SpanishCards {
 
     def spanishCards: List[Card] = {
         SpanishNouns.allCards ++
@@ -61,7 +60,7 @@ object SpanishCardGenerator {
         case class NounFact(id:String, gender: Gender, noun: String, definition: String, rank: Int)
         case class Gender(det:String)
 
-        private val resourcePath: String = CommonConst.PROJECT_PATH + "src/main/resources/data/spanish-nouns-top-2514.csv"
+        private val resourcePath: String = CommonConst.PROJECT_PATH + "src/main/resources/data/spanish-nouns-keyd.csv"
 
         override def allCards: List[Card] = Source.fromFile(resourcePath)
               .getLines()

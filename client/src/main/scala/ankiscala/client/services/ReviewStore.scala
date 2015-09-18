@@ -17,8 +17,10 @@ object ReviewStore {
     case class CardReviewItem(review: ReviewItem, card: Card)
 
     def refreshReviews() = {
+        val date: Date = new Date()
+        date.setDate(date.getDate() + 10)
         val cardsFuture: Future[Seq[CardReviewItem]] = for {
-            reviews <- AjaxClient[API].getReviews("userA", new Date().getTime().toLong).call()
+            reviews <- AjaxClient[API].getReviews("userA", date.getTime().toLong).call()
             cards <- AjaxClient[API].getCards().call()
         } yield {
                 reviews.map(reviewItem => {

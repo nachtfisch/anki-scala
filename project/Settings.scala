@@ -79,7 +79,9 @@ object Settings {
     "io.spray" %% "spray-routing" % Settings.versions.spray,
     "com.typesafe.akka" %% "akka-actor" % Settings.versions.akka,
     "com.typesafe.akka" %% "akka-persistence-experimental" % Settings.versions.akka,
-    "com.geteventstore" %% "akka-persistence-eventstore" % "1.1.0"
+    "org.iq80.leveldb"            % "leveldb"          % "0.7",
+    "org.fusesource.leveldbjni"   % "leveldbjni-all"   % "1.8"
+//    "com.geteventstore" %% "akka-persistence-eventstore" % "1.1.0"
 //    "io.spray" %% "spray-testkit" % Settings.versions.spray % "test",
 //    "com.typesafe.akka" %% "akka-testkit" % Settings.versions.akka % "test",
 //    "org.specs2" %% "specs2-core" % "2.3.11" % "test"
@@ -90,6 +92,7 @@ object Settings {
     "com.github.japgolly.scalajs-react" %%% "core" % versions.scalajsReact,
     "com.github.japgolly.scalajs-react" %%% "extra" % versions.scalajsReact,
     "com.github.japgolly.scalacss" %%% "ext-react" % versions.scalaCSS,
+    "io.github.widok" %%% "scala-js-momentjs" % "0.1.2",
     "org.scala-js" %%% "scalajs-dom" % versions.scalaDom,
     "com.lihaoyi" %%% "scalarx" % versions.scalaRx
   ))
@@ -100,6 +103,7 @@ object Settings {
     "org.webjars" % "jquery" % versions.jQuery / "jquery.js" minified "jquery.min.js",
     "org.webjars" % "bootstrap" % versions.bootstrap / "bootstrap.js" minified "bootstrap.min.js" dependsOn "jquery.js",
     "org.webjars" % "chartjs" % versions.chartjs / "Chart.js" minified "Chart.min.js",
-    "org.webjars" % "log4javascript" % versions.log4js / "js/log4javascript_uncompressed.js" minified "js/log4javascript.js"
+    "org.webjars" % "log4javascript" % versions.log4js / "js/log4javascript_uncompressed.js" minified "js/log4javascript.js",
+    "org.webjars" % "momentjs" % "2.10.6" / "moment-with-locales.min.js"
   ))
 }

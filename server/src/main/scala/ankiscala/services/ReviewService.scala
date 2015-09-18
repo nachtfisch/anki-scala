@@ -18,7 +18,7 @@ object ReviewService {
         uncommitedEvents: List[ReviewEvent] = List.empty) {
 
         def apply:PartialFunction[ReviewEvent, ReviewItems] = {
-            case event @ FactAdded(_,_) =>
+            case event: FactAdded =>
                 applyEvent(event).copy(uncommitedEvents = uncommitedEvents :+ event)
             case event: FactReviewed =>
                 applyEvent(event).copy(uncommitedEvents = uncommitedEvents :+ event)
