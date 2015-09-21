@@ -23,8 +23,14 @@ class ApiService extends API {
   initializeReviews()
 
 
-  override def getCards(): Seq[Card] = {
-    cards.take(20)
+  override def getCardSuggestions(userId:String): Seq[Card] = {
+
+    val alreadyKnown: List[String] = reviews.byId.values.map(_.factId).toList
+
+    cards.toIterable
+      .filterNot(c => alreadyKnown.contains(c.id))
+      .take(20)
+      .toSeq
   }
 
   override def updateReview(reviewId: String, ease: Int, time: Long): Unit = {
@@ -37,7 +43,7 @@ class ApiService extends API {
   override def getReviews(userId: String, until:Long): Seq[ReviewItem] = {
     reviews.byId
       .values.toSeq
-      .filter(_.due < until)
+//      .filter(_.due < until)
       .sortBy(_.due)
   }
 
@@ -54,4 +60,9 @@ class ApiService extends API {
 
   }
 
+  override def getCard(id: String): Card = {
+    cards.find(_.id == id).getOrElse {
+      Card("some", "some", "some")
+    }
+  }
 }

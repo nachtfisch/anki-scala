@@ -17,19 +17,23 @@ object ReviewStore {
     case class CardReviewItem(review: ReviewItem, card: Card)
 
     def refreshReviews() = {
+        val newItems: Future[Seq[CardReviewItem]] =
+            AjaxClient[API].getReviews("userA", in10Days.getTime().toLong)
+              .call()
+              .flatMap(Future.traverse(_)(fetchCardReviewItem))
+
+        newItems.onSuccess({case res => reviewList() = res})
+    }
+
+    def in10Days: Date = {
         val date: Date = new Date()
         date.setDate(date.getDate() + 10)
-        val cardsFuture: Future[Seq[CardReviewItem]] = for {
-            reviews <- AjaxClient[API].getReviews("userA", date.getTime().toLong).call()
-            cards <- AjaxClient[API].getCards().call()
-        } yield {
-                reviews.map(reviewItem => {
-                    val card: Card = cards.find(_.id == reviewItem.factId).get
-                    CardReviewItem(reviewItem, card)
-                })
-            }
+        date
+    }
 
-        cardsFuture.map(list => reviewList() = list)
+    def fetchCardReviewItem(review: ReviewItem): Future[CardReviewItem] = {
+        AjaxClient[API].getCard(review.factId).call()
+          .map(CardReviewItem(review, _))
     }
 
     def reviewCard(c: CardReviewItem, ease: Int) = {

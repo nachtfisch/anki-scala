@@ -19,7 +19,7 @@ object LearnCardsStore {
 
   def refreshAvailableCards(): Unit = {
     AjaxClient[API]
-      .getCards().call()
+      .getCardSuggestions("userA").call()
       .map(newCards => availableCards = newCards)
   }
 
