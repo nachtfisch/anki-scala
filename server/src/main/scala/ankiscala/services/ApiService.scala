@@ -47,7 +47,7 @@ class ApiService extends API {
       .sortBy(_.due)
   }
 
-  override def newReview(factId: String): Unit = {
+  override def newReview(userId: String, factId: String): Unit = {
     val added: FactAdded = FactAdded(UUID.randomUUID().toString, factId)
     persister ! Persist(added)
     reviews = reviews.apply(added)

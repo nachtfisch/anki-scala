@@ -24,7 +24,7 @@ object LearnCardsStore {
   }
 
   def markAsLearned(c: Card) = {
-    AjaxClient[API].newReview(c.id).call().map { _ => removeFromLearned(c) }
+    AjaxClient[API].newReview("userA", c.id).call().map { _ => removeFromLearned(c) }
     ReviewStore.refreshReviews()
   }
 
