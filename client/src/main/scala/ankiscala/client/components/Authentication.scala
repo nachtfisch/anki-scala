@@ -11,6 +11,7 @@ import org.scalajs.dom
 import scala.scalajs.js.UndefOr
 
 object Authentication {
+
     val theInput = Ref[HTMLInputElement]("theInput")
 
     class Backend(backend: BackendScope[_, _]) {
@@ -30,6 +31,16 @@ object Authentication {
 
     }
 
+    val LoginView = ReactComponentB[RouterCtl[Pages]]("Login")
+      .stateless
+      .backend(new Backend(_))
+      .render((_, _, backend) =>
+        <.div("what's your name"
+            , <.input(^.ref := theInput), <.button("login", ^.onClick --> {
+                backend.setUserId()
+            })))
+      .build
+
     object LogoutBackend {
         def logout() = {
             dom.sessionStorage.removeItem(AnkiScalaMain.USER_KEY)
@@ -44,14 +55,5 @@ object Authentication {
       .render((_, _, backend) => <.button("logout", ^.onClick --> backend.logout))
       .buildU
 
-    val LoginView = ReactComponentB[RouterCtl[Pages]]("Login")
-      .stateless
-      .backend(new Backend(_))
-      .render((_, _, backend) =>
-        <.div("what's your name"
-            , <.input(^.ref := theInput), <.button("login", ^.onClick --> {
-                backend.setUserId()
-            })))
-      .build
 }
 
