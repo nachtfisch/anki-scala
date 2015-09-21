@@ -32,7 +32,8 @@ object ReviewStore {
     }
 
     def fetchCardReviewItem(review: ReviewItem): Future[CardReviewItem] = {
-        AjaxClient[API].getCard(review.factId).call()
+        AjaxClient[API].getCard(review.factId)
+          .call()
           .map(CardReviewItem(review, _))
     }
 
