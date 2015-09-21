@@ -10,7 +10,7 @@ trait API {
 
   def newReview(userId: String = "", factId: String): Unit
 
-  def updateReview(reviewId: String, ease: Int, time:Long): Unit
+  def updateReview(userId:String, reviewId: String, ease: Int, time:Long): Unit
 
 }
 

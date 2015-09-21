@@ -14,49 +14,71 @@ import scala.concurrent.Await
 
 class ApiService extends API {
 
-  var cards = SpanishCards.SpanishNouns.allCards
-  var reviews = ReviewService.ReviewItems()
+  case class UserState(id:String, reviewItems: ReviewItems, actorRef: ActorRef) {
+    def apply(event: ReviewEvent) = {
+      actorRef ! Persist(event)
+      copy(reviewItems = reviewItems.apply(event))
+    }
 
+  }
+  
+  var cards = SpanishCards.SpanishNouns.allCards
+  
   val system = Akka.system
   
-  private val persister: ActorRef = system.actorOf(Props(classOf[ReviewPersistenceActor], "singleUser"))
-  initializeReviews()
+  var users = Map.empty[String, UserState]
 
+  def withUserState[T](userid: ReviewId)(f:UserState => T):T = {
+    users.get(userid) match {
+      case Some(state) => println(state); f(state)
+      case None => {
+        implicit val timout = Timeout(100 seconds)
+        val persister: ActorRef = newPersister(userid)
+        val events = Await.result(persister ? GetState, timout.duration).asInstanceOf[Seq[ReviewEvent]]
+        val stream: ReviewItems = ReviewItems.fromEventStream(events: _*)
 
-  override def getCardSuggestions(userId:String): Seq[Card] = {
+        val state: UserState = UserState(userid, stream, persister)
+        users = users.updated(userid, state)
+        println("created new actor")
 
-    val alreadyKnown: List[String] = reviews.byId.values.map(_.factId).toList
+        println(state)
 
-    cards.toIterable
-      .filterNot(c => alreadyKnown.contains(c.id))
-      .take(20)
-      .toSeq
+        f(state)
+      }
+    }
   }
 
-  override def updateReview(reviewId: String, ease: Int, time: Long): Unit = {
-    val reviewed: FactReviewed = FactReviewed(reviewId, time, ease)
-    persister ! Persist(reviewed)
-
-    reviews = reviews.apply(reviewed)
+  private def newPersister(userId: String): ActorRef = {
+    system.actorOf(Props(classOf[ReviewPersistenceActor], userId))
   }
 
-  override def getReviews(userId: String, until:Long): Seq[ReviewItem] = {
-    reviews.byId
+  override def getCardSuggestions(userId:String): Seq[Card] = withUserState(userId) { user =>
+      val alreadyKnown: List[String] = user.reviewItems
+        .byId
+        .values.map(_.factId).toList
+
+      cards.toIterable
+        .filterNot(c => alreadyKnown.contains(c.id))
+        .take(20)
+        .toSeq
+  }
+
+  override def updateReview(userId:String, reviewId: String, ease: Int, time: Long): Unit = withUserState(userId) { user =>
+    val event: FactReviewed = FactReviewed(reviewId, time, ease)
+    
+    users = users.updated(userId, user.apply(event))
+  }
+
+  override def getReviews(userId: String, until:Long): Seq[ReviewItem] = withUserState(userId) { user =>
+    user.reviewItems.byId
       .values.toSeq
 //      .filter(_.due < until)
       .sortBy(_.due)
   }
 
-  override def newReview(userId: String, factId: String): Unit = {
-    val added: FactAdded = FactAdded(UUID.randomUUID().toString, factId)
-    persister ! Persist(added)
-    reviews = reviews.apply(added)
-  }
-
-  private def initializeReviews(): Unit = {
-    implicit val timout = Timeout(100 seconds)
-    val events = Await.result(persister ? GetState, timout.duration).asInstanceOf[Seq[ReviewEvent]]
-    reviews = ReviewItems.fromEventStream(events: _*)
+  override def newReview(userId: String, factId: String): Unit = withUserState(userId) { user =>
+    val event: FactAdded = FactAdded(UUID.randomUUID().toString, factId)
+    users = users.updated(userId, user.apply(event))
 
   }
 

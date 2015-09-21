@@ -1,5 +1,6 @@
 package ankiscala.client.services
 
+import ankiscala.client.AnkiScalaMain
 import ankiscala.services.{Card, API}
 
 import autowire._
@@ -19,17 +20,21 @@ object LearnCardsStore {
 
   def refreshAvailableCards(): Unit = {
     AjaxClient[API]
-      .getCardSuggestions("userA").call()
+      .getCardSuggestions(getUser).call()
       .map(newCards => availableCards = newCards)
   }
 
   def markAsLearned(c: Card) = {
-    AjaxClient[API].newReview("userA", c.id).call().map { _ => removeFromLearned(c) }
+    AjaxClient[API].newReview(getUser, c.id).call().map { _ => removeFromLearned(c) }
     ReviewStore.refreshReviews()
   }
 
   def removeFromLearned(c: Card) = {
     cardsToLearn = cardsToLearn.filterNot(_.id == c.id)
+  }
+
+  def getUser: String = {
+    AnkiScalaMain.userId().get
   }
 
 }

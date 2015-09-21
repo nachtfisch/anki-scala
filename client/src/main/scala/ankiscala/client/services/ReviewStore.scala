@@ -1,5 +1,6 @@
 package ankiscala.client.services
 
+import ankiscala.client.AnkiScalaMain
 import ankiscala.services.{Card, ReviewItem, API}
 import autowire._
 import boopickle.Default._
@@ -18,7 +19,7 @@ object ReviewStore {
 
     def refreshReviews() = {
         val newItems: Future[Seq[CardReviewItem]] =
-            AjaxClient[API].getReviews("userA", in10Days.getTime().toLong)
+            AjaxClient[API].getReviews(getUser, in10Days.getTime().toLong)
               .call()
               .flatMap(Future.traverse(_)(fetchCardReviewItem))
 
@@ -38,9 +39,12 @@ object ReviewStore {
     }
 
     def reviewCard(c: CardReviewItem, ease: Int) = {
-        AjaxClient[API].updateReview(c.review.id, ease, new Date().getTime().toLong)
+        AjaxClient[API].updateReview(getUser, c.review.id, ease, new Date().getTime().toLong)
           .call()
           .andThen { case _ => refreshReviews() }
     }
 
+    def getUser: String = {
+        AnkiScalaMain.userId().get
+    }
 }
