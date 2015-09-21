@@ -39,10 +39,6 @@ class ApiService extends API {
 
         val state: UserState = UserState(userid, stream, persister)
         users = users.updated(userid, state)
-        println("created new actor")
-
-        println(state)
-
         f(state)
       }
     }
