@@ -1,15 +1,13 @@
 package ankiscala.client
 
 import ankiscala.client.components._
-import ankiscala.client.services.LearnCardsStore
 import japgolly.scalajs.react._
 import org.scalajs.dom
+import rx._
+import rx.ops._
 
 import scala.scalajs.js.JSApp
 import scala.scalajs.js.annotation.JSExport
-
-import rx._
-import rx.ops._
 
 
 @JSExport
@@ -21,8 +19,6 @@ object AnkiScalaMain extends JSApp {
 
   @JSExport
   def main(): Unit = {
-    LearnCardsStore.refreshAvailableCards()
-
     userId.foreach( _ => React.render(MyRouter.Component(), dom.document.getElementById("root")))
   }
 
