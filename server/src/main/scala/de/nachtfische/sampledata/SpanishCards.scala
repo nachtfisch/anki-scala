@@ -45,7 +45,7 @@ object SpanishCards {
 
 
         def other2FlashCard(ow: OtherWord): Card = {
-            val question: String = MustacheRenderer.renderTemplate("{{word}} ({{rank}})",
+            val question: String = MustacheRenderer.renderTemplate("{{word}}",
                 Map("word" -> ow.verb, "rank" -> ow.rank.toString))
             val answer: String = MustacheRenderer.renderTemplate("{{definition}} ({{gender}})",
                 Map("definition" -> ow.definition, "gender" -> ow.speciality.getOrElse("no speciality")))
@@ -85,13 +85,13 @@ object SpanishCards {
         }
 
         def noun2card(n: NounFact): Card = {
-            val answer: String = MustacheRenderer.renderTemplate("{{definition}} ({{gender}})", Map("definition" -> n.definition, "gender" -> n.gender.det))
 
+            val answer: String = MustacheRenderer.renderTemplate("{{definition}}", Map("definition" -> n.definition, "gender" -> n.gender.det))
             Card(n.id, renderQuestion(n), answer)
         }
 
         def renderQuestion(n: NounFact) = MustacheRenderer.renderTemplate(
-            "{{word}} ({{rank}})", Map("word" -> n.noun, "rank" -> n.rank.toString))
+            "{{gender}} {{word}}", Map("word" -> n.noun, "rank" -> n.rank.toString, "gender" -> n.gender.det))
 
     }
 

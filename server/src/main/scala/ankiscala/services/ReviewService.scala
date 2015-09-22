@@ -6,22 +6,26 @@ import org.joda.time.{Period, DateTime}
 object ReviewService {
 
     type ReviewId = String
+    type Time = Long
 
-    sealed trait ReviewEvent {
-        def id: ReviewId
-    }
-    case class FactAdded(id: ReviewId, factId: String) extends ReviewEvent
-    case class FactReviewed(id: ReviewId, reviewedAt: Long, ease: Int) extends ReviewEvent
+    sealed trait ReviewEvent
+    case class FactAdded(id: ReviewId, factId: String, at:Time) extends ReviewEvent
+    case class FactReviewed(id: ReviewId, reviewedAt: Time, ease: Int) extends ReviewEvent
+    case class FactIgnored(factId:String, at:Time) extends ReviewEvent
 
     case class ReviewItems(
         byId: Map[ReviewId, ReviewItem] = Map.empty,
-        uncommitedEvents: List[ReviewEvent] = List.empty) {
+        ignoredFacts: Seq[(String, Option[ReviewItem])] = Seq.empty
+        ) {
 
         def apply:PartialFunction[ReviewEvent, ReviewItems] = {
             case event: FactAdded =>
-                applyEvent(event).copy(uncommitedEvents = uncommitedEvents :+ event)
+                applyEvent(event)
             case event: FactReviewed =>
-                applyEvent(event).copy(uncommitedEvents = uncommitedEvents :+ event)
+                applyEvent(event)
+            case FactIgnored(id, t) =>
+                copy(byId = byId - id,
+                    ignoredFacts = ignoredFacts.:+((id, byId.get(id))))
         }
 
         def applyEvent(event: FactReviewed): ReviewItems = {
@@ -47,8 +51,6 @@ object ReviewService {
 
             this.copy(byId.updated(event.id, item))
         }
-
-        def markCommitted = copy(uncommitedEvents = List.empty)
 
         private def calculateDue(state: ReviewState, fromDate: DateTime): DateTime = {
             fromDate.plus(Period.days(state.level))

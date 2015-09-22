@@ -7,6 +7,7 @@ import ankiscala.services.ReviewService._
 import de.nachtfische.sampledata.SpanishCards
 import akka.actor._
 import akka.pattern.ask
+import org.joda.time.DateTime
 import play.libs.Akka
 import scala.concurrent.duration._
 import scala.concurrent.Await
@@ -49,20 +50,31 @@ class ApiService extends API {
   }
 
   override def getCardSuggestions(userId:String): Seq[Card] = withUserState(userId) { user =>
-      val alreadyKnown: List[String] = user.reviewItems
+      val inReview: List[String] = user.reviewItems
         .byId
         .values.map(_.factId).toList
 
+      val ignored: List[String] = user.reviewItems
+        .ignoredFacts
+        .map(_._1)
+        .toList
+
       cards.toIterable
-        .filterNot(c => alreadyKnown.contains(c.id))
+        .filterNot(c => inReview.contains(c.id))
+        .filterNot(c => ignored.contains(c.id))
         .take(20)
         .toSeq
   }
 
-  override def updateReview(userId:String, reviewId: String, ease: Int, time: Long): Unit = withUserState(userId) { user =>
-    val event: FactReviewed = FactReviewed(reviewId, time, ease)
-    
-    users = users.updated(userId, user.apply(event))
+  override def updateReview(userId:String, reviewId: String, ease: Int, time: Long): Unit =
+    withUserState(userId) { updateState(_, FactReviewed(reviewId, time, ease)) }
+
+  override def ignoreFact(userId:String, factId: String): Unit = withUserState(userId) { user =>
+    updateState(user, FactIgnored(factId, nowInMillis))
+  }
+
+  private def updateState(user: UserState, event: ReviewEvent): Unit = {
+    users = users.updated(user.id, user.apply(event))
   }
 
   override def getReviews(userId: String, until:Long): Seq[ReviewItem] = withUserState(userId) { user =>
@@ -73,9 +85,11 @@ class ApiService extends API {
   }
 
   override def newReview(userId: String, factId: String): Unit = withUserState(userId) { user =>
-    val event: FactAdded = FactAdded(UUID.randomUUID().toString, factId)
-    users = users.updated(userId, user.apply(event))
+    updateState(user, FactAdded(UUID.randomUUID().toString, factId, nowInMillis))
+  }
 
+  def nowInMillis: Time = {
+    new DateTime().getMillis
   }
 
   override def getCard(id: String): Card = {

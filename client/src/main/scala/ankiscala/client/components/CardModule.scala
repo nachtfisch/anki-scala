@@ -1,6 +1,6 @@
 package ankiscala.client.components
 
-import ankiscala.client.services.LearnCardsStore
+import ankiscala.client.services.{ReviewStore, LearnCardsStore}
 import ankiscala.services.Card
 import japgolly.scalajs.react.extra.router2.RouterCtl
 import japgolly.scalajs.react.vdom.prefix_<^._
@@ -13,15 +13,15 @@ object CardModule {
 
   class Backend(t: BackendScope[CardProps, Seq[Card]]) {
 
-    def addCard(card: Card): Unit = {
-      LearnCardsStore.addToLearn(card)
+    def scheduleForRemembering(card: Card): Unit = {
+      LearnCardsStore.scheduleForRemembering(card)
     }
 
   }
 
   private def renderCards: (CardProps, Seq[Card], Backend) => ReactElement = (routerCtl, state, backend) => {
-    val ol: ReactElement = <.ol(
-      ^.id := "my-list",
+    val ol: ReactElement = <.ul(
+      ^.id := "card-stream",
       ^.lang := "en",
       ^.margin := "8px",
       renderCards(backend, state))
@@ -36,11 +36,16 @@ object CardModule {
     .build
 
   def renderCards(backend: Backend, list: Seq[Card]): Seq[ReactTag] = {
-    list.map { e => <.li(s"${e.id} front: ${e.front}", <.button(
-      ^.onClick --> {
-        backend.addCard(e)
-      },
-      "Add for learning!"))
+    list.map { e =>
+      val learnButton: ReactTag = <.button(
+        ^.onClick --> {
+          backend.scheduleForRemembering(e)
+        },
+        "Got it!")
+
+      <.li(s"${e.front} - ${e.back}", learnButton, <.button(^.onClick --> {
+        ReviewStore.ignoreFact(e.id)
+      }, "Ignore this one"))
     }
   }
 

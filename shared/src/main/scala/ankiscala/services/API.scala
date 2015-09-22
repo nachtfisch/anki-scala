@@ -12,6 +12,8 @@ trait API {
 
   def updateReview(userId:String, reviewId: String, ease: Int, time:Long): Unit
 
+  def ignoreFact(userId:String, factId: String): Unit
+
 }
 
 

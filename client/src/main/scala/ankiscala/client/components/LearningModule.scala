@@ -8,7 +8,7 @@ import japgolly.scalajs.react.vdom.prefix_<^._
 
 object LearningModule {
   val Component = ReactComponentB[RouterCtl[Pages]]("LearnList")
-    .initialState(LearnCardsStore.cardsToLearn)
+    .initialState(LearnCardsStore.LearnCardStream)
     .render(renderLearningView)
     .build
 
@@ -22,7 +22,7 @@ object LearningModule {
   def renderCard(c: Card) = {
     <.div(s"${c.front} - ${c.back}",
       <.button("learned", ^.onClick --> {
-        LearnCardsStore.markAsLearned(c)
+        LearnCardsStore.scheduleForRemembering(c)
       }))
   }
 }

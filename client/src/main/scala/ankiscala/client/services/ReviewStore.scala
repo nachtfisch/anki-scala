@@ -38,6 +38,12 @@ object ReviewStore {
           .map(CardReviewItem(review, _))
     }
 
+    def ignoreFact(factId:String) = {
+        AjaxClient[API].ignoreFact(getUser, factId)
+          .call()
+          .andThen { case _ => LearnCardsStore.refreshAvailableCards()}
+    }
+
     def reviewCard(c: CardReviewItem, ease: Int) = {
         AjaxClient[API].updateReview(getUser, c.review.id, ease, new Date().getTime().toLong)
           .call()
