@@ -11,15 +11,15 @@ import scala.io.Source
 
 object SpanishCards {
 
-    case class OtherWord(verb:String, definition:String, rank:Int, speciality:Option[String]) extends Fact
+    case class OtherWord(verb:String, definition:String, rank:Int, speciality:Option[String])
 
     object SpanishVerbsAndAdjectives  {
-        def allCards: List[Fact] = {
+        def allCards: List[OtherWord] = {
             getWords(CommonConst.PROJECT_PATH + "src/main/resources/data/verbs-top-1193.csv") ++
               getWords(CommonConst.PROJECT_PATH + "src/main/resources/data/adjectives-top1100.csv")
         }
 
-        def getWords(s: String): List[Fact] = Source.fromFile(s)
+        def getWords(s: String): List[OtherWord] = Source.fromFile(s)
               .getLines()
               .drop(1) // remove header
               .map(parseOther)
