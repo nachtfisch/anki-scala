@@ -1,10 +1,14 @@
 package ankiscala.services
 
+import ankiscala.facts.Fact
+
 trait API {
 
   def getCardSuggestions(userId:String): Seq[Card]
 
   def getCard(id:String):Card
+
+  def searchNounFact(query:String):Seq[Fact]
 
   def getReviews(userId:String, until:Long): Seq[ReviewItem]
 

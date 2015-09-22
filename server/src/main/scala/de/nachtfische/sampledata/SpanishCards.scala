@@ -2,36 +2,28 @@ package de.nachtfische.sampledata
 
 import java.util.UUID
 
+import ankiscala.facts.{Fact, Gender, NounFact}
 import ankiscala.services.Card
 import de.nachtfische.CommonConst
 import de.nachtfische.ankimodel.MustacheRenderer
 
 import scala.io.Source
-import scalaz.Scalaz._
 
 object SpanishCards {
 
-    def spanishCards: List[Card] = {
-        SpanishNouns.allCards ++
-         SpanishVerbsAndAdjectives.allCards
-    }
+    case class OtherWord(verb:String, definition:String, rank:Int, speciality:Option[String]) extends Fact
 
-    trait CardProvider {
-        def allCards:List[Card]
-    }
-
-    object SpanishVerbsAndAdjectives extends CardProvider {
-        override def allCards: List[Card] = {
+    object SpanishVerbsAndAdjectives  {
+        def allCards: List[Fact] = {
             getWords(CommonConst.PROJECT_PATH + "src/main/resources/data/verbs-top-1193.csv") ++
               getWords(CommonConst.PROJECT_PATH + "src/main/resources/data/adjectives-top1100.csv")
         }
 
-        def getWords(s: String): List[Card] = Source.fromFile(s)
+        def getWords(s: String): List[Fact] = Source.fromFile(s)
               .getLines()
               .drop(1) // remove header
               .map(parseOther)
               .flatMap(t => t.right.toOption)
-              .map(other2FlashCard)
               .toList
 
         // encender (e-ie) (2133)$$$to turn on
@@ -55,17 +47,15 @@ object SpanishCards {
 
     }
 
-    object SpanishNouns extends CardProvider {
+    object SpanishNouns {
 
-        case class NounFact(id:String, gender: Gender, noun: String, definition: String, rank: Int)
-        case class Gender(det:String)
 
         private val resourcePath: String = CommonConst.PROJECT_PATH + "src/main/resources/data/spanish-nouns-keyd.csv"
 
-        override def allCards: List[Card] = Source.fromFile(resourcePath)
+        def allCards: List[NounFact] = Source.fromFile(resourcePath)
               .getLines()
               .drop(1) // remove header
-              .map(parseNoun map noun2card)
+              .map(parseNoun)
               .toList
 
         // example-format: n-spa-1872;;el;;cumpleaños;;birthday;;3785

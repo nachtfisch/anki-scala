@@ -3,6 +3,7 @@ package ankiscala.services
 import java.util.UUID
 
 import akka.util.Timeout
+import ankiscala.facts.Fact
 import ankiscala.services.ReviewService._
 import de.nachtfische.sampledata.SpanishCards
 import akka.actor._
@@ -64,6 +65,7 @@ class ApiService extends API {
         .filterNot(c => ignored.contains(c.id))
         .take(20)
         .toSeq
+        .map(SpanishCards.SpanishNouns.noun2card)
   }
 
   override def updateReview(userId:String, reviewId: String, ease: Int, time: Long): Unit =
@@ -93,8 +95,21 @@ class ApiService extends API {
   }
 
   override def getCard(id: String): Card = {
-    cards.find(_.id == id).getOrElse {
+    cards.find(_.id == id)
+      .map(SpanishCards.SpanishNouns.noun2card)
+      .getOrElse {
       Card("some", "some", "some")
     }
+  }
+
+  override def searchNounFact(query: String): Seq[Fact] = {
+
+    def containedLowerCase(noun: String): Boolean = {
+      noun.toLowerCase.contains(query.toLowerCase)
+    }
+
+    cards.filter(nf => {
+      containedLowerCase(nf.noun) || containedLowerCase(nf.definition)
+    })
   }
 }
