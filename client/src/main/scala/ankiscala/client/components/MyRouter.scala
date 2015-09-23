@@ -1,12 +1,14 @@
 package ankiscala.client.components
 
 import ankiscala.client.AnkiScalaMain
-import ankiscala.client.services.ReviewStore
+import ankiscala.client.components.LearningModule.{Backend, Props}
+import ankiscala.client.services.{LearnCardsStore, ReviewStore}
 import japgolly.scalajs.react.{ReactComponentM_, BackendScope, ReactComponentB, ReactElement}
 import japgolly.scalajs.react.extra.router2._
 import japgolly.scalajs.react.vdom.prefix_<^._
 import japgolly.scalajs.react.Ref
 import org.scalajs.dom.raw.HTMLInputElement
+import rx.core.{Rx, Var}
 
 import scala.scalajs.js.UndefOr
 
@@ -30,7 +32,8 @@ object MyRouter {
     val privateRoute: Rule[Pages] = (emptyRule
       | staticRoute(root, SearchCardsPage) ~> renderR(rt => CardModule.CardComponent(rt))
       | staticRoute("#review", ReviewPage) ~> renderR(rt => ReviewModule.Component(ReviewModule.Props(ReviewStore.reviewList, rt)))
-      | staticRoute("#card", LearningPage) ~> renderR(rt => LearningModule.Component(rt))
+      | staticRoute("#card", LearningPage) ~> renderR(rt =>
+          LearningModule.Component(LearningModule.Props(Rx{ LearnCardsStore.availableCards().headOption }, rt)))
       )
       .addCondition(isUserLoggedIn)(_ => Some(redirectToPage(LoginPage)(Redirect.Replace)))
 

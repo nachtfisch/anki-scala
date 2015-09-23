@@ -17,16 +17,6 @@ object ReviewModule {
 
   val answerOptions = Seq(Ease("easy", 4), Ease("normal", 3), Ease("hard",2))
 
-  abstract class RxObserver[BS <: BackendScope[_, _]](scope: BS) extends OnUnmount {
-
-    protected def observe[T](rx: Rx[T]): Unit = {
-      val obs = rx.foreach(_ => scope.forceUpdate())
-      // stop observing when unmounted
-      onUnmount(obs.kill())
-    }
-
-  }
-
   case class Props(todos: Rx[Seq[CardReviewItem]], router: RouterCtl[Pages])
 
   class Backend(t: BackendScope[Props, Unit]) extends RxObserver(t) {

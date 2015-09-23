@@ -42,6 +42,8 @@ object ReviewStore {
         AjaxClient[API].ignoreFact(getUser, factId)
           .call()
           .andThen { case _ => LearnCardsStore.refreshAvailableCards()}
+        LearnCardsStore.removeCard(factId)
+
     }
 
     def reviewCard(c: CardReviewItem, ease: Int) = {

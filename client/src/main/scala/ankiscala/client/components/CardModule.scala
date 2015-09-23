@@ -29,7 +29,7 @@ object CardModule {
   }
 
   val CardComponent = ReactComponentB[CardProps]("Cards")
-    .initialState(LearnCardsStore.availableCards)
+    .initialState(LearnCardsStore.availableCards())
     .backend(new Backend(_))
     .render(renderCards)
     .componentDidMount(_ => LearnCardsStore.refreshAvailableCards())
