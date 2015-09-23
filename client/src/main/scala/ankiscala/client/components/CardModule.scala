@@ -45,7 +45,7 @@ object CardModule {
 
       <.li(s"${e.front} - ${e.back}", learnButton, <.button(^.onClick --> {
         ReviewStore.ignoreFact(e.id)
-      }, "Ignore this one"))
+      }, "Ignore"))
     }
   }
 
