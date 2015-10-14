@@ -1,0 +1,1194 @@
+id;;word;;definition;;speciality;;rank
+n-verb-1;;ser;;to be . . . when dealing with an essential characteristic;;None;;8
+n-verb-2;;haber;;to have . . . when used as a helping verb;;None;;11
+n-verb-3;;haber de infinitivo, haber que infinitivo;;to have to do something . . . when dealing with the impersonal;;None;;11
+n-verb-4;;estar;;to be . . . when dealing with locations or conditions;;None;;17
+n-verb-5;;estar por infinitivo;;to be on the verge of doing something;;None;;17
+n-verb-6;;estar a punto de infinitivo;;to be about to do something;;None;;17
+n-verb-7;;tener (e-ie);;to have; to have property, to have years, to have a state of being;;None;;18
+n-verb-8;;tener ganas de (e-ie);;to have the desire to;;None;;18
+n-verb-9;;tener que (e-ie);;to have to;;None;;18
+n-verb-10;;hacer (-go);;to make; to do;;None;;25
+n-verb-11;;poder (o-ue);;to be able to;;None;;27
+n-verb-12;;decir (e-i);;to tell, say;;None;;28
+n-verb-13;;ir;;to go;;None;;30
+n-verb-14;;ir a infinitivo;;to be going to do something;;None;;30
+n-verb-15;;irse;;to leave;;None;;30
+n-verb-16;;ver;;to see; to understand; to investigate or look into something; to visit or see someone;;None;;37
+n-verb-17;;verse;;to find oneself; to appear; to meet up;;None;;37
+n-verb-18;;dar;;to give; to hand, hand over; to yield;;None;;39
+n-verb-19;;dar con algo o alguien;;to find something or someone;;None;;39
+n-verb-20;;dar por infinitivo, dar en infinitivo;;to decide to infinitive;;None;;39
+n-verb-21;;dar a luguar, dar sobre lugar;;to look over a place;;None;;39
+n-verb-22;;dar luz, dar a luz;;to give birth;;None;;39
+n-verb-23;;darse vuelta;;to turn;;None;;39
+n-verb-24;;dar lo mismo;;to make no difference;;None;;39
+n-verb-25;;darse a algo;;to give or devote oneself to something;;None;;39
+n-verb-26;;dar por adjectivo, dar por participio;;to assume or consider someone or something to be adjective or participle;;None;;39
+n-verb-27;;darse cuenta de;;to realize;;None;;39
+n-verb-28;;darse a conocer;;make known;;None;;39
+n-verb-29;;darse a la fuga;;escape, run, flee;;None;;39
+n-verb-30;;darse cita;;meet, make a date, make an appointment;;None;;39
+n-verb-31;;darse de alta;;join, register, sign up, enroll;;None;;39
+n-verb-32;;darse de baja;;cancel, unsubscribe, unregister, terminate, fire;;None;;39
+n-verb-33;;saber;;to know . . . when dealing with information; to learn;;None;;46
+n-verb-34;;querer (e-ie);;to want, love;;None;;57
+n-verb-35;;llegar (-gue);;to arrive;;None;;66
+n-verb-36;;pasar;;to pass; to pass time;;None;;67
+n-verb-37;;deber;;to should, must; to owe;;None;;75
+n-verb-38;;poner (-go);;to put, put on;;None;;77
+n-verb-39;;ponerse (-go);;to put on oneself;;None;;77
+n-verb-40;;ponerse a infinitivo (-go);;to start to do something;;None;;77
+n-verb-41;;parecer (-zco);;to seem, look like;;None;;81
+n-verb-42;;quedar;;to stay, remain;;None;;89
+n-verb-43;;quedar por infinitivo;;to remain to do something;;None;;89
+n-verb-44;;creer (-y-);;to believe;;None;;91
+n-verb-45;;hablar;;to talk;;None;;92
+n-verb-46;;llevar;;to take; to carry;;None;;93
+n-verb-47;;dejar;;to leave someone or something behind; to let, allow;;None;;94
+n-verb-48;;seguir (e-i);;to follow;;None;;97
+n-verb-49;;encontrar (o-ue);;to ﬁnd;;None;;100
+n-verb-50;;llamar;;to call;;None;;104
+n-verb-51;;venir (e-ie);;to come;;None;;105
+n-verb-52;;pensar (e-ie);;to think;;None;;106
+n-verb-53;;salir (-go);;to go out, come out, get out; to leave, depart; to come out or appear;;None;;111
+n-verb-54;;volver (o-ue);;to return, come or go back; to turn, turn over or inside out; to return, repay, restore;;None;;112
+n-verb-55;;volver a infinitivo (o-ue);;to do something again; to return to;;None;;112
+n-verb-56;;volver en sí (o-ue);;to regain consciousness;;None;;112
+n-verb-57;;tomar;;to take, drink;;None;;122
+n-verb-58;;conocer (-zco);;to know . . . when dealing with people or places; to meet someone;;None;;124
+n-verb-59;;vivir;;to live;;None;;128
+n-verb-60;;sentir (e-ie);;to feel, regret;;None;;131
+n-verb-61;;tratar;;to treat, handle;;None;;134
+n-verb-62;;tratar de;;to attempt or try; to concern or be about;;None;;134
+n-verb-63;;tratar con;;to deal with or have contact with;;None;;134
+n-verb-64;;tratar sobre;;to concern or be about;;None;;134
+n-verb-65;;tratar en;;to deal in;;None;;134
+n-verb-66;;mirar;;to look, watch;;None;;142
+n-verb-67;;contar (o-ue);;to tell, count;;None;;155
+n-verb-68;;empezar (e-ie);;to start;;None;;161
+n-verb-69;;esperar;;to wait; to hope for, expect;;None;;163
+n-verb-70;;buscar;;to search for;;None;;173
+n-verb-71;;existir;;to exist;;None;;177
+n-verb-72;;entrar;;to enter;;None;;179
+n-verb-73;;trabajar;;to work;;None;;183
+n-verb-74;;escribir;;to write;;None;;187
+n-verb-75;;perder (e-ie);;to lose, miss;;None;;190
+n-verb-76;;producir (-zco);;to produce, cause;;None;;195
+n-verb-77;;ocurrir;;to occur, happen;;None;;200
+n-verb-78;;entender (e-ie);;to understand;;None;;203
+n-verb-79;;pedir (e-i);;to request, ask for;;None;;204
+n-verb-80;;recibir;;to receive;;None;;205
+n-verb-81;;recordar (o-ue);;to recall, remember; to remind; to wake up;;None;;215
+n-verb-82;;terminar;;to ﬁnish, end, terminate;;None;;219
+n-verb-83;;permitir;;to permit, allow;;None;;220
+n-verb-84;;aparecer;;to appear;;None;;221
+n-verb-85;;conseguir (e-i);;to get, acquire, obtain;;None;;222
+n-verb-86;;comenzar (e-ie);;to start, commence;;None;;223
+n-verb-87;;comenzar a infinitivo (e-ie);;to be begin to do something;;None;;223
+n-verb-88;;servir (e-i);;to serve;;None;;226
+n-verb-89;;sacar;;to remove; to take out;;None;;228
+n-verb-90;;necesitar;;to need;;None;;229
+n-verb-91;;mantener (e-ie);;to support, keep, maintain;;None;;234
+n-verb-92;;resultar;;to result in, turn out;;None;;238
+n-verb-93;;leer;;to read;;None;;244
+n-verb-94;;caer;;to fall, collapse;;None;;245
+n-verb-95;;caerse;;to fall down;;None;;245
+n-verb-96;;cambiar;;to change;;None;;246
+n-verb-97;;presentar;;to introduce;;None;;249
+n-verb-98;;crear;;to create;;None;;251
+n-verb-99;;abrir;;to open;;None;;252
+n-verb-100;;considerar;;to consider;;None;;261
+n-verb-101;;oír;;to hear;;None;;263
+n-verb-102;;acabar;;to finish or end;;None;;266
+n-verb-103;;acabar de;;to have just finished doing something;;None;;266
+n-verb-104;;acabar con;;to put an end to;;None;;266
+n-verb-105;;acabar por;;to end up doing something;;None;;266
+n-verb-106;;convertir (e-ie);;to convert;;None;;271
+n-verb-107;;convertirse en (e-ie);;to become;;None;;271
+n-verb-108;;ganar;;to win; to earn;;None;;286
+n-verb-109;;formar;;to form;;None;;287
+n-verb-110;;traer;;to bring, carry;;None;;289
+n-verb-111;;partir;;to depart; to divide, share;;None;;290
+n-verb-112;;morir (o-ue);;to die;;None;;293
+n-verb-113;;aceptar;;to accept;;None;;296
+n-verb-114;;realizar;;to fulﬁll, carry out;;None;;299
+n-verb-115;;suponer (-go);;to suppose;;None;;305
+n-verb-116;;comprender;;to understand;;None;;306
+n-verb-117;;lograr;;to achieve, attain;;None;;311
+n-verb-118;;explicar (-qué);;to explain;;None;;316
+n-verb-119;;preguntar;;to ask a question;;None;;323
+n-verb-120;;tocar;;to touch; to play an instrument;;None;;325
+n-verb-121;;reconocer;;to recognize, admit;;None;;327
+n-verb-122;;estudiar;;to study;;None;;328
+n-verb-123;;alcanzar;;to catch up with; to reach, reach for;;None;;329
+n-verb-124;;alcanzar a infinitivo;;to be able to do something;;None;;329
+n-verb-125;;nacer;;to be born;;None;;330
+n-verb-126;;dirigir;;to direct, manage;;None;;331
+n-verb-127;;correr;;to run;;None;;332
+n-verb-128;;utilizar;;to utilize;;None;;338
+n-verb-129;;pagar;;to pay;;None;;342
+n-verb-130;;ayudar;;to help;;None;;345
+n-verb-131;;ayudarse;;to make use of;;None;;345
+n-verb-132;;gustar;;to be pleasing to;;None;;353
+n-verb-133;;jugar;;to play a game or sport;;None;;355
+n-verb-134;;escuchar;;to listen to;;None;;360
+n-verb-135;;cumplir;;to fulﬁll;;None;;363
+n-verb-136;;ofrecer;;to offer, present;;None;;368
+n-verb-137;;descubrir;;to discover;;None;;369
+n-verb-138;;levantar;;to raise, lift;;None;;372
+n-verb-139;;intentar (376), pretender;;to try;;None;;584
+n-verb-140;;usar;;to use;;None;;380
+n-verb-141;;decidir;;to decide;;None;;381
+n-verb-142;;repetir (e-i);;to repeat;;None;;382
+n-verb-143;;olvidar;;to forget;;None;;383
+n-verb-144;;valer;;to be worth, cost;;None;;387
+n-verb-145;;comer;;to eat;;None;;389
+n-verb-146;;mostrar (o-ue);;to show;;None;;392
+n-verb-147;;ocupar;;to occupy, use;;None;;397
+n-verb-148;;mover (o-ue);;to move;;None;;402
+n-verb-149;;continuar;;to continue;;None;;403
+n-verb-150;;suceder;;to happen;;None;;406
+n-verb-151;;suceder a;;to follow or succeed in time;;None;;406
+n-verb-152;;ﬁjar;;to set, ﬁx;;None;;407
+n-verb-153;;fijarse;;to notice, pay attention;;None;;407
+n-verb-154;;referir (e-ie);;to refer;;None;;409
+n-verb-155;;acercar;;to come near;;None;;410
+n-verb-156;;dedicar;;to dedicate, devote;;None;;415
+n-verb-157;;aprender;;to learn;;None;;422
+n-verb-158;;comprar;;to buy;;None;;437
+n-verb-159;;subir;;to climb, go up;;None;;443
+n-verb-160;;evitar;;to avoid; to prevent; to escape;;None;;446
+n-verb-161;;interesar;;to interest;;None;;448
+n-verb-162;;cerrar (e-ie);;to close;;None;;454
+n-verb-163;;echar;;to throw, cast;;None;;455
+n-verb-164;;echarse a infinitivo;;to break into doing something;;None;;455
+n-verb-165;;responder;;to respond;;None;;456
+n-verb-166;;sufrir;;to suffer, undergo;;None;;457
+n-verb-167;;importar;;to matter, import;;None;;464
+n-verb-168;;obtener (e-ie);;to obtain;;None;;466
+n-verb-169;;observar;;to observe;;None;;478
+n-verb-170;;indicar;;to indicate; to show;;None;;479
+n-verb-171;;imaginar;;to imagine;;None;;486
+n-verb-172;;soler (o-ue);;to be accustomed to;;None;;487
+n-verb-173;;soler infinitivo (o-ue);;to usually do something/;;None;;487
+n-verb-174;;detener (e-ie);;to stop, detain;;None;;490
+n-verb-175;;desarrollar;;to develop;;None;;491
+n-verb-176;;señalar;;to point out, signal;;None;;493
+n-verb-177;;elegir (e-i);;to choose, elect;;None;;494
+n-verb-178;;preparar;;to prepare;;None;;499
+n-verb-179;;proponer (-go);;to propose;;None;;500
+n-verb-180;;demostrar (o-ue);;to demonstrate;;None;;501
+n-verb-181;;signiﬁcar;;to mean;;None;;502
+n-verb-182;;reunir;;to unite, join; to have, possess; to gather, collect;;None;;509
+n-verb-183;;reunirse;;to meet;;None;;509
+n-verb-184;;faltar;;to be lacking;;None;;510
+n-verb-185;;acompañar;;to accompany;;None;;512
+n-verb-186;;desear;;to desire, wish for;;None;;515
+n-verb-187;;enseñar;;to teach, show;;None;;524
+n-verb-188;;construir;;to build;;None;;525
+n-verb-189;;vender;;to sell;;None;;526
+n-verb-190;;representar;;to represent;;None;;527
+n-verb-191;;desaparecer (-zco);;to disappear;;None;;528
+n-verb-192;;mandar;;to send, order;;None;;529
+n-verb-193;;andar;;to walk;;None;;536
+n-verb-194;;preferir (e-ie);;to prefer;;None;;541
+n-verb-195;;asegurar;;to secure; to assure;;None;;542
+n-verb-196;;crecer;;to grow;;None;;552
+n-verb-197;;surgir;;to spring forth, emerge;;None;;553
+n-verb-198;;matar;;to kill;;None;;557
+n-verb-199;;entregar;;to deliver;;None;;558
+n-verb-200;;colocar;;to place, put (c...);;None;;562
+n-verb-201;;establecer (-zco);;to establish;;None;;565
+n-verb-202;;guardar;;to keep, save;;None;;566
+n-verb-203;;iniciar;;to initiate, start;;None;;568
+n-verb-204;;bajar;;to lower; to go, get, bring, take, let or carry down;;None;;569
+n-verb-205;;notar;;to notice;;None;;571
+n-verb-206;;meter;;to put into;;None;;573
+n-verb-207;;meterse;;to go in, into, inside;;None;;573
+n-verb-208;;actuar;;to act;;None;;576
+n-verb-209;;pretender;;to attempt or try (p.........); to claim; to seek or aspire to;;None;;584
+n-verb-210;;pretender que;;to expect;;None;;584
+n-verb-211;;acordar (o-ue);;to agree; to remind;;None;;595
+n-verb-212;;acordarse de (o-ue);;to remember;;None;;595
+n-verb-213;;cortar;;to cut;;None;;597
+n-verb-214;;corresponder;;to be appropriate, fitting, suitable;;None;;599
+n-verb-215;;romper;;to break;;None;;601
+n-verb-216;;romper a infinitivo;;to suddenly start doing something;;None;;601
+n-verb-217;;adquirir (e-ie);;to acquire;;None;;603
+n-verb-218;;lanzar;;to launch or throw; to launch (e.g., campaing, insults);;None;;611
+n-verb-219;;aprovechar;;to take advantage of;;None;;612
+n-verb-220;;apoyar;;to support; to lean on;;None;;616
+n-verb-221;;negar (e-ie);;to deny, refuse;;None;;617
+n-verb-222;;avanzar;;to advance;;None;;618
+n-verb-223;;resolver (o-ue);;to resolve, settle, work out;;None;;622
+n-verb-224;;costar (o-ue);;to cost, be hard;;None;;626
+n-verb-225;;exigir (-jo);;to demand;;None;;630
+n-verb-226;;aumentar;;to increase, raise; to rise, grow;;None;;633
+n-verb-227;;recoger (-jo);;to pick up;;None;;634
+n-verb-228;;abandonar;;to abandon; to leave a place;;None;;638
+n-verb-229;;imponer (-go);;to impose, enforce;;None;;641
+n-verb-230;;obligar (-gué);;to obligate, force;;None;;642
+n-verb-231;;aplicar (-qué);;to apply something to something;;None;;650
+n-verb-232;;pertenecer (-zco);;to belong;;None;;654
+n-verb-233;;disponer (-go);;to have means, dispose;;None;;658
+n-verb-234;;expresar;;to express;;None;;660
+n-verb-235;;provocar (-qué);;to cause, provoke;;None;;663
+n-verb-236;;defender (e-ie);;to defend, protect;;None;;665
+n-verb-237;;defenderse (e-ie);;to defend oneself; to get by, know the basics;;None;;665
+n-verb-238;;quitar;;to remove or take away; to take off clothes; to get rid of; to relieve; to take up time;;None;;669
+n-verb-239;;quitarse;;to take off clothes; to leave or go away;;None;;669
+n-verb-240;;conservar;;to conserve;;None;;670
+n-verb-241;;depender;;to depend; be subordinate to;;None;;673
+n-verb-242;;depender de;;to depend on;;None;;673
+n-verb-243;;marcar (-qué);;to mark, note, dial;;None;;677
+n-verb-244;;compartir;;to share;;None;;681
+n-verb-245;;consistir en;;to consist of;;None;;688
+n-verb-246;;constituir (-y-);;to constitute, consist of;;None;;689
+n-verb-247;;cubrir;;to cover;;None;;691
+n-verb-248;;funcionar;;to work, function;;None;;692
+n-verb-249;;caber;;to fit;;None;;695
+n-verb-250;;atender (e-ie);;to attend to, serve, wait on;;None;;697
+n-verb-251;;insistir;;to insist on;;None;;699
+n-verb-252;;sentar (e-ie);;to sit;;None;;710
+n-verb-253;;merecer;;to deserve, be worthy;;None;;716
+n-verb-254;;incluir;;to include;;None;;720
+n-verb-255;;cruzar;;to cross; to exchange words or greetings; to cross-breed;;None;;726
+n-verb-256;;cruzarse;;to intersect;;None;;726
+n-verb-257;;tender (e-ie);;to tend to, lay out;;None;;727
+n-verb-258;;anunciar;;to announce;;None;;730
+n-verb-259;;despertar (e-ie);;to wake;;None;;734
+n-verb-260;;comentar;;to comment on;;None;;742
+n-verb-261;;publicar;;to publish;;None;;743
+n-verb-262;;cargar;;to load; to carry;;None;;748
+n-verb-263;;participar;;to participate;;None;;750
+n-verb-264;;impedir (e-i);;to prevent, hinder;;None;;751
+n-verb-265;;salvar;;to save, rescue; to cover distance; to overcome obstacles or difficulties; to cross;;None;;753
+n-verb-266;;salvarse;;to survive, escape;;None;;753
+n-verb-267;;escapar;;to escape;;None;;757
+n-verb-268;;tirar;;to throw, hurl, toss; to throw away, waste; to knock down; to pull, draw; to shoot;;None;;759
+n-verb-269;;tirarse;;to throw oneself;;None;;759
+n-verb-270;;contestar;;to answer, reply;;None;;764
+n-verb-271;;preocupar;;to worry;;None;;766
+n-verb-272;;prestar;;to lend;;None;;767
+n-verb-273;;pesar;;to weigh;;None;;770
+n-verb-274;;exponer (-go);;to exhibit, show, display; to expound, explain; to expose, to risk;;None;;773
+n-verb-275;;viajar;;to travel;;None;;790
+n-verb-276;;separar;;to separate; to split up, pull apart;;None;;792
+n-verb-277;;regresar;;to return to a place;;None;;799
+n-verb-278;;contemplar;;to contemplate;;None;;807
+n-verb-279;;recorrer;;to travel through, tour; to cover a distance; to look over;;None;;808
+n-verb-280;;durar;;to last;;None;;812
+n-verb-281;;retirar;;to remove, retract; to retire;;None;;817
+n-verb-282;;permanecer;;to stay, remain;;None;;821
+n-verb-283;;asistir;;to assist;;None;;822
+n-verb-284;;organizar;;to organize;;None;;825
+n-verb-285;;contener (e-ie);;to contain;;None;;829
+n-verb-286;;visitar;;to visit;;None;;834
+n-verb-287;;informar;;to inform;;None;;835
+n-verb-288;;enviar;;to send;;None;;842
+n-verb-289;;cuidar;;to take care of;;None;;846
+n-verb-290;;intervenir (e-ie);;to intervene;;None;;847
+n-verb-291;;extender (e-ie);;to spread or lay out;;None;;851
+n-verb-292;;comprobar (o-ue);;to verify, check; to prove;;None;;852
+n-verb-293;;dormir (o-ue);;to sleep;;None;;857
+n-verb-294;;discutir;;to discuss, dispute; to argue;;None;;859
+n-verb-295;;enfrentar;;to confront, face;;None;;862
+n-verb-296;;conducir (-zco);;to drive; to carry, bring, lead to;;None;;868
+n-verb-297;;ﬁrmar;;to sign;;None;;870
+n-verb-298;;respetar;;to respect;;None;;880
+n-verb-299;;sostener (e-ie);;to support, hold up; to hold; to sustain;;None;;883
+n-verb-300;;advertir (e-ie);;to warn, advise;;None;;887
+n-verb-301;;transformar;;to transform;;None;;891
+n-verb-302;;bastar;;to be sufﬁcient;;None;;899
+n-verb-303;;mencionar;;to mention;;None;;905
+n-verb-304;;plantear;;to pose a problem, question or issue; to suggest;;None;;910
+n-verb-305;;probar (o-ue);;to taste; to test; to prove;;None;;911
+n-verb-306;;manejar;;to drive, handle;;None;;916
+n-verb-307;;unir;;to unite, join together;;None;;918
+n-verb-308;;caminar;;to walk; to trave, cover distance (c...);;None;;919
+n-verb-309;;coincidir;;to coincide;;None;;920
+n-verb-310;;llenar;;to ﬁll, fill up, fill in; to fulfill;;None;;925
+n-verb-311;;dominar;;to dominate, master;;None;;926
+n-verb-312;;medir (e-i);;to measure;;None;;929
+n-verb-313;;atravesar (e-ie);;to go across or cross (a...);;None;;937
+n-verb-314;;destacar;;to stand out;;None;;941
+n-verb-315;;pronunciar;;to pronounce;;None;;944
+n-verb-316;;distinguir;;to distinguish, tell apart;;None;;945
+n-verb-317;;introducir (-uzco);;to introduce something, bring in, put, insert;;None;;949
+n-verb-318;;comunicar;;to communicate;;None;;952
+n-verb-319;;invitar;;to invite;;None;;954
+n-verb-320;;instalar;;to install;;None;;958
+n-verb-321;;instalarse;;to settle, establish oneself;;None;;958
+n-verb-322;;tardar;;to take time, to take an amount of time, to delay;;None;;959
+n-verb-323;;mejorar;;to improve;;None;;960
+n-verb-324;;emplear;;to employ or use;;None;;962
+n-verb-325;;convenir (e-ie);;to be agreeable, be convenient;;None;;964
+n-verb-326;;recuperar;;to recuperate;;None;;965
+n-verb-327;;deﬁnir;;to deﬁne;;None;;974
+n-verb-328;;superar;;to surpass;;None;;975
+n-verb-329;;aﬁrmar;;to afﬁrm; to make firm;;None;;978
+n-verb-330;;interpretar;;to interpret;;None;;983
+n-verb-331;;admitir;;to admit;;None;;985
+n-verb-332;;identiﬁcar;;to identify;;None;;986
+n-verb-333;;afectar;;to affect;;None;;991
+n-verb-334;;reducir;;to reduce;;None;;996
+n-verb-335;;montar;;to ride, mount, assemble;;None;;998
+n-verb-336;;parar;;to stop moving;;None;;1001
+n-verb-337;;devolver (o-ue);;to return something to someone;;None;;1003
+n-verb-338;;ejercer;;to practice, exercise;;None;;1004
+n-verb-339;;poseer;;to possess, own;;None;;1005
+n-verb-340;;proteger;;to protect;;None;;1006
+n-verb-341;;causar;;to cause, bring about;;None;;1007
+n-verb-342;;determinar;;to determine; to cause;;None;;1009
+n-verb-343;;determinarse;;to make up one's mind;;None;;1009
+n-verb-344;;cobrar;;to charge money;;None;;1013
+n-verb-345;;dividir;;to divide;;None;;1015
+n-verb-346;;inventar;;to invent; to fabricate, make up;;None;;1018
+n-verb-347;;limitar;;to limit;;None;;1021
+n-verb-348;;limitar con;;to border on;;None;;1021
+n-verb-349;;limitarse a;;to limit oneself to;;None;;1021
+n-verb-350;;luchar;;to ﬁght, struggle; to wrestle;;None;;1026
+n-verb-351;;acudir;;to turn to, resort to;;None;;1044
+n-verb-352;;analizar;;to analyze;;None;;1048
+n-verb-353;;encargar;;to put in charge of;;None;;1054
+n-verb-354;;encargarse;;to take charge of;;None;;1054
+n-verb-355;;destinar;;to appoint, assign; to earmark, allot;;None;;1057
+n-verb-356;;comparar;;to compare;;None;;1058
+n-verb-357;;celebrar;;to celebrate;;None;;1059
+n-verb-358;;sonar (o-ue);;to sound or ring;;None;;1068
+n-verb-359;;manifestar (e-ie);;to express;;None;;1069
+n-verb-360;;controlar;;to control;;None;;1070
+n-verb-361;;saltar;;to jump, leap, hop;;None;;1071
+n-verb-362;;citar;;to make an appointment with; to cite, mention or quote; to summons;;None;;1077
+n-verb-363;;requerir (e-ie);;to require;;None;;1081
+n-verb-364;;incorporar;;to incorporate, include;;None;;1087
+n-verb-365;;perseguir (e-i);;to persecute, pursue, chase;;None;;1094
+n-verb-366;;procurar;;to obtain;;None;;1100
+n-verb-367;;casar;;to marry;;None;;1105
+n-verb-368;;someter;;to subdue, suppress;;None;;1116
+n-verb-369;;fundar;;to found, base;;None;;1117
+n-verb-370;;elevar;;to elevate;;None;;1123
+n-verb-371;;cantar;;to sing;;None;;1124
+n-verb-372;;asumir;;to assume (e.g., responsibility); to assume (e.g., premise);;None;;1132
+n-verb-373;;aclarar;;to clarify, clear up;;None;;1133
+n-verb-374;;arrastrar;;to drag, tow; to draw, attract;;None;;1134
+n-verb-375;;declarar;;to declare, testify;;None;;1136
+n-verb-376;;nombrar;;to appoint; to mention, name;;None;;1147
+n-verb-377;;confundir;;to confuse;;None;;1149
+n-verb-378;;describir;;to describe;;None;;1151
+n-verb-379;;calcular;;to calculate, ﬁgure out;;None;;1155
+n-verb-380;;conformar;;to conform;;None;;1156
+n-verb-381;;pintar;;to paint;;None;;1158
+n-verb-382;;repartir;;to divide, deliver, distribute;;None;;1161
+n-verb-383;;hallar;;to ﬁnd out;;None;;1166
+n-verb-384;;ordenar;;to put in order, organize;;None;;1167
+n-verb-385;;convencer;;to convince;;None;;1169
+n-verb-386;;rodear;;to surround; to round up;;None;;1174
+n-verb-387;;rodearse;;to surround oneself with;;None;;1174
+n-verb-388;;reﬂejar;;to reﬂect;;None;;1176
+n-verb-389;;rechazar;;to reject;;None;;1182
+n-verb-390;;contribuir;;to contribute; to pay taxes;;None;;1183
+n-verb-391;;vencer;;to overcome, conquer;;None;;1193
+n-verb-392;;alejar;;to move or get something away;;None;;1196
+n-verb-393;;alejarse;;to get away from something or someone;;None;;1196
+n-verb-394;;transmitir;;to transmit, broadcast;;None;;1202
+n-verb-395;;marchar;;to march;;None;;1203
+n-verb-396;;marcharse;;to leave, depart;;None;;1203
+n-verb-397;;destruir;;to destroy;;None;;1207
+n-verb-398;;opinar;;to opine;;None;;1209
+n-verb-399;;cometer;;to commit an error or crime;;None;;1213
+n-verb-400;;trasladar;;to move, transfer;;None;;1219
+n-verb-401;;concluir;;to conclude, ﬁnish; to deduce, infer; to end;;None;;1221
+n-verb-402;;oponer (-go);;to oppose;;None;;1225
+n-verb-403;;figurar;;to figure among, belong; to represent;;None;;1227
+n-verb-404;;concentrar;;to concentrate;;None;;1233
+n-verb-405;;ignorar;;to be unaware;;None;;1247
+n-verb-406;;dudar;;to doubt;;None;;1252
+n-verb-407;;descansar;;to rest;;None;;1257
+n-verb-408;;adoptar;;to adopt;;None;;1267
+n-verb-409;;arrancar;;to start a machine, uproot;;None;;1268
+n-verb-410;;disfrutar;;to enjoy;;None;;1269
+n-verb-411;;molestar;;to bother, disturb, upset;;None;;1272
+n-verb-412;;atrever;;to dare;;None;;1276
+n-verb-413;;ceder;;to give way, yield;;None;;1289
+n-verb-414;;atraer;;to attract;;None;;1293
+n-verb-415;;acumular;;to accumulate, amass;;None;;1301
+n-verb-416;;practicar;;to practice;;None;;1303
+n-verb-417;;gozar;;to enjoy;;None;;1304
+n-verb-418;;justiﬁcar;;to justify, excuse;;None;;1308
+n-verb-419;;soportar;;to endure, stand something;;None;;1310
+n-verb-420;;resistir;;to resist, endure;;None;;1312
+n-verb-421;;vestir (e-i);;to wear, dress;;None;;1317
+n-verb-422;;sorprender;;to surprise;;None;;1320
+n-verb-423;;proceder;;to proceed, start;;None;;1322
+n-verb-424;;condenar;;to convict, condemn;;None;;1323
+n-verb-425;;consumir;;to consume, take in;;None;;1326
+n-verb-426;;sugerir (e-ie);;to suggest, hint at;;None;;1327
+n-verb-427;;conceder;;to grant, concede;;None;;1331
+n-verb-428;;componer (-go);;to compose, be part of;;None;;1336
+n-verb-429;;arreglar;;to repair, fix; to tidy up; to solve, work out;;None;;1351
+n-verb-430;;arreglarse;;to get dressed up;;None;;1351
+n-verb-431;;animar;;to encourage, inspire; to animate, enliven; to brighten up, cheer up;;None;;1354
+n-verb-432;;apuntar;;to point, note, aim;;None;;1361
+n-verb-433;;liberar;;to free, liberate;;None;;1363
+n-verb-434;;añadir;;to add;;None;;1369
+n-verb-435;;girar;;to rotate, revolve;;None;;1371
+n-verb-436;;volar (o-ue);;to ﬂy;;None;;1376
+n-verb-437;;facilitar;;to facilitate;;None;;1381
+n-verb-438;;solicitar;;to solicit, request;;None;;1384
+n-verb-439;;temer;;to fear;;None;;1387
+n-verb-440;;atacar;;to attack;;None;;1393
+n-verb-441;;pegar;;to hit, stick on;;None;;1395
+n-verb-442;;juzgar;;to judge;;None;;1396
+n-verb-443;;interrumpir;;to interrupt;;None;;1405
+n-verb-444;;fabricar;;to manufacture;;None;;1408
+n-verb-445;;conﬁar;;to trust, conﬁde;;None;;1423
+n-verb-446;;operar;;to operate;;None;;1424
+n-verb-447;;basar;;to base on, base upon;;None;;1430
+n-verb-448;;estimar;;to appreciate, think highly of;;None;;1433
+n-verb-449;;conﬁrmar;;to conﬁrm;;None;;1435
+n-verb-450;;integrar;;to integrate, ﬁt in;;None;;1439
+n-verb-451;;aprobar (o-ue);;to pass a test, approve;;None;;1443
+n-verb-452;;grabar;;to engrave; to record or tape;;None;;1448
+n-verb-453;;equivocar;;to be wrong;;None;;1457
+n-verb-454;;llorar;;to cry;;None;;1466
+n-verb-455;;proyectar;;to project;;None;;1471
+n-verb-456;;beber;;to drink;;None;;1476
+n-verb-457;;apreciar;;to appreciate;;None;;1483
+n-verb-458;;experimentar;;to experience, experiment;;None;;1484
+n-verb-459;;amar;;to love;;None;;1486
+n-verb-460;;robar;;to rob, steal;;None;;1492
+n-verb-461;;reír (e-i);;to laugh;;None;;1493
+n-verb-462;;mezclar;;to mix;;None;;1500
+n-verb-463;;distribuir;;to distribute, deliver;;None;;1503
+n-verb-464;;apartar;;to move something away from something, put or set aside, separate;;None;;1505
+n-verb-465;;reclamar;;to demand, require;;None;;1507
+n-verb-466;;quemar;;to burn;;None;;1509
+n-verb-467;;obedecer (-zco);;to obey;;None;;1513
+n-verb-468;;satisfacer;;to satisfy;;None;;1517
+n-verb-469;;concebir (e-i);;to conceive, understand;;None;;1518
+n-verb-470;;reaccionar;;to react;;None;;1521
+n-verb-471;;acusar;;to accuse;;None;;1524
+n-verb-472;;gastar;;to spend money;;None;;1526
+n-verb-473;;regalar;;to give as a gift;;None;;1528
+n-verb-474;;quejarse;;to complain; to groan or moan;;None;;1530
+n-verb-475;;penetrar;;to penetrate, come in;;None;;1531
+n-verb-476;;rendir (e-i);;to perform, produce;;None;;1534
+n-verb-477;;rendirse (e-i);;to surrender, to give up;;None;;1534
+n-verb-478;;registrar;;to register, record;;None;;1536
+n-verb-479;;limpiar;;to clean;;None;;1537
+n-verb-480;;atribuir;;to attribute;;None;;1539
+n-verb-481;;ocultar;;to hide;;None;;1541
+n-verb-482;;enterar;;to inform;;None;;1543
+n-verb-483;;enterarse;;to find out, learn;;None;;1543
+n-verb-484;;ajustar;;to fit; to adjust;;None;;1545
+n-verb-485;;aspirar;;to aspire, want;;None;;1552
+n-verb-486;;recurrir a;;to turn to, appeal to, resort to;;None;;1555
+n-verb-487;;huir;;to escape, flee;;None;;1574
+n-verb-488;;percibir;;to perceive, notice;;None;;1575
+n-verb-489;;transcurrir;;to occur, take place;;None;;1579
+n-verb-490;;recomendar (e-ie);;to recommend;;None;;1581
+n-verb-491;;corregir (e-i);;to correct;;None;;1585
+n-verb-492;;consultar;;to consult;;None;;1587
+n-verb-493;;padecer;;to suffer;;None;;1590
+n-verb-494;;elaborar;;to make, develop;;None;;1592
+n-verb-495;;soñar (o-ue);;to dream;;None;;1593
+n-verb-496;;gritar;;to shout;;None;;1597
+n-verb-497;;traducir (-zco);;to translate;;None;;1603
+n-verb-498;;sumar;;to add up to; to equal;;None;;1608
+n-verb-499;;alimentar;;to feed, support;;None;;1609
+n-verb-500;;eliminar;;to eliminate;;None;;1612
+n-verb-501;;renunciar;;to resign, quit; to renounce;;None;;1621
+n-verb-502;;acostumbrar;;to be accustomed to;;None;;1628
+n-verb-503;;acostumbrar a infinitivo;;to get used to doing something;;None;;1628
+n-verb-504;;revisar;;to inspect;;None;;1632
+n-verb-505;;carecer;;to be without;;None;;1633
+n-verb-506;;prometer;;to promise;;None;;1641
+n-verb-507;;descender (e-ie);;to descend;;None;;1645
+n-verb-508;;reproducir (-zco);;to reproduce, repeat;;None;;1654
+n-verb-509;;constar;;to be evident; to be on record;;None;;1655
+n-verb-510;;constar de;;to consist of;;None;;1655
+n-verb-511;;asociar;;to associate with;;None;;1661
+n-verb-512;;desconocer;;to not know, not recognize;;None;;1662
+n-verb-513;;fallar;;to fail; to rule in court; to miss;;None;;1664
+n-verb-514;;perdonar;;to forgive, excuse;;None;;1678
+n-verb-515;;agradecer;;to thank for;;None;;1681
+n-verb-516;;admirar;;to admire;;None;;1682
+n-verb-517;;revelar;;to reveal or disclose;;None;;1691
+n-verb-518;;agregar;;to add, to attach; to appoint;;None;;1708
+n-verb-519;;agregarse;;to join;;None;;1708
+n-verb-520;;completar;;to complete;;None;;1718
+n-verb-521;;combatir;;to combat;;None;;1726
+n-verb-522;;aportar;;to provide, contribute;;None;;1738
+n-verb-523;;derivar;;to derive, come from;;None;;1739
+n-verb-524;;prohibir;;to prohibit, forbid;;None;;1741
+n-verb-525;;proporcionar;;to supply;;None;;1742
+n-verb-526;;saludar;;to greet, say hello;;None;;1744
+n-verb-527;;relacionar;;to relate;;None;;1745
+n-verb-528;;investigar;;to investigate;;None;;1749
+n-verb-529;;ubicar;;to assign, place; to locate or find;;None;;1750
+n-verb-530;;modiﬁcar;;to modify;;None;;1758
+n-verb-531;;lavar;;to wash;;None;;1762
+n-verb-532;;invadir;;to invade, overcome;;None;;1764
+n-verb-533;;desplazar;;to replace, move, shift;;None;;1771
+n-verb-534;;adelantar;;to overtake, pass; to pay in advance;;None;;1777
+n-verb-535;;examinar;;to examine, inspect;;None;;1780
+n-verb-536;;sustituir;;to substitute, replace;;None;;1786
+n-verb-537;;implicar;;to implicate, imply;;None;;1788
+n-verb-538;;ingresar;;to join, deposit, admit;;None;;1791
+n-verb-539;;respirar;;to breathe;;None;;1792
+n-verb-540;;esconder;;to hide, conceal;;None;;1802
+n-verb-541;;alterar;;to alter, modify;;None;;1809
+n-verb-542;;emitir;;to emit, give off;;None;;1811
+n-verb-543;;inclinar;;to bow, tilt, incline;;None;;1814
+n-verb-544;;desprender;;to detach, release, remove;;None;;1819
+n-verb-545;;circular;;to circulate, go around, ﬂow;;None;;1822
+n-verb-546;;pelear;;to ﬁght, struggle;;None;;1823
+n-verb-547;;aconsejar;;to advise, counsel;;None;;1828
+n-verb-548;;arrojar;;to throw, ﬂing;;None;;1846
+n-verb-549;;criticar;;to criticize;;None;;1849
+n-verb-550;;hundir;;to sink; to ruin or destroy;;None;;1850
+n-verb-551;;encerrar (e-ie);;to lock up; to contain, include; to involve, entail;;None;;1861
+n-verb-552;;denominar;;to designate, name;;None;;1869
+n-verb-553;;impulsar;;to propel; to motivate, inspire;;None;;1875
+n-verb-554;;empujar;;to push, shove;;None;;1877
+n-verb-555;;dictar;;to dictate; to pronounce judgment;;None;;1881
+n-verb-556;;chocar;;to crash into, collide with;;None;;1883
+n-verb-557;;borrar;;to erase;;None;;1890
+n-verb-558;;aguantar;;to endure, put up with;;None;;1895
+n-verb-559;;coger;;to hold, take, catch;;None;;1896
+n-verb-560;;golpear;;to hit, strike;;None;;1904
+n-verb-561;;ascender (e-ie);;to ascend; to climb; to be promoted; to promote;;None;;1909
+n-verb-562;;ascender a (e-ie);;to amount to or achieve;;None;;1909
+n-verb-563;;complicar;;to complicate;;None;;1911
+n-verb-564;;engañar;;to trick, deceive, mislead; to cheat on, be unfaithful towards;;None;;1917
+n-verb-565;;agotar;;to exhaust, wear out, run out;;None;;1919
+n-verb-566;;precisar;;to do exactly, specify;;None;;1923
+n-verb-567;;suspender;;to suspend, hang, fail;;None;;1929
+n-verb-568;;ampliar;;to enlarge, increase, expand;;None;;1931
+n-verb-569;;cultivar;;to cultivate; to foster;;None;;1936
+n-verb-570;;explotar;;to explode;;None;;1938
+n-verb-571;;despedir (e-i);;to say goodbye, dismiss;;None;;1940
+n-verb-572;;colaborar;;to collaborate, work together;;None;;1943
+n-verb-573;;invertir (e-ie);;to invest;;None;;1945
+n-verb-574;;provenir (e-ie);;to come from;;None;;1958
+n-verb-575;;forzar (o-ue);;to force;;None;;1959
+n-verb-576;;criar;;to raise a child or animal;;None;;1962
+n-verb-577;;confesar (e-ie);;to confess, admit;;None;;1972
+n-verb-578;;doblar;;to double; to fold, bend; to turn;;None;;1981
+n-verb-579;;disminuir;;to decrease, diminish;;None;;1982
+n-verb-580;;averiguar (gu-gü);;to investigate, ﬁnd out;;None;;1983
+n-verb-581;;sospechar;;to suspect, suppose;;None;;1984
+n-verb-582;;pasear;;to take a walk; to go for a ride; to parade around, show off;;None;;1985
+n-verb-583;;depositar;;to deposit, place, store;;None;;1995
+n-verb-584;;captar;;to capture, attract;;None;;1996
+n-verb-585;;empeñar;;to pawn;;None;;1998
+n-verb-586;;empeñarse;;to insist on;;None;;1998
+n-verb-587;;sobrevivir;;to survive, outlive;;None;;1999
+n-verb-588;;inﬂuir;;to influence, have influence;;None;;2022
+n-verb-589;;multiplicar;;to multiply;;None;;2034
+n-verb-590;;doler (o-ue);;to hurt, ache; to grieve;;None;;2037
+n-verb-591;;dolerse (o-ue);;to be distressed; to complain;;None;;2037
+n-verb-592;;favorecer;;to favor, help;;None;;2044
+n-verb-593;;escoger;;to choose;;None;;2048
+n-verb-594;;colgar (o-ue);;to hang, hang up;;None;;2049
+n-verb-595;;llover (o-ue);;to rain;;None;;2053
+n-verb-596;;absorber;;to absorb, soak up;;None;;2056
+n-verb-597;;imitar;;to imitate, copy, mimic;;None;;2063
+n-verb-598;;educar;;to educate;;None;;2068
+n-verb-599;;comprometer;;to compromise;;None;;2069
+n-verb-600;;aproximar;;to come near, closer;;None;;2070
+n-verb-601;;bailar;;to dance;;None;;2071
+n-verb-602;;inspirar;;to inspire, inhale;;None;;2072
+n-verb-603;;agarrar;;to grab; to catch, take;;None;;2074
+n-verb-604;;prolongar;;to extend, prolong;;None;;2077
+n-verb-605;;adaptar;;to adapt;;None;;2087
+n-verb-606;;situar;;to situate, place, locate;;None;;2089
+n-verb-607;;situarse;;to be placed, located; to make a place for oneself; to do well;;None;;2089
+n-verb-608;;curar;;to cure;;None;;2097
+n-verb-609;;desempeñar;;to carry out, fulﬁll;;None;;2100
+n-verb-610;;extraer;;to extract;;None;;2102
+n-verb-611;;apagar;;to turn off, extinguish;;None;;2104
+n-verb-612;;prever;;to foresee, anticipate, forecast;;None;;2105
+n-verb-613;;expulsar;;to expel, throw out;;None;;2110
+n-verb-614;;exhibir;;to exhibit, show off;;None;;2122
+n-verb-615;;tapar;;to cover, wrap;;None;;2129
+n-verb-616;;acceder;;to assent; to agree to a demand or request; to assume a position; to gain access to;;None;;2130
+n-verb-617;;encender (e-ie);;to turn on;;None;;2133
+n-verb-618;;disparar;;to shoot, to fire;;None;;2141
+n-verb-619;;atar;;to tie, tie up, tie down;;None;;2153
+n-verb-620;;generar;;to generate;;None;;2157
+n-verb-621;;abarcar;;to encompass, comprise;;None;;2163
+n-verb-622;;brindar;;to drink a toast; to offer or provide;;None;;2170
+n-verb-623;;solucionar;;to solve, settle;;None;;2184
+n-verb-624;;acomodar;;to be or make comfortable;;None;;2196
+n-verb-625;;variar;;to change, vary;;None;;2210
+n-verb-626;;otorgar;;to give, grant, award;;None;;2224
+n-verb-627;;cesar;;to cease, stop;;None;;2227
+n-verb-628;;cesar de infinitivo;;to cease to do something;;None;;2227
+n-verb-629;;amenazar;;to threaten;;None;;2239
+n-verb-630;;callar;;to be or make quiet;;None;;2245
+n-verb-631;;vigilar;;to look after, keep an eye on; to watch over, guard;;None;;2247
+n-verb-632;;orientar;;guide, show the way;;None;;2250
+n-verb-633;;portar;;to carry, bear; to wear;;None;;2254
+n-verb-634;;portarse;;to behave;;None;;2254
+n-verb-635;;avisar;;to notify, inform; to advise, warn;;None;;2268
+n-verb-636;;renovar (o-ue);;to renew, renovate;;None;;2269
+n-verb-637;;soltar (o-ue);;to release, loosen, let out;;None;;2272
+n-verb-638;;abordar;;to board, get in or on a vehicle; to address or deal with;;None;;2273
+n-verb-639;;castigar;;to punish;;None;;2274
+n-verb-640;;fracasar;;to fail . . . refers to drawn out process of failure;;None;;2277
+n-verb-641;;caliﬁcar;;to grade; to describe as;;None;;2279
+n-verb-642;;juntar;;to bring together;;None;;2280
+n-verb-643;;ejecutar;;to execute, carry out;;None;;2285
+n-verb-644;;protestar;;to protest, object;;None;;2288
+n-verb-645;;impresionar;;to impress; to affect, move;;None;;2292
+n-verb-646;;impresionarse;;to be affected or moved;;None;;2292
+n-verb-647;;comportar;;to behave;;None;;2294
+n-verb-648;;dibujar;;to draw, sketch;;None;;2317
+n-verb-649;;gobernar (e-ie);;to govern;;None;;2322
+n-verb-650;;deshacer (-go);;to undo, destroy, take apart;;None;;2324
+n-verb-651;;reconstruir;;to reconstruct;;None;;2328
+n-verb-652;;denunciar;;to denounce, condemn; to report something to the authorities;;None;;2332
+n-verb-653;;garantizar;;to guarantee;;None;;2345
+n-verb-654;;combinar;;to combine; to match;;None;;2348
+n-verb-655;;combinarse;;to get together; to conspire;;None;;2348
+n-verb-656;;divertir;;to amuse, entertain;;None;;2356
+n-verb-657;;divertirse;;to have fun;;None;;2356
+n-verb-658;;conquistar;;to conquer; to win over;;None;;2358
+n-verb-659;;envolver (o-ue);;to wrap;;None;;2363
+n-verb-660;;emprender;;to undertake;;None;;2365
+n-verb-661;;anticipar;;to anticipate, advance;;None;;2366
+n-verb-662;;quebrar;;to break, bend, weaken;;None;;2375
+n-verb-663;;equilibrar;;to balance;;None;;2382
+n-verb-664;;asomar;;to put out, stick out; to appear;;None;;2383
+n-verb-665;;optar;;to choose, opt for;;None;;2384
+n-verb-666;;estallar;;to burst, explode, shatter;;None;;2401
+n-verb-667;;copiar;;to copy;;None;;2402
+n-verb-668;;inaugurar;;to inaugurate, open, start;;None;;2403
+n-verb-669;;apretar (e-ie);;to squeeze, tighten, compress;;None;;2404
+n-verb-670;;mentir (e-ie);;to tell a lie;;None;;2416
+n-verb-671;;contratar;;to hire, contract;;None;;2418
+n-verb-672;;retener (e-ie);;to retain; to withhold;;None;;2452
+n-verb-673;;prender;;to pin, fasten; to catch, apprehend; to light a cigarette or match; to turn on; to take root; to catch fire;;None;;2454
+n-verb-674;;prender fuego a;;to set fire to;;None;;2454
+n-verb-675;;formular;;to formulate;;None;;2462
+n-verb-676;;fumar;;to smoke;;None;;2472
+n-verb-677;;especializar;;to specialize, major in;;None;;2474
+n-verb-678;;caracterizar;;to characterize, portray;;None;;2476
+n-verb-679;;designar;;to designate;;None;;2479
+n-verb-680;;competir (e-i);;to compete;;None;;2486
+n-verb-681;;secar;;to dry;;None;;2496
+n-verb-682;;imprimir;;to print;;None;;2502
+n-verb-683;;conversar;;to converse;;None;;2507
+n-verb-684;;lamentar;;to regret;;None;;2509
+n-verb-685;;alzar;;to lift, raise;;None;;2511
+n-verb-686;;iluminar;;to illuminate, light up;;None;;2515
+n-verb-687;;guiar;;to guide, lead, steer;;None;;2522
+n-verb-688;;efectuar;;to carry out, cause to happen;;None;;2523
+n-verb-689;;calentar (e-ie);;to warm, heat;;None;;2531
+n-verb-690;;proseguir (e-i);;to continue; to pursue studies or goals;;None;;2534
+n-verb-691;;cansar;;to tire, annoy;;None;;2552
+n-verb-692;;heredar;;to inherit;;None;;2555
+n-verb-693;;librar;;to liberate, set free;;None;;2556
+n-verb-694;;brillar;;to shine;;None;;2558
+n-verb-695;;rescatar;;to rescue, save;;None;;2559
+n-verb-696;;extrañar;;to miss, long for;;None;;2564
+n-verb-697;;asustar;;to frighten, scare;;None;;2565
+n-verb-698;;anotar;;to annotate; to jot down; to score in sports;;None;;2570
+n-verb-699;;remontar;;to overcome; to go up;;None;;2580
+n-verb-700;;remontarse;;to soar;;None;;2580
+n-verb-701;;remontar a;;to date from, go back to in time;;None;;2580
+n-verb-702;;convocar;;to call together, bring together; to call, organize, announce, convene;;None;;2599
+n-verb-703;;generalizar;;to be widespread;;None;;2621
+n-verb-704;;habitar;;to inhabit; to reside, dwell;;None;;2624
+n-verb-705;;armar;;to arm, put together;;None;;2627
+n-verb-706;;anular;;to annul, cancel;;None;;2637
+n-verb-707;;alargar;;to enlarge, elongate;;None;;2649
+n-verb-708;;estimular;;to stimulate, encourage;;None;;2662
+n-verb-709;;pisar;;to step on, tread on, walk on; to crush, trample;;None;;2667
+n-verb-710;;violar;;to violate, trespass, rape;;None;;2673
+n-verb-711;;enriquecer;;to enrich;;None;;2681
+n-verb-712;;alegrar;;to be or make happy;;None;;2689
+n-verb-713;;alegrarse de;;to be glad about;;None;;2689
+n-verb-714;;transportar;;to transport, carry;;None;;2690
+n-verb-715;;triunfar;;to triumph;;None;;2697
+n-verb-716;;acoger;;to take in, shelter; to receive, welcome;;None;;2715
+n-verb-717;;acogerse;;to take refuge;;None;;2715
+n-verb-718;;sembrar (e-ie);;to sow, plant;;None;;2717
+n-verb-719;;acentuar;;to accent, stress;;None;;2718
+n-verb-720;;entretener (e-ie);;to entertain, amuse;;None;;2722
+n-verb-721;;desviar;;to deviate, divert;;None;;2723
+n-verb-722;;desviarse;;to branch off; to stray;;None;;2723
+n-verb-723;;retroceder;;to go back or backwards; to move or step back;;None;;2724
+n-verb-724;;sonreír (e-i);;to smile;;None;;2731
+n-verb-725;;relatar;;to relate, tell;;None;;2733
+n-verb-726;;difundir;;to spread, disseminate, extend widely; to issue;;None;;2740
+n-verb-727;;lucir;;to shine; to look good, stand out;;None;;2741
+n-verb-728;;reservar;;to reserve, book;;None;;2750
+n-verb-729;;sacriﬁcar;;to sacriﬁce;;None;;2752
+n-verb-730;;exagerar;;to exaggerate;;None;;2755
+n-verb-731;;residir;;to reside, live in;;None;;2764
+n-verb-732;;promover (o-ue);;to promote;;None;;2767
+n-verb-733;;reparar;;to repair;;None;;2770
+n-verb-734;;administrar;;to administer, manage;;None;;2773
+n-verb-735;;ahorrar;;to save money, time;;None;;2775
+n-verb-736;;enterrar (e-ie);;to bury;;None;;2779
+n-verb-737;;contraer;;to contract, shrink, abbreviate;;None;;2782
+n-verb-738;;reﬂexionar;;to reﬂect, consider on;;None;;2788
+n-verb-739;;centrar;;to center, focus, base on;;None;;2810
+n-verb-740;;originar;;to originate, give rise to;;None;;2819
+n-verb-741;;ahogar;;to drown, choke, ﬂood;;None;;2821
+n-verb-742;;esforzar (o-ue);;to make an effort, exert oneself;;None;;2823
+n-verb-743;;detectar;;to detect;;None;;2826
+n-verb-744;;autorizar;;to authorize, legalize;;None;;2829
+n-verb-745;;afrontar;;to face, confront;;None;;2832
+n-verb-746;;restar;;to deduct, subtract; to minimize, play down; to remain, be left;;None;;2836
+n-verb-747;;concretar;;to materialize, fulﬁll;;None;;2839
+n-verb-748;;picar;;to sting, to insect bite; to bird peck; to itch; to nibble on; to needle prick; to punch a ticket; to break, chip a stone; to grind; to goad;;None;;2840
+n-verb-749;;jurar;;to swear, take an oath;;None;;2846
+n-verb-750;;rezar;;to pray, recite;;None;;2847
+n-verb-751;;inducir;;to induce, cause; to infer, deduce;;None;;2857
+n-verb-752;;encantar;;to enchant; to cause to love, bewitch; to charm, delight;;;None;;2859
+n-verb-753;;privar;;to deprive; to stun, knock down;;None;;2868
+n-verb-754;;privarse;;to deprive oneself;;None;;2868
+n-verb-755;;deducir;;to deduce, infer;;None;;2869
+n-verb-756;;redactar;;to write, draft; to edit;;None;;2870
+n-verb-757;;planear;;to plan;;None;;2872
+n-verb-758;;abrazar (z-c);;to hug, embrace;;None;;2873
+n-verb-759;;tolerar;;to tolerate;;None;;2874
+n-verb-760;;descartar;;to discard, reject, rule out;;None;;2877
+n-verb-761;;sujetar;;to hold; to fasten, clip;;None;;2879
+n-verb-762;;trazar;;to draw, trace;;None;;2892
+n-verb-763;;presionar;;to press, pressure;;None;;2896
+n-verb-764;;reiterar;;to reiterate, repeat;;None;;2900
+n-verb-765;;distraer;;to distract;;None;;2905
+n-verb-766;;tropezar (e-ie);;to bump or stumble into an object; to trip or stumble over an object; to run into by chance;;None;;2907
+n-verb-767;;diseñar;;to design, develop;;None;;2910
+n-verb-768;;proveer;;to provide;;None;;2911
+n-verb-769;;seleccionar;;to select;;None;;2912
+n-verb-770;;convivir;;to coexist;;None;;2913
+n-verb-771;;progresar;;to progress;;None;;2916
+n-verb-772;;abundar;;to abound, be plentiful;;None;;2923
+n-verb-773;;asimilar;;to assimilate;;None;;2928
+n-verb-774;;tejer;;to knit, crochet, weave; to fabricate, make up, concoct;;None;;2941
+n-verb-775;;proclamar;;to proclaim;;None;;2944
+n-verb-776;;plantar;;to plant;;None;;2949
+n-verb-777;;derrotar;;to defeat, beat;;None;;2951
+n-verb-778;;frenar;;to brake, stop, slow down;;None;;2952
+n-verb-779;;frenarse;;to restrain oneself;;None;;2952
+n-verb-780;;adivinar;;to guess, solve;;None;;2954
+n-verb-781;;pescar;;to ﬁsh;;None;;2958
+n-verb-782;;tragar;;to swallow;;None;;2965
+n-verb-783;;ﬂotar;;to ﬂoat, ﬂutter;;None;;2967
+n-verb-784;;sacudir;;to shake;;None;;2969
+n-verb-785;;sacudirse;;to get rid of or dump;;None;;2969
+n-verb-786;;suprimir;;to suppress, delete;;None;;2976
+n-verb-787;;sobrar;;to be too much, left over;;None;;2978
+n-verb-788;;brotar;;to bud, sprout;;None;;2979
+n-verb-789;;valorar;;to value;;None;;2994
+n-verb-790;;diferenciar;;to differentiate, distinguish;;None;;2995
+n-verb-791;;compensar;;to make up for; to compensate;;None;;3006
+n-verb-792;;asignar;;to assign, allocate;;None;;3008
+n-verb-793;;suscitar;;to arouse, give rise to;;None;;3010
+n-verb-794;;ﬁnalizar;;to ﬁnish, end;;None;;3011
+n-verb-795;;reforzar (o-ue);;to reinforce, strengthen;;None;;3012
+n-verb-796;;evolucionar;;to evolve, develop;;None;;3018
+n-verb-797;;presidir;;to preside over; to rule over;;None;;3020
+n-verb-798;;agitar;;to shake, flap wings, wave flag or wand; to rustle, rock, sway violently;;None;;3027
+n-verb-799;;oler (o-ue);;to smell;;None;;3036
+n-verb-800;;aludir;;to allude, refer;;None;;3037
+n-verb-801;;resumir;;to summarize;;None;;3041
+n-verb-802;;burlar;;to mock;;None;;3047
+n-verb-803;;encajar;;to insert, ﬁt well;;None;;3049
+n-verb-804;;nadar;;to swim;;None;;3050
+n-verb-805;;nadar en;;to be rolling in;;None;;3050
+n-verb-806;;acelerar;;to accelerate, speed up;;None;;3053
+n-verb-807;;desplegar (e-ie);;to unfold, deploy;;None;;3058
+n-verb-808;;desembocar;;to flow into, discharge;;None;;3059
+n-verb-809;;aliviar;;to lighten, relieve, comfort;;None;;3063
+n-verb-810;;cazar;;to hunt;;None;;3066
+n-verb-811;;aplaudir;;to clap, applaud;;None;;3068
+n-verb-812;;motivar;;to motivate, cause;;None;;3071
+n-verb-813;;descuidar;;to neglect;;None;;3072
+n-verb-814;;acostar (o-ue);;to lay something down; to put to bed;;None;;3077
+n-verb-815;;acostarse (o-ue);;to lie down; to go to bed;;None;;3077
+n-verb-816;;conectar;;to connect, plug in;;None;;3084
+n-verb-817;;arder;;to burn, glow;;None;;3087
+n-verb-818;;localizar;;to locate, ﬁnd, localize;;None;;3102
+n-verb-819;;herir (e-ie);;to wound, hurt;;None;;3109
+n-verb-820;;poner de manifiesto;;to make something clear, to reveal something;;None;;3111
+n-verb-821;;precipitar;;to plunge, hurl, rush;;None;;3119
+n-verb-822;;excluir;;to exclude, reject;;None;;3121
+n-verb-823;;adorar;;to adore, worship;;None;;3124
+n-verb-824;;beneﬁciar;;to beneﬁt;;None;;3129
+n-verb-825;;despreciar;;to despise, scorn;;None;;3141
+n-verb-826;;improvisar;;to improvise;;None;;3144
+n-verb-827;;emerger;;to emerge, surface;;None;;3145
+n-verb-828;;clavar;;to nail;;None;;3146
+n-verb-829;;volcar (o-ue);;to knock over, pour out, spill;;None;;3153
+n-verb-830;;barrer;;sweep, clean out;;None;;3156
+n-verb-831;;rogar (o-ue);;to implore, pray, ask;;None;;3160
+n-verb-832;;programar;;to program; to schedule, plan;;None;;3162
+n-verb-833;;ensayar;;to test;;None;;3166
+n-verb-834;;votar;;to vote;;None;;3172
+n-verb-835;;aislar;;to isolate, insulate;;None;;3174
+n-verb-836;;rodar (o-ue);;to roll;;None;;3179
+n-verb-837;;arriesgar;;to risk, venture;;None;;3183
+n-verb-838;;arriesgarse;;to take a chance;;None;;3183
+n-verb-839;;bautizar;;to baptize, christen;;None;;3186
+n-verb-840;;desatar;;to untie, unleash; to precipitate;;None;;3188
+n-verb-841;;desatarse;;to break out, erupt;;None;;3188
+n-verb-842;;alentar;;to encourage;;None;;3189
+n-verb-843;;descargar;;to unleash, unload;;None;;3190
+n-verb-844;;enamorar;;to fall in love;;None;;3193
+n-verb-845;;reemplazar;;to replace, substitute;;None;;3198
+n-verb-846;;soplar;;to blow the wind;;None;;3201
+n-verb-847;;regir (e-i);;to rule, govern, manage;;None;;3222
+n-verb-848;;bañar;;to bathe;;None;;3224
+n-verb-849;;bañarse;;to take a bath;;None;;3224
+n-verb-850;;rozar;;to chafe, rub against;;None;;3226
+n-verb-851;;remitir;;to remit; to subside, let up;;None;;3234
+n-verb-852;;remitir a;;to refer to, direct to;;None;;3234
+n-verb-853;;disolver (o-ue);;to dissolve;;None;;3240
+n-verb-854;;velar por;;to watch over, look after;;None;;3243
+n-verb-855;;persistir;;to persist;;None;;3254
+n-verb-856;;temblar (e-ie);;to shiver, tremble, shudder;;None;;3255
+n-verb-857;;cenar;;to dine;;None;;3261
+n-verb-858;;tornar;;to return, give back; to make, render; to go back;;None;;3263
+n-verb-859;;tornarse;;to turn into or become;;None;;3263
+n-verb-860;;perjudicar (-qué);;to harm, damage, be detrimental to;;None;;3267
+n-verb-861;;prevenir (e-ie);;to avoid, prevent;;None;;3270
+n-verb-862;;culminar;;to culminate, accomplish;;None;;3276
+n-verb-863;;preceder;;to precede;;None;;3288
+n-verb-864;;alternar;;to alternate;;None;;3303
+n-verb-865;;acertar (e-ie);;to hit the target or mark, to get right;;None;;3308
+n-verb-866;;acertar a infinitivo (e-ie);;to manage to do something;;None;;3308
+n-verb-867;;batir;;to beat an object;;None;;3313
+n-verb-868;;demorar;;to delay, take time;;None;;3320
+n-verb-869;;calmar;;to calm, soothe, relieve;;None;;3331
+n-verb-870;;presumir;;to boast, show off, suppose;;None;;3340
+n-verb-871;;ﬂuir;;to flow;;None;;3350
+n-verb-872;;asesinar;;to murder, assassinate;;None;;3352
+n-verb-873;;preservar;;to preserve;;None;;3361
+n-verb-874;;disimular;;to conceal, hide, disguise;;None;;3364
+n-verb-875;;perfeccionar;;to perfect;;None;;3366
+n-verb-876;;cocinar;;to cook;;None;;3372
+n-verb-877;;navegar;;to sail, navigate, browse the internet;;None;;3375
+n-verb-878;;aplastar;;to ﬂatten, crush, smash;;None;;3391
+n-verb-879;;subrayar;;to underline, underscore; to highlight, emphasize;;None;;3396
+n-verb-880;;apoderarse;;to take power;;None;;3421
+n-verb-881;;debatir;;to debate, discuss;;None;;3422
+n-verb-882;;reponer (-go);;to replace, restore;;None;;3423
+n-verb-883;;disputar;;to dispute, contest; to debate;;None;;3425
+n-verb-884;;arrebatar;;to snatch, seize; to grab one's attention;;None;;3439
+n-verb-885;;arrebatarse;;to get carried away with emotion;;None;;3439
+n-verb-886;;odiar;;to hate;;None;;3444
+n-verb-887;;insinuar;;to insinuate, hint;;None;;3453
+n-verb-888;;fallecer;;to pass away; to die;;None;;3456
+n-verb-889;;eludir;;to avoid, escape, elude;;None;;3460
+n-verb-890;;ocasionar;;to occasion, bring about;;None;;3464
+n-verb-891;;retomar;;to retake, restart;;None;;3489
+n-verb-892;;asentar (e-ie);;to settle, establish, locate;;None;;3494
+n-verb-893;;estrechar;;to tighten, make closer;;None;;3501
+n-verb-894;;traspasar;;to run, go, or soak through an object; to move, pass, transfer an object;;None;;3502
+n-verb-895;;consumar;;to consummate, complete; to commit, carry out;;None;;3516
+n-verb-896;;asaltar;;to assault;;None;;3517
+n-verb-897;;poner de relieve;;to emphasize;;None;;3521
+n-verb-898;;arrepentirse (e-ie);;to regret or repent;;None;;3528
+n-verb-899;;felicitar;;to congratulate;;None;;3532
+n-verb-900;;presenciar;;to be present at, witness;;None;;3538
+n-verb-901;;derrumbar;;to demolish; to topple;;None;;3544
+n-verb-902;;derrumbarse;;to collapse, break down;;None;;3544
+n-verb-903;;dañar;;to damage;;None;;3558
+n-verb-904;;asombrar;;to amaze, astound;;None;;3565
+n-verb-905;;oscilar;;to oscillate, swing, vary;;None;;3578
+n-verb-906;;recobrar;;to recover, regain;;None;;3580
+n-verb-907;;recobrarse;;to recover, recuperate;;None;;3580
+n-verb-908;;vaciar;;to empty, pour out;;None;;3584
+n-verb-909;;morder (o-ue);;to bite;;None;;3588
+n-verb-910;;atrapar;;to trap, catch;;None;;3589
+n-verb-911;;amanecer;;to dawn, get light;;None;;3591
+n-verb-912;;recitar;;to recite;;None;;3594
+n-verb-913;;explorar;;to explore;;None;;3595
+n-verb-914;;embarcar;;to embark, load;;None;;3597
+n-verb-915;;aguardar;;to wait for, await; to be in store;;None;;3598
+n-verb-916;;parir;;to give birth;;None;;3602
+n-verb-917;;refugiarse;;to take refuge;;None;;3603
+n-verb-918;;veriﬁcar;;to verify; to test, check; to carry out, conduct;;None;;3610
+n-verb-919;;verificarse;;to take place; to come true;;None;;3610
+n-verb-920;;extinguir;;to extinguish, put out;;None;;3616
+n-verb-921;;agradar;;to be pleasing (a......);;None;;3619
+n-verb-922;;sobrepasar;;to exceed, surpass;;None;;3620
+n-verb-923;;narrar;;to narrate;;None;;3623
+n-verb-924;;ﬂorecer;;to ﬂower, bloom, ﬂourish;;None;;3628
+n-verb-925;;acarrear;;to haul, carry; to give rise to;;None;;3631
+n-verb-926;;profundizar;;to deepen, analyze in depth;;None;;3634
+n-verb-927;;apostar (o-ue);;to bet, wager;;None;;3635
+n-verb-928;;clasiﬁcar;;to classify, sort; to rate, rank; to qualify;;None;;3642
+n-verb-929;;recortar;;to trim, cut off, clip;;None;;3643
+n-verb-930;;deslizar;;to slide, glide, slip;;None;;3651
+n-verb-931;;estirar;;to stretch, strain;;None;;3652
+n-verb-932;;abusar;;to abuse;;None;;3658
+n-verb-933;;complementar;;to complement, supplement;;None;;3659
+n-verb-934;;revivir;;to revive;;None;;3662
+n-verb-935;;conmover (o-ue);;to move or touch emotionally, excite, upset;;None;;3664
+n-verb-936;;charlar;;to chat, talk;;None;;3671
+n-verb-937;;equivaler;;to be equivalent;;None;;3675
+n-verb-938;;fomentar;;to encourage, foster; to foment, incite;;None;;3676
+n-verb-939;;reanudar;;to resume;;None;;3686
+n-verb-940;;reanudarse;;to continue;;None;;3686
+n-verb-941;;mudar;;to move away or out; to change; to shed;;None;;3688
+n-verb-942;;prescindir;;to ignore, disregard; to omit;;None;;3692
+n-verb-943;;prescindir de;;to do without;;None;;3692
+n-verb-944;;besar;;to kiss;;None;;3696
+n-verb-945;;resaltar;;to stand out; to stress, emphasize;;None;;3701
+n-verb-946;;intercambiar;;to exchange;;None;;3704
+n-verb-947;;consolar (o-ue);;to console;;None;;3705
+n-verb-948;;descomponer (-go);;to decompose, rot; to break down;;None;;3706
+n-verb-949;;enfocar;;to focus;;None;;3707
+n-verb-950;;traicionar;;to betray;;None;;3713
+n-verb-951;;contrastar;;to contrast;;None;;3734
+n-verb-952;;desenvolver (o-ue);;to unwrap;;None;;3740
+n-verb-953;;interrogar;;to interrogate;;None;;3746
+n-verb-954;;subsistir;;to subsist, survive;;None;;3748
+n-verb-955;;revolver (o-ue);;to stir, toss, mix, scramble; to turn, mess up;;None;;3752
+n-verb-956;;retornar;;to return or go back to a place; to return or take back an object;;None;;3754
+n-verb-957;;alquilar;;to rent, hire;;None;;3761
+n-verb-958;;radicar;;to make one's home, settle down, dwell;;None;;3763
+n-verb-959;;mojar;;to make wet, dampen;;None;;3766
+n-verb-960;;derribar;;to knock down, knock out; to demolish, cut down; to overthrow;;None;;3772
+n-verb-961;;sobresalir;;to stand out, excel;;None;;3779
+n-verb-962;;ﬁltrar;;to filter;;None;;3781
+n-verb-963;;movilizar;;to mobilize;;None;;3787
+n-verb-964;;apelar;;to call upon, appeal to;;None;;3790
+n-verb-965;;entusiasmar;;to excite, fill with enthusiasm;;None;;3793
+n-verb-966;;entusiasmarse;;to get excited;;None;;3793
+n-verb-967;;coser;;to sew;;None;;3799
+n-verb-968;;madurar;;to mature, ripen;;None;;3819
+n-verb-969;;almorzar (o-ue);;to have lunch;;None;;3820
+n-verb-970;;albergar;;to lodge, harbor;;None;;3822
+n-verb-971;;complacer;;to please;;None;;3823
+n-verb-972;;complacer en;;to take pleasure in;;None;;3823
+n-verb-973;;remover (o-ue);;to stir; to remove, oust;;None;;3827
+n-verb-974;;pecar;;to sin;;None;;3828
+n-verb-975;;acontecer;;to occur, happen (a........);;None;;3831
+n-verb-976;;desbordar;;to overﬂow, spill over; to surpass, exceed;;None;;3834
+n-verb-977;;alegar;;to plead, argue;;None;;3836
+n-verb-978;;encarar;;to face, confront, handle;;None;;3839
+n-verb-979;;tranquilizar;;to calm down (t...........);;None;;3848
+n-verb-980;;emigrar;;to emigrate, migrate;;None;;3850
+n-verb-981;;desechar;;to discard, throw away; to reject;;None;;3855
+n-verb-982;;estrenar;;to use for the ﬁrst time, debut;;None;;3869
+n-verb-983;;incitar;;to incite, urge on;;None;;3877
+n-verb-984;;propiciar;;to favor, foster, aid;;None;;3884
+n-verb-985;;cuestionar;;to question;;None;;3888
+n-verb-986;;fundir;;to melt;;None;;3893
+n-verb-987;;fundirse;;to be merged;;None;;3893
+n-verb-988;;reprimir;;to repress;;None;;3895
+n-verb-989;;meditar;;to meditate, ponder;;None;;3901
+n-verb-990;;predicar;;to preach;;None;;3917
+n-verb-991;;encarnar;;to embody;;None;;3918
+n-verb-992;;negociar;;to negotiate, deal with or in;;None;;3921
+n-verb-993;;honrar;;to honor;;None;;3931
+n-verb-994;;desencadenar;;to unchain; to trigger, unleash;;None;;3933
+n-verb-995;;ofender (e-ie);;to offend, insult;;None;;3936
+n-verb-996;;ofenderse (e-ie);;to take offense;;None;;3936
+n-verb-997;;enfriar;;to cool;;None;;3938
+n-verb-998;;ilustrar;;to illustrate;;None;;3941
+n-verb-999;;ratiﬁcar;;to ratify;;None;;3942
+n-verb-1000;;destrozar;;to smash, shatter; to destroy, wreck,;;None;;3945
+n-verb-1001;;simular;;to pretend, simulate;;None;;3947
+n-verb-1002;;consentir (e-ie);;to consent;;None;;3960
+n-verb-1003;;paralizar;;to paralyze;;None;;3962
+n-verb-1004;;disipar;;to dissipate, dispel; to squander;;None;;3963
+n-verb-1005;;incrementar;;to increase;;None;;3964
+n-verb-1006;;reprochar;;to reproach;;None;;3982
+n-verb-1007;;alumbrar;;to light, illuminate;;None;;3985
+n-verb-1008;;inscribir;;to register, record;;None;;3993
+n-verb-1009;;dotar;;to provide, to equip; to endow;;None;;3998
+n-verb-1010;;reventar (e-ie);;to burst, puncture;;None;;4009
+n-verb-1011;;aburrir;;to bore, tire;;None;;4024
+n-verb-1012;;aburrirse de;;to get bored with;;None;;4024
+n-verb-1013;;diluir;;to dilute;;None;;4029
+n-verb-1014;;titular;;to title, call;;None;;4035
+n-verb-1015;;frecuentar;;to frequent, visit;;None;;4037
+n-verb-1016;;desaﬁar;;to defy, stand up to;;None;;4044
+n-verb-1017;;despojar;;to deprive, rob;;None;;4050
+n-verb-1018;;reinar;;to reign, prevail;;None;;4054
+n-verb-1019;;hervir (e-ie);;to boil;;None;;4065
+n-verb-1020;;disculpar;;to excuse;;None;;4079
+n-verb-1021;;perdurar;;to last, endure, survive (p...);;None;;4086
+n-verb-1022;;inundar;;to flood;;None;;4090
+n-verb-1023;;articular;;to articulate;;None;;4101
+n-verb-1024;;debilitar;;to weaken, debilitate;;None;;4112
+n-verb-1025;;ﬁngir;;to feign, pretend;;None;;4113
+n-verb-1026;;igualar;;to equalize, make equal, level the playing field;;None;;4114
+n-verb-1027;;trepar;;to climb;;None;;4116
+n-verb-1028;;regular;;to regulate, adjust;;None;;4131
+n-verb-1029;;rematar;;to ﬁnish off, ﬁnish up;;None;;4133
+n-verb-1030;;argumentar;;to argue, contend;;None;;4139
+n-verb-1031;;poblar (o-ue);;to populate, inhabit;;None;;4142
+n-verb-1032;;contradecir (e-i);;to contradict, be inconsistent;;None;;4143
+n-verb-1033;;manipular;;to manipulate, handle;;None;;4145
+n-verb-1034;;regar (e-ie);;to water, irrigate;;None;;4148
+n-verb-1035;;evocar;;to evoke, recall;;None;;4149
+n-verb-1036;;prosperar;;to prosper, thrive;;None;;4154
+n-verb-1037;;arrasar;;to level, flatten, smooth;;None;;4158
+n-verb-1038;;rebajar;;to reduce a price; to lessen, diminish;;None;;4159
+n-verb-1039;;entrevistar;;to interview;;None;;4160
+n-verb-1040;;replicar;;to reply;;None;;4177
+n-verb-1041;;adornar;;to adorn, to decorate;;None;;4179
+n-verb-1042;;concurrir;;to meet, get together;;None;;4183
+n-verb-1043;;restaurar;;to restore, reinstate;;None;;4187
+n-verb-1044;;retrasar;;to delay, fall behind;;None;;4188
+n-verb-1045;;palpar;;to feel, touch;;None;;4191
+n-verb-1046;;aparentar;;to give the appearance;;None;;4205
+n-verb-1047;;oscurecer;;to darken; to obscure, confuse, cloud;;None;;4212
+n-verb-1048;;torcer (o-ue);;to twist, bend, distort;;None;;4221
+n-verb-1049;;derramar;;to spill; to shed blood or tears;;None;;4222
+n-verb-1050;;agravar;;to aggravate;;None;;4226
+n-verb-1051;;interponer (-go);;to interpose; to put between two things;;None;;4229
+n-verb-1052;;topar;;to encounter unexpectedly, run into; to come to or upon;;None;;4230
+n-verb-1053;;topar con;;to bump into someone;;None;;4230
+n-verb-1054;;enlazar;;to join, link, fit together;;None;;4232
+n-verb-1055;;colar (o-ue);;to strain a liquid;;None;;4237
+n-verb-1056;;colarse (o-ue);;to seep, leak, slip through;;None;;4237
+n-verb-1057;;encaminar;;to show the way to, direct;;None;;4246
+n-verb-1058;;encaminarse;;to head towards;;None;;4246
+n-verb-1059;;invocar;;to invoke;;None;;4252
+n-verb-1060;;ostentar;;to ﬂaunt, show off;;None;;4254
+n-verb-1061;;conﬁgurar;;to make up, comprise;;None;;4257
+n-verb-1062;;prevalecer;;to prevail;;None;;4265
+n-verb-1063;;engendrar;;to father a child; to give rise to, engender;;None;;4272
+n-verb-1064;;contagiar;;to infect, infest;;None;;4273
+n-verb-1065;;consagrar;;to consecrate; to dedicate;;None;;4276
+n-verb-1066;;ceñir (e-i);;to encircle, surround; to hug, cling to;;None;;4299
+n-verb-1067;;ceñirse (e-i);;to restrict oneself to, stick to;;None;;4299
+n-verb-1068;;constatar;;to confirm;;None;;4314
+n-verb-1069;;dispersar;;to disperse, scatter;;None;;4319
+n-verb-1070;;vacilar;;to tease, trick;;None;;4323
+n-verb-1071;;capturar;;to capture;;None;;4325
+n-verb-1072;;remediar;;to heal, cure;;None;;4327
+n-verb-1073;;ﬁar;;to vouch for; to trust;;None;;4328
+n-verb-1074;;desﬁlar;;to parade, march;;None;;4329
+n-verb-1075;;reaparecer;;to reappear; to make a comeback;;None;;4337
+n-verb-1076;;obrar;;to work, act;;None;;4344
+n-verb-1077;;coronar;;to crown;;None;;4346
+n-verb-1078;;liquidar;;to liquidate or sell off;;None;;4347
+n-verb-1079;;repasar;;to review, revise;;None;;4353
+n-verb-1080;;intuir;;to sense;;None;;4368
+n-verb-1081;;devorar;;to devour, consume;;None;;4370
+n-verb-1082;;aferrar;;to grasp, clutch;;None;;4373
+n-verb-1083;;consolidar;;to consolidate;;None;;4376
+n-verb-1084;;apresurar;;to quicken, speed up;;None;;4377
+n-verb-1085;;apresurarse;;to hurry up;;None;;4377
+n-verb-1086;;latir;;to beat a heart;;None;;4379
+n-verb-1087;;apurar;;to hurry, to rush; to use up exhaust; to trouble;;None;;4389
+n-verb-1088;;apurarse;;to hurry up;;None;;4389
+n-verb-1089;;insultar;;to insult, berate;;None;;4390
+n-verb-1090;;sustentar;;to maintain, support;;None;;4392
+n-verb-1091;;acariciar;;to caress, stroke, pet;;None;;4398
+n-verb-1092;;vincular;;to bind or link;;None;;4407
+n-verb-1093;;fortalecer;;to fortify, strengthen;;None;;4409
+n-verb-1094;;vibrar;;to vibrate;;None;;4413
+n-verb-1095;;calzar;;to wear shoes;;None;;4414
+n-verb-1096;;evaluar;;to evaluate, assess;;None;;4419
+n-verb-1097;;emocionar;;to thrill, excite, move, stimulate;;None;;4420
+n-verb-1098;;emocionarse;;to get excited;;None;;4420
+n-verb-1099;;editar;;to edit; to publish;;None;;4421
+n-verb-1100;;sumergir;;to submerge, plunge;;None;;4431
+n-verb-1101;;espantar;;to scare, frighten (e.......);;None;;4435
+n-verb-1102;;agrupar;;to put in a group;;None;;4441
+n-verb-1103;;atener (e-ie);;to abide by, comply with;;None;;4448
+n-verb-1104;;encabezar;;to head, lead; to put a heading on;;None;;4460
+n-verb-1105;;chupar;;to suck;;None;;4475
+n-verb-1106;;inquietar;;to make uneasy, disturb;;None;;4490
+n-verb-1107;;expandir;;to expand;;None;;4495
+n-verb-1108;;predecir (e-i);;to predict;;None;;4496
+n-verb-1109;;condicionar;;to make conditional on;;None;;4498
+n-verb-1110;;alertar;;to alert, warn;;None;;4503
+n-verb-1111;;enfermar;;to become ill;;None;;4513
+n-verb-1112;;indagar;;to investigate;;None;;4515
+n-verb-1113;;exceder;;to excel, exceed;;None;;4534
+n-verb-1114;;joder;;to screw, screw up, screw around;;None;;4535
+n-verb-1115;;alarmar;;to alarm;;None;;4537
+n-verb-1116;;rascar;;to scratch, scrape;;None;;4542
+n-verb-1117;;enredar;;to entangle;;None;;4548
+n-verb-1118;;suspirar;;to sigh;;None;;4558
+n-verb-1119;;suspirar a;;to long for;;None;;4558
+n-verb-1120;;conferir (e-ie);;to confer;;None;;4561
+n-verb-1121;;predominar;;to prevail, dominate;;None;;4567
+n-verb-1122;;despejar;;to clear up;;None;;4573
+n-verb-1123;;premiar;;to award;;None;;4583
+n-verb-1124;;desayunarse;;to have breakfast;;None;;4588
+n-verb-1125;;resucitar;;to resuscitate; to revitalize;;None;;4603
+n-verb-1126;;ﬁnanciar;;to ﬁnance;;None;;4615
+n-verb-1127;;sudar;;to sweat;;None;;4619
+n-verb-1128;;perturbar;;to perturb, upset;;None;;4627
+n-verb-1129;;envidiar;;to envy;;None;;4631
+n-verb-1130;;reposar;;to rest;;None;;4632
+n-verb-1131;;deteriorar;;to deteriorate;;None;;4639
+n-verb-1132;;desesperar;;to despair, lose hope;;None;;4642
+n-verb-1133;;ligar;;to tie, to bind;;None;;4645
+n-verb-1134;;mediar;;to mediate;;None;;4655
+n-verb-1135;;endurecer;;harden, make hard;;None;;4656
+n-verb-1136;;vislumbrar;;to glimpse;;None;;4665
+n-verb-1137;;entrenar;;to train;;None;;4670
+n-verb-1138;;razonar;;to reason out, think;;None;;4680
+n-verb-1139;;rectiﬁcar;;to rectify, straighten out;;None;;4683
+n-verb-1140;;excitar;;to excite;;None;;4701
+n-verb-1141;;enumerar;;to count, list;;None;;4706
+n-verb-1142;;posar;;to pose; to place, lay;;None;;4709
+n-verb-1143;;posarse;;to land, perch; to settle, rest;;None;;4709
+n-verb-1144;;irritar;;to irritate;;None;;4711
+n-verb-1145;;tumbar;;to knock down, throw to the ground;;None;;4720
+n-verb-1146;;adentrar;;to penetrate, go inside;;None;;4722
+n-verb-1147;;relajar;;to relax;;None;;4724
+n-verb-1148;;recrear;;to recreate, reproduce; to entertain;;None;;4728
+n-verb-1149;;impartir;;to impart; to give;;None;;4736
+n-verb-1150;;asentir (e-ie);;to assent, agree;;None;;4742
+n-verb-1151;;aﬂojar;;to loosen, slacken;;None;;4751
+n-verb-1152;;aflojarse;;to become loose;;None;;4751
+n-verb-1153;;ensuciar;;to soil, dirty;;None;;4766
+n-verb-1154;;largar;;to tell everything one knows, spill the beans;;None;;4767
+n-verb-1155;;presentir (e-ie);;to sense in advance;;None;;4783
+n-verb-1156;;insertar;;to insert, put in;;None;;4785
+n-verb-1157;;discurrir;;to pass, run, flow past; to think;;None;;4791
+n-verb-1158;;engordar;;to fatten, get fat;;None;;4796
+n-verb-1159;;aventurar;;to venture, risk;;None;;4800
+n-verb-1160;;demandar;;to demand, sue;;None;;4802
+n-verb-1161;;renacer;;to be reborn, reappear;;None;;4805
+n-verb-1162;;restablecer;;to reestablish, restore;;None;;4806
+n-verb-1163;;sobrevenir (e-ie);;to occur, befall, strike;;None;;4811
+n-verb-1164;;rebasar;;to exceed, pass over;;None;;4813
+n-verb-1165;;acatar;;to comply with, abide by;;None;;4820
+n-verb-1166;;transitar;;to move, circulate, travel;;None;;4821
+n-verb-1167;;percatarse;;to become aware;;None;;4826
+n-verb-1168;;encomendar (e-ie);;to commend, entrust;;None;;4828
+n-verb-1169;;seducir;;to seduce, tempt;;None;;4831
+n-verb-1170;;incidir;;to inﬂuence, affect;;None;;4841
+n-verb-1171;;vengar;;to take revenge, avenge;;None;;4849
+n-verb-1172;;estropear;;to ruin, spoil; to break, damage;;None;;4851
+n-verb-1173;;estropearse;;to go bad;;None;;4851
+n-verb-1174;;fascinar;;to fascinate;;None;;4854
+n-verb-1175;;incurrir;;to make a mistake, incur;;None;;4867
+n-verb-1176;;tentar (e-ie);;to tempt, entice;;None;;4869
+n-verb-1177;;resignar;;to resign, relinquish;;None;;4878
+n-verb-1178;;dialogar;;to engage in a dialogue;;None;;4883
+n-verb-1179;;adherir (e-ie);;to adhere, attach;;None;;4890
+n-verb-1180;;alojar;;to host, accommodate;;None;;4896
+n-verb-1181;;internar;;to commit, confine;;None;;4899
+n-verb-1182;;internarse;;to penetrate, advance into;;None;;4899
+n-verb-1183;;bordear;;to border;;None;;4915
+n-verb-1184;;instruir;;to instruct;;None;;4918
+n-verb-1185;;verter (e-ie);;to pour, spill;;None;;4924
+n-verb-1186;;desmentir (e-ie);;to contradict;;None;;4925
+n-verb-1187;;descifrar;;to decipher;;None;;4946
+n-verb-1188;;entablar;;to start, establish;;None;;4952
+n-verb-1189;;propagar;;to propagate, spread;;None;;4958
+n-verb-1190;;perﬁlar;;to outline, sketch out a drawing;;None;;4969
+n-verb-1191;;decaer;;to decay, decline, deteriorate; to weaken;;None;;4974
+n-verb-1192;;disfrazar;;to disguise; to mask, conceal;;None;;4979
+n-verb-1193;;irrumpir;;to burst in, raid;;None;;4994
